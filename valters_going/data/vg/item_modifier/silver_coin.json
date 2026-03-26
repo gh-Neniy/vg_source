@@ -1,0 +1,17 @@
+[
+  {
+    "function": "set_name",
+    "name": { "text": "Серебряная копейка", "color": "gray", "italic": false}
+  },
+  {
+    "function": "set_lore",
+    "lore": [ { "text": "С помощью денег мы можете покупать вещи в Магазине", "color": "white", "italic": false } ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "enchantment_glint_override": true
+    }
+  }
+]

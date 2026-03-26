@@ -1,0 +1,16 @@
+give @s crossbow [
+  hide,
+  name={text='Арбалет', color=aqua}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Перезарядка', color=blue, bold}
+    ]
+    [
+      {text='Урон: ', color=gray}
+      {text='6-11', color=blue, bold}
+    ]
+  ],
+  unbreakable,
+  enchantments=[quick_charge=7]
+]

@@ -1,0 +1,1 @@
+ex if block 8 101 -10 stone_button[powered=true] run fn vg:script/spawn/start

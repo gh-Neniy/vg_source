@@ -1,0 +1,25 @@
+{
+  "parent": "vg:plot/task_5",
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "text": "Верхние Земли",
+      "color": "#1CBD77"
+    },
+    "description": {
+      "text": "Попадите в Верхние Земли",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

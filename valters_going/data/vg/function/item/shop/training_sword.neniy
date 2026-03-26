@@ -1,0 +1,11 @@
+give @s wooden_sword [
+  hide,
+  name={text='Тренеровочный меч', color=gray},
+  lore= [
+    [
+      {text='Урон: ', color=gray}
+      {text='4', color=blue, bold}
+    ]
+  ],
+  unbreakable
+]

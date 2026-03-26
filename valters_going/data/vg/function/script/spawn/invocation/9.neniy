@@ -1,0 +1,14 @@
+tag @a[team=player] remove cutscene
+gm adventure @a[team=player]
+tp @a[team=player] -76 107 4 90 10
+pls block.portal.travel @a -76 107 4 0.4 1
+particle glow_squid_ink -76 108 4 0.4 0.8 0.4 0.1 200 normal
+spawnpoint @a[team=player] -76 107 4
+scb obj add money dummy {"text":"Деньги","color":"gray"}
+scb obj set below_name money
+scb objectives setdisplay sidebar money
+scb players set @a[team=player] money 0
+kill @e[tag=valter]
+kill @e[type=!player, tag=cutscene]
+scb players add #progress data 1
+fn vg:script/stop_timer

@@ -1,0 +1,3 @@
+ptc item[item=rotten_flesh] ~ ~1 ~ 0.3 0.3 0.3 0.1 50
+pls entity.player.attack.crit @a ~ ~ ~ 1 1.6
+kill @s

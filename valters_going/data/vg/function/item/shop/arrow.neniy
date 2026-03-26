@@ -1,0 +1,4 @@
+give @s arrow [
+  name={text='Стрела', color=gray},
+  stack=99
+]

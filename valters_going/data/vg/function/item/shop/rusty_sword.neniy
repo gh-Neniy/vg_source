@@ -1,0 +1,11 @@
+give @s stone_sword [
+  hide,
+  name={text='Ржавый меч', color=gray}
+  lore= [
+    [
+      {text='Урон: ', color=gray}
+      {text='5', color=blue, bold}
+    ]
+  ],
+  unbreakable
+]

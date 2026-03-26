@@ -1,0 +1,35 @@
+give @s leather_boots [
+  hide,
+  name={text='Сапоги', color=gray}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Защита', color=blue, bold}
+    ]
+  ],
+  enchantments=[protection=1]
+]
+
+give @s leather_leggings [
+  hide,
+  name={text='Штаны', color=gray}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Защита', color=blue, bold}
+    ]
+  ],
+  enchantments=[protection=1]
+]
+
+give @s leather_chestplate [
+  hide,
+  name={text='Куртка', color=gray}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Защита', color=blue, bold}
+    ]
+  ],
+  enchantments=[protection=1]
+]

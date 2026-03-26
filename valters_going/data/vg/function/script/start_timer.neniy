@@ -1,0 +1,2 @@
+scb players set #timer data 0
+scb players set #timer_active data 1

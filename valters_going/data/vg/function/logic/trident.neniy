@@ -1,0 +1,4 @@
+use vg
+
+ex as @e[nbt=[in_ground, item=trident[tag=trident]]]at @s run fn script/trident/0
+ex as @e[nbt=[item=trident[tag=trident]]] at @s if ent @e[tag=enemy, distance=..3.5] run fn script/trident/1

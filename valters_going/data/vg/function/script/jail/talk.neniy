@@ -1,0 +1,4 @@
+use vg
+
+ex if score #timer data 0 run fn script/jail/talk/0
+ex if score #timer data 70 run fn script/jail/talk/1

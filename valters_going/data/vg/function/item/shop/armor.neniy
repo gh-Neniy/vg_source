@@ -1,0 +1,14 @@
+give @s leather_boots [
+  hide,
+  name={text='Сапоги', color=gray}
+]
+
+give @s leather_leggings [
+  hide,
+  name={text='Штаны', color=gray}
+]
+
+give @s leather_chestplate [
+  hide,
+  name={text='Куртка', color=gray}
+]

@@ -1,0 +1,39 @@
+use vg
+
+ex if score #timer data 0 run fn script/spawn/invocation/0
+ex if score #timer data 20 run fn script/spawn/invocation/1
+ex if score #timer data 38 run fn script/spawn/invocation/2
+
+ex if score #timer data 50 pos -31 102 4 pos ~4 ~ ~ run fn script/spawn/invocation/magma
+ex if score #timer data 53 pos -31 102 4 pos ~-4 ~ ~ run fn script/spawn/invocation/magma
+ex if score #timer data 56 pos -31 102 4 pos ~ ~ ~4 run fn script/spawn/invocation/magma
+ex if score #timer data 59 pos -31 102 4 pos ~ ~ ~-4 run fn script/spawn/invocation/magma
+
+ex if score #timer data 62 pos -31 102 4 pos ~4 ~ ~1 run fn script/spawn/invocation/magma
+ex if score #timer data 65 pos -31 102 4 pos ~4 ~ ~-1 run fn script/spawn/invocation/magma
+ex if score #timer data 68 pos -31 102 4 pos ~-4 ~ ~1 run fn script/spawn/invocation/magma
+ex if score #timer data 71 pos -31 102 4 pos ~-4 ~ ~-1 run fn script/spawn/invocation/magma
+
+ex if score #timer data 74 pos -31 102 4 pos ~1 ~ ~4 run fn script/spawn/invocation/magma
+ex if score #timer data 77 pos -31 102 4 pos ~-1 ~ ~4 run fn script/spawn/invocation/magma
+ex if score #timer data 80 pos -31 102 4 pos ~1 ~ ~-4 run fn script/spawn/invocation/magma
+ex if score #timer data 83 pos -31 102 4 pos ~-1 ~ ~-4 run fn script/spawn/invocation/magma
+
+ex if score #timer data 86 pos -31 102 4 pos ~2 ~ ~3 run fn script/spawn/invocation/magma
+ex if score #timer data 89 pos -31 102 4 pos ~-2 ~ ~3 run fn script/spawn/invocation/magma
+ex if score #timer data 92 pos -31 102 4 pos ~2 ~ ~-3 run fn script/spawn/invocation/magma
+ex if score #timer data 95 pos -31 102 4 pos ~-2 ~ ~-3 run fn script/spawn/invocation/magma
+
+ex if score #timer data 98 pos -31 102 4 pos ~3 ~ ~2 run fn script/spawn/invocation/magma
+ex if score #timer data 101 pos -31 102 4 pos ~3 ~ ~-2 run fn script/spawn/invocation/magma
+ex if score #timer data 104 pos -31 102 4 pos ~-3 ~ ~2 run fn script/spawn/invocation/magma
+ex if score #timer data 107 pos -31 102 4 pos ~-3 ~ ~-2 run fn script/spawn/invocation/magma
+
+ex if score #timer data 125 run tp @e[type=armor_stand, tag=cutscene] -28 103 4 90 10
+ex if score #timer data 140 run fn script/spawn/invocation/3
+ex if score #timer data 190 run fn script/spawn/invocation/4
+ex if score #timer data 270 run fn script/spawn/invocation/5
+ex if score #timer data 390 run fn script/spawn/invocation/6
+ex if score #timer data 440 run fn script/spawn/invocation/7
+ex if score #timer data 500 run fn script/spawn/invocation/8
+ex if score #timer data 560 run fn script/spawn/invocation/9

@@ -1,0 +1,7 @@
+use vg
+
+ex if score #timer data 0 run fn script/spawn/screamer/0
+ex if score #timer data 3 run fn script/spawn/screamer/1
+ex if score #timer data 6 as @e[tag=valter] at @s run tp @s ~ ~ ~ ~30 ~-17
+ex if score #timer data 9 run fn script/spawn/screamer/2
+ex if score #timer data 15 run fn script/spawn/screamer/3

@@ -1,0 +1,16 @@
+give @s iron_sword[
+  hide,
+  item_name={text:'Меч Воина', color:#729111},
+  lore=[
+    [
+      {text='Улучшения: ',color:gray}
+      {text='Острота 7, Отдача 2, Добыча 2', color:blue, bold}
+    ]
+    [
+      {text='Урон: ', color=gray}
+      {text='10', color=blue, bold}
+    ]
+  ],
+  unbreakable,
+  enchantments=[sharpness=7, looting=2, knockback=2]
+]

@@ -1,0 +1,2 @@
+ptc block[block_state=lantern] -31 103.3 4 0.2 0.2 0.2 0 50
+pls block.glass.break @a -31 103 4 1 0.7

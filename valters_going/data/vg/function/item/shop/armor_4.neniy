@@ -1,0 +1,35 @@
+give @s iron_boots [
+  hide,
+  name={text='Защитные сапоги', color=gray}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Железная твердость, Универсальная защита', color=blue, bold}
+    ]
+  ],
+  enchantments=[protection=2, projectile_protection=2]
+]
+
+give @s iron_leggings [
+  hide,
+  name={text='Поножи', color=gray}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Железная твердость, Универсальная защита', color=blue, bold}
+    ]
+  ],
+  enchantments=[protection=2, projectile_protection=2]
+]
+
+give @s iron_chestplate [
+  hide,
+  name={text='Нагрудник', color=gray}
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Железная твердость, Универсальная защита', color=blue, bold}
+    ]
+  ],
+  enchantments=[protection=2, projectile_protection=2]
+]

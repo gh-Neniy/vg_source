@@ -1,0 +1,2 @@
+ex as @e[tag=valter] at @s run tp @s ~ ~ ~ ~30 ~-17
+pls entity.piglin_brute.angry @a 4 101 -8 3 0.8

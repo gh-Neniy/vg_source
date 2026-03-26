@@ -1,0 +1,7 @@
+gm adventure @s
+pls entity.piglin.angry @s ~ ~ ~ 1 1
+
+tellraw @s [
+  {text:'Вальтер: ', color:#A51414}
+  {text:'Я не дам тебе этого сделать)', color:red}
+]

@@ -1,0 +1,3 @@
+setblock ~ ~ ~ magma_block
+pls block.respawn_anchor.charge @a ~ ~ ~ 0.3 1.4
+ptc soul ~ ~1.2 ~ 0.2 0.2 0.2 0 10

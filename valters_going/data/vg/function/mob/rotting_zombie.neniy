@@ -1,0 +1,8 @@
+sm zombie[
+  name={text='Гниющий зомби', color=gray},
+  health=5.0,
+  loot_table:vg:rotting_zombie,
+  name_visible=true,
+  no_despawn,
+  tag=enemy
+] ~ ~ ~

@@ -1,0 +1,7 @@
+use vg
+
+fn script/spawn/cauldron/pop
+setblock 16 94 -31 cauldron replace
+ex pos 16 95 -31 run fn mob/trident
+scb players set #cauldron data 2
+fn script/stop_timer

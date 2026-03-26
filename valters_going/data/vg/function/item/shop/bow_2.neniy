@@ -1,0 +1,16 @@
+give @s bow [
+  hide,
+  name={text='Лук', color=gray},
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Сила', color=blue, bold}
+    ]
+    [
+      {text='Урон: ', color=gray}
+      {text='9-15', color=blue, bold}
+    ]
+  ],
+  unbreakable
+  enchantments=[power=1]
+]

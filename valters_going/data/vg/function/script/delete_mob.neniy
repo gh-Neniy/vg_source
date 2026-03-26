@@ -1,0 +1,2 @@
+data modify @s loot_table set value ''
+kill @s

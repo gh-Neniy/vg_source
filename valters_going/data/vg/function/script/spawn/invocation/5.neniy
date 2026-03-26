@@ -1,0 +1,5 @@
+tellraw @a [
+  {text='Вальтер: ', color=#A51414}
+  {text='А, это ты, Смертный! Предлагаю тебе сделку: Ты отдаёшь мне свою душу, а взамен я дарую тебе счастье.', color=red}
+]
+ex at @e[tag=valter] run pls entity.piglin_brute.ambient @a ~ ~ ~ 1 1.2

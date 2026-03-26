@@ -1,0 +1,7 @@
+give @s potion [
+  potion=healing,
+  hide,
+  name={text='Чай', color=green},
+  shine,
+  stack=8
+]

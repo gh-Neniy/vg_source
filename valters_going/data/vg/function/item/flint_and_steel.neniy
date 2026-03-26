@@ -1,0 +1,10 @@
+give @s flint_and_steel [
+  hide,
+  name={text='Старая Зажигалка', color=#574263},
+  lore= [
+    {text='Может зажигать свечи', color=gray}
+  ],
+  unbreakable,
+  can_place_on=[candle],
+  shine
+]

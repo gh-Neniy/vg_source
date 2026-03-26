@@ -1,0 +1,4 @@
+ptc glow_squid_ink ~ ~ ~ 0.2 0.3 0.2 0.1 5 normal
+pls entity.husk.converted_to_zombie @a ~ ~ ~ 0.4 1
+setblock ~ ~ ~ gray_candle[lit=true]
+scb players add #candle data 1

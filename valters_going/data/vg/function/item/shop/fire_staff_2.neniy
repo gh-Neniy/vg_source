@@ -1,0 +1,14 @@
+give @s blaze_rod [
+  name={text='Огненный жезл', color=red},
+  lore= [
+    [
+      {text='Вместимость', color=gray}
+      {text='6 эссенции', color=blue, bold}
+    ]
+    [
+      {text='Урон', color=gray}
+      {text='12x3', color=blue, bold}
+    ]
+  ],
+  shine
+]

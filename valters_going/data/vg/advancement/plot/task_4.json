@@ -1,0 +1,25 @@
+{
+  "parent": "vg:plot/task_3",
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "text": "Ограбление",
+      "color": "#1CBD77"
+    },
+    "description": {
+      "text": "Завершите четвертое испытание",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

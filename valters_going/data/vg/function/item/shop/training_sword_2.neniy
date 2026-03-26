@@ -1,0 +1,16 @@
+give @s wooden_sword [
+  hide,
+  name={text='Тренеровочный меч', color=gray},
+  lore= [
+    [
+      {text='Улучшения: ', color=gray}
+      {text='Добыча', color=blue, bold}
+    ]
+    [
+      {text='Урон: ', color=gray}
+      {text='4', color=blue, bold}
+    ]
+  ],
+  unbreakable,
+  enchantments=[looting=1]
+]

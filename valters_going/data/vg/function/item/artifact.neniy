@@ -1,0 +1,4 @@
+give @s nether_star [
+  name={text='Рунический артефакт', color=#5000A0},
+  lore=[{text='Используется на Алтаре', color=gray}]
+]

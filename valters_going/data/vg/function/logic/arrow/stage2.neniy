@@ -1,0 +1,5 @@
+native '$item replace entity @s container.0 with $(block_id)'
+
+native 'ex if items entity @s container.0 #vg:stone_type if entity @s[tag=crit] run function vg:script/side/arrow_big_sparks'
+native 'ex if items entity @s container.0 #vg:stone_type run function vg:script/side/arrow_sparks'
+native 'ex unless items entity @s container.0 #vg:stone_type run function vg:script/side/arrow'

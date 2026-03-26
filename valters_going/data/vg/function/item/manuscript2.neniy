@@ -1,0 +1,12 @@
+give @s book [
+  name= [
+    {text='Древние Манускрипты', color=#00664B}
+    {text=' (2 из 3)', color=yellow}
+  ],
+  shine,
+  lore= [
+    {text='The Shadow Has Scared You', color=#3B2772, hieroglyph}
+    {text='When The Voice Of The Soul', color=#3B2772, hieroglyph}
+    {text='Getting Near To Your Back', color=#3B2772, hieroglyph}
+  ]
+]

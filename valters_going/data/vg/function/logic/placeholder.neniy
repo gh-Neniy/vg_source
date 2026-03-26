@@ -1,0 +1,9 @@
+use vg
+
+ex as @e[nbt=[item=coal[tag=coal]]] at @s run fn script/side/coal
+ex as @e[nbt=[item=raw_iron[tag=iron]]] at @s run fn script/side/iron
+ex as @e[nbt=[item=raw_copper[tag=copper]]] at @s run fn script/side/copper
+ex as @e[nbt=[item=redstone[tag=redstone]]] at @s run fn script/side/redstone
+ex as @e[nbt=[item=lapis[tag=lapis]]] at @s run fn script/side/lapis
+
+ex as @e[nbt=[item=stone_button[tag=rotting_zombie]]] at @s run fn script/side/rotting_zombie

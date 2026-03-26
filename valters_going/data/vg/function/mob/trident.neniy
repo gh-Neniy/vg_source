@@ -1,0 +1,22 @@
+sm item [
+  pickup_delay=50,
+  item=trident [
+    hide,
+    name={text='Чертов Трезубец', color=#E34800},
+    lore= [
+      [
+        {text='Урон: ', color=gray}
+        {text='2', color=blue, bold}
+      ]
+      [
+        {text='Урон по области при броске: ', color=gray}
+        {text='1', color=blue, bold}
+      ]
+    ],
+    attack_damage: 1.0 // 1 + 1.0
+    attack_speed: -2.4 // 4 - 2.4
+    tag=trident,
+    unbreakable,
+    shine
+  ]
+] ~ ~ ~

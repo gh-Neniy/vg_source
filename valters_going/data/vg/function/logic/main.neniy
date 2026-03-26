@@ -1,0 +1,9 @@
+ex as @a[team=player,tag=!cutscene,gamemode=!adventure] at @s run fn vg:script/valter_regulation
+ex as @a[team=player,tag=cutscene,gamemode=!spectator] run gamemode spectator @s
+ex as @a[team=player,tag=cutscene] run spectate @e[type=armor_stand, tag=cutscene, limit=1]
+
+effect give @a[tag=night_vision] night_vision infinite 0 true
+
+kill @e[type=experience_orb]
+
+ex if score #timer_active data 1 run scb players add #timer data 1

@@ -1,0 +1,11 @@
+give @s bow [
+  hide,
+  name={text='Лук', color=gray},
+  lore= [
+    [
+      {text='Урон: ', color=gray}
+      {text='6-11', color=blue, bold}
+    ]
+  ],
+  unbreakable
+]

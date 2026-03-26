@@ -1,0 +1,25 @@
+{
+  "parent": "vg:plot/task_2",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "text": "Темница",
+      "color": "#1CBD77"
+    },
+    "description": {
+      "text": "Сбегите из тюрьмы Вальтера",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
