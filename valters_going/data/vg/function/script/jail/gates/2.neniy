@@ -1,2 +1,2 @@
-execute as @e[tag=jail_gates, tag=2] run kill @s
-execute as @e[tag=jail_gates] at @s run tp @s ~ ~1 ~
+ex as @e[tag=jail_gates, tag=2] run kill @s
+ex as @e[tag=jail_gates] at @s run tp @s ~ ~1 ~
