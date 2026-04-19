@@ -1,5 +1,5 @@
 ptc flame ~ ~ ~ 0.01 0.01 0.01 0.08 3 force
 ptc lava ~ ~ ~ 0.01 0.01 0.01 0.08 3 force
-stopsound @a[distance=..15] * entity.arrow.hit
+stopsound @a[distance=..15] entity.arrow.hit
 pls block.lantern.place @a ~ ~ ~ 1.5 1.5
 kill @s

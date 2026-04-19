@@ -1,2 +1,2 @@
-setblock -31 109 4 light[level=15] replace
+setblock light[level=15] -31 109 4 replace
 sm falling_block[id=lantern] -31 109 4

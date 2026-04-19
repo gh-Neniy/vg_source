@@ -5,6 +5,6 @@ give @s flint_and_steel [
     {text='Может зажигать свечи', color=gray}
   ],
   unbreakable,
-  can_place_on=[candle],
+  can_place_on=candle,
   shine
 ]

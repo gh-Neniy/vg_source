@@ -13,8 +13,8 @@ sm item [
         {text='1', color=blue, bold}
       ]
     ],
-    attack_damage: 1.0 // 1 + 1.0
-    attack_speed: -2.4 // 4 - 2.4
+    attack_damage = 1.0 // 1 + 1.0
+    attack_speed = -2.4 // 4 - 2.4
     tag=trident,
     unbreakable,
     shine

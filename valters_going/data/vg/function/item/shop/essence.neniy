@@ -2,6 +2,6 @@ give @s splash_potion [
   hide,
   potion_color=1476096,
   name={text='Эссенция', color=green},
-  shine
+  shine,
   stack=3
 ]

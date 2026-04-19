@@ -2,13 +2,14 @@ sm piglin_brute[
   name={text='Вальтер', color=#A51414}
   right_hand=netherite_hoe[shine]
   no_ai
-  rotation:[-90.0, 0.0]
-  name_visible=true
+  rotation=[-90.0, 0.0]
+  name_visible
   no_despawn
   silent
   invulnerable
   tag=valter
 ] -31 103 4
+
 pls entity.wither.spawn @a -31 103 4 1 1
 ptc explosion -31 103 4 1 1 1 1 100 normal
 ptc cloud -31 103 4 1 1 1 1 100 normal

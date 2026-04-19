@@ -1,2 +1,2 @@
-ex as @e[type=arrow, tag=!crit, nbt=[crit]] run tag @s add crit
-ex as @e[type=arrow, nbt=[in_ground]] at @s run fn vg:logic/arrow/stage1 
+ex as @e[type=arrow, tag=!crit, data=[crit]] run tag @s add crit
+ex as @e[type=arrow, data=[in_ground]] at @s run fn vg:logic/arrow/stage1 

@@ -2,18 +2,18 @@ use vg
 
 ex pos -7 102 4 if ent @a[team=player,distance=..2] if block -9 104 4 netherite_block run fn script/spawn/gates
 
-ex pos -28 103 5 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -29 103 6 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -30 103 7 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -32 103 7 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -33 103 6 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -34 103 5 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -34 103 3 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -33 103 2 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -32 103 1 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -30 103 1 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -29 103 2 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
-ex pos -28 103 3 if block ~ ~ ~ candle[lit=true] run fn script/spawn/candle
+ex pos -28 103 5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -29 103 6 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -30 103 7 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -32 103 7 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -33 103 6 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -34 103 5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -34 103 3 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -33 103 2 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -32 103 1 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -30 103 1 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -29 103 2 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos -28 103 3 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
 
 ex if score #candle data 12 run fn script/spawn/invocation
 

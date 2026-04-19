@@ -3,6 +3,6 @@ effect give @a[team=player] blindness 1 0
 sm armor_stand[tag=cutscene, invisible, no_gravity] -26 106 8
 tag @a[team=player] add cutscene
 sm block_display[tag=cutscene, id=bedrock] -31.0 102 4.0
-setblock -31 102 4 air replace
+setblock air -31 102 4 replace
 clear @a[team=player] flint_and_steel
-stopsound @a neutral ambient.crimson_forest.loop
+stopsound @a ambient.crimson_forest.loop

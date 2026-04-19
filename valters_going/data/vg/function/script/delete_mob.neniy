@@ -1,2 +1,2 @@
-data modify @s loot_table set value ''
+data modify @s loot_table set vg:empty
 kill @s

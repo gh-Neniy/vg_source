@@ -1,6 +1,6 @@
 fill 13 101 14 11 101 13 air replace
-sm falling_block 13 101 13 [id=warped_nylium]
-sm falling_block 13 101 14 [id=warped_nylium]
-sm falling_block 12 101 14 [id=warped_nylium]
-sm falling_block 11 101 14 [id=warped_nylium]
+sm falling_block[id=warped_nylium] 13 101 13
+sm falling_block[id=warped_nylium] 13 101 14
+sm falling_block[id=warped_nylium] 12 101 14
+sm falling_block[id=warped_nylium] 11 101 14
 pls minecraft:block.netherrack.fall @a ~ ~ ~ 1 1
