@@ -1,2 +1,2 @@
 native 'data modify storage vg:storage block_id set from entity @s inBlockState.Name'
-native 'fn vg:logic/arrow/stage2 with storage vg:storage'
+native 'function vg:logic/arrow/stage2 with storage vg:storage'
