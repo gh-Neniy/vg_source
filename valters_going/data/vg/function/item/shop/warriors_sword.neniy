@@ -1,4 +1,4 @@
-give @s iron_sword[
+give @s iron_sword [
   hide,
   name={text='Меч Воина', color=#729111},
   lore=[

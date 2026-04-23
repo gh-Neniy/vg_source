@@ -1,4 +1,4 @@
-give @s trident[
+give @s trident [
   hide,
   name={text='Чертов Трезубец', color=#E34800},
   lore=[
