@@ -1,6 +1,6 @@
 fn vg:script/start_timer
 effect give @a[team=player] blindness 1 0
-sm armor_stand[tag=cutscene, invisible, no_gravity] -26 106 8
+sm block_display[tag=cutscene, teleport_duration=3] -26 106 8
 tag @a[team=player] add cutscene
 sm block_display[tag=cutscene, id=bedrock] -31.0 102 4.0
 setblock air -31 102 4 replace

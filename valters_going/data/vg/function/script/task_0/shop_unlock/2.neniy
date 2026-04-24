@@ -1,0 +1,7 @@
+fn vg:script/stop_cutscene
+gamerule natural_regeneration true
+
+scb players set #progress data 3
+
+tellraw @a {text='Maгазин разблокирован', color=green}
+tellraw @a {text='Купите своё первое снаряжение', color=dark_red}

@@ -1,0 +1,6 @@
+use vg
+
+ex unless score #arena_talk data 0 pos -94 105 4 if ent @a[team=player, distance=..1.5] run fn script/task_0/arena_talk
+
+ex unless score #preview data 0 pos -102 105 -3 if ent @a[team=player, dx=6, dy=1, dz=0] run fn script/task_0/preview
+ex if score #preview data 0 pos -99 106 -29 unless ent @e[tag=enemy] run fn script/task_0/shop_unlock

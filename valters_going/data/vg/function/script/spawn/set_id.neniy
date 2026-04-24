@@ -1,0 +1,2 @@
+native 'scoreboard players operation Neniy data = #id data'
+scb players add #id data 1

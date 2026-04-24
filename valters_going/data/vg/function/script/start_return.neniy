@@ -1,0 +1,1 @@
+ex as @a[team=player] at @s run fn vg:script/return/spawn

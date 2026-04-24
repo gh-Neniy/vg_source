@@ -1,3 +1,5 @@
+use vg
+
 gamerule keep_inventory true
 gamerule natural_regeneration true
 
@@ -6,9 +8,10 @@ team join player @a[tag=!spectator]
 team modify player friendly_fire false
 team modify player collision never
 gm adventure @a[team=player]
+ex as @a[team=player] run fn script/spawn/set_id
 
-ex as @r[team=player] run fn vg:item/flint_and_steel
-scb players add #progress data 1
+ex as @r[team=player] run fn item/flint_and_steel
+scb players add #progress data 1 // sets to 1
 scb players set #candle data 0
 setblock crimson_trapdoor[half=top,facing=south] 4 99 -11 replace
 

@@ -1,0 +1,6 @@
+ex as @a[team=player] at @s run pls entity.wandering_trader.ambient @s ~ ~ ~ 1 0.8
+tellraw @a [
+  {text='Вы: ', color=#03C765}
+  {text='Это похоже на арену', color=dark_green}
+]
+scb players set #arena_talk data 0

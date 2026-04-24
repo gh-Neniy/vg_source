@@ -1,0 +1,3 @@
+tag @s add current
+native 'execute as @a[team=player] if score @s data = @e[tag=current,limit=1] data run tp @s @e[tag=current,limit=1]'
+kill @s

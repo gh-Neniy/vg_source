@@ -5,7 +5,4 @@ fn logic/placeholder
 fn logic/arrow/main
 fn logic/chest
 fn logic/trident
-
-ex if score #progress data 0 run fn logic/progress/0
-ex if score #progress data 1 run fn logic/progress/1
-ex if score #progress data 0..1 run fn logic/spawn
+fn logic/progress

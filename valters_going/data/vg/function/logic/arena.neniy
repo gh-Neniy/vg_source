@@ -1,0 +1,7 @@
+use vg
+
+ex pos -57 106 4 if ent @a[team=player, distance=..8] run fn script/shop/particles
+ex pos -110 87 -38 if ent @a[team=player, distance=..8] run fn script/shop/particles
+
+ex pos -57 105 4 as @a[team=player, y_rotation=-130..-50, dx=0, dy=1, dz=0] pos -110 86 -38 run fn script/shop/tp
+ex pos -110 86 -38 as @a[team=player, y_rotation=-130..-50, dx=0, dy=1, dz=0] pos -57 105 4 run fn script/shop/tp

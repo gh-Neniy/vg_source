@@ -1,5 +1,5 @@
 ptc campfire_signal_smoke -9 105 4 0 2 0 0.01 200 normal
-clone -9 93 7 -10 99 1 -10 102 1 masked
+clone -9 93 7 -10 99 1 -10 102 1 replace move
 pls ambient.cave @a -9 105.5 4 10 1
 pls block.stone.break @a -9 105.5 4 10 0.7
 pls ambient.crimson_forest.loop @a -31 104 4 3 2

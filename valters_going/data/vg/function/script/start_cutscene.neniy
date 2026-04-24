@@ -1,0 +1,5 @@
+use vg
+
+fn script/start_timer
+fn script/start_return
+tag @a[team=player] add cutscene

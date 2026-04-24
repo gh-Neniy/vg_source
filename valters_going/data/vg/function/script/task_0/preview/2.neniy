@@ -1,0 +1,7 @@
+fn vg:script/stop_cutscene
+gamerule natural_regeneration false
+
+scb players set #preview data 0
+
+tellraw @a {text='С врагов выпадают монеты: чем сильнее противник, тем их больше.',color=green}
+tellraw @a {text='Победите Гниющих зомби.',color=dark_red}

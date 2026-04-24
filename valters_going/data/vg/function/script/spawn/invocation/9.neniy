@@ -10,5 +10,5 @@ scb obj set sidebar money
 scb players set @a[team=player] money 0
 kill @e[tag=valter]
 kill @e[type=!player, tag=cutscene]
-scb players add #progress data 1
+scb players add #progress data 1 // sets to 2
 fn vg:script/stop_timer
