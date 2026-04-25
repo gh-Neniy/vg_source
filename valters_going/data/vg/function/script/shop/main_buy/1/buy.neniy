@@ -1,0 +1,22 @@
+use vg
+
+fn script/side/shop
+scb players add #shop data 1
+
+clear @s iron_nugget 2
+clear @a[team=player] wooden_sword
+
+ex as @a[team=player] run fn item/shop/training_sword_2
+
+setblock oak_wall_sign[facing=east, sign=[ 
+  {text='Улучшение меча', color=blue}
+  {text='Цена:'}
+  {text='5 Серебряных', color=gray}
+  {text='копеек', color=gray}
+]] ~ ~1 ~ replace
+
+tellraw @a [
+  {text='Улучшение меча ', color=green}
+  {text='Добыча', color=blue}
+  {text=' получено', color=green}
+]

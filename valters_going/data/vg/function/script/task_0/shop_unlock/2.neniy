@@ -2,6 +2,9 @@ fn vg:script/stop_cutscene
 gamerule natural_regeneration true
 
 scb players set #progress data 3
+scb players set #shop data 0
 
 tellraw @a {text='Maгазин разблокирован', color=green}
 tellraw @a {text='Купите своё первое снаряжение', color=dark_red}
+
+tp @e[type=item, tag=!plot] @p[team=player]

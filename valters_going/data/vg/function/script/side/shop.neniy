@@ -1,0 +1,2 @@
+ptc happy_villager ~ ~0.5 ~ 0.4 0.4 0.4 1 50 normal
+pls entity.experience_orb.pickup @a ~ ~ ~ 1 0.5

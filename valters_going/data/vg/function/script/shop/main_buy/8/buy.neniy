@@ -1,0 +1,18 @@
+use vg
+
+fn script/side/shop
+scb players add #shop data 1
+
+clear @s iron_nugget 30
+
+ex as @a[team=player] run fn item/shop/fire_staff
+ex as @a[team=player] run fn item/shop/essence
+ex as @a[team=player] run fn item/shop/essence
+ex as @a[team=player] run fn item/shop/essence
+
+setblock oak_wall_sign[facing=east, sign=[ 
+  {text='Улучшение жезла', color=blue}
+  {text='Цена:'}
+  {text='30 Серебряных', color=gray}
+  {text='копеек', color=gray}
+]] ~ ~1 ~ replace
