@@ -1,0 +1,6 @@
+use vg
+
+fn script/side/shop
+
+clear @s iron_nugget 7
+fn item/shop/essence

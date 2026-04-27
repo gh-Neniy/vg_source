@@ -1,0 +1,8 @@
+sm skeleton [
+  name={text='Скелет', color=white},
+  health=15.0,
+  loot_table=vg:skeleton,
+  name_visible,
+  no_despawn,
+  tag=enemy
+] ~ ~ ~

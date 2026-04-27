@@ -1,0 +1,16 @@
+use vg
+
+fn script/side/shop
+scb players add #shop data 1
+
+clear @s iron_nugget 60
+clear @a[team=player] bow
+
+ex as @a[team=player] run fn item/shop/crossbow
+
+setblock oak_wall_sign[facing=east, sign=[ 
+  {text='Улучшение арбалета', color=blue}
+  {text='Цена:'}
+  {text='35 Серебряных', color=gray}
+  {text='копеек', color=gray}
+]] ~ ~1 ~ replace

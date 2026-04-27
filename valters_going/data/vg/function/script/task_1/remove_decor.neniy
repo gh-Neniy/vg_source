@@ -1,0 +1,9 @@
+fill -90 105 -25 -82 109 -21 air replace
+fill -107 105 -45 -99 109 -41 air replace
+fill -94 105 -32 -82 112 -42 air replace
+fill -121 105 -35 -111 110 -27 air replace
+fill -89 105 -21 -78 110 -10 air replace bone_block
+fill -89 105 -21 -78 110 -10 air replace mycelium
+fill -89 105 -21 -78 110 -10 air replace soul_soil
+fill -118 105 -24 -106 112 -14 air replace
+fill -123 104 18 -75 104 -53 dirt_path replace dirt

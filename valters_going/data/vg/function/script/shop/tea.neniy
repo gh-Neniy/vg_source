@@ -1,0 +1,4 @@
+setblock crimson_button[powered,facing=south] ~ ~ ~ replace
+
+ex as @p[team=player] unless score @s money 4.. run fn script/shop/decline
+ex as @p[team=player] if score @s money 4.. run fn script/shop/tea/buy

@@ -1,0 +1,14 @@
+clone -22 96 -48 -11 101 -57 -89 105 -21 masked
+fill -89 105 -21 -78 110 -10 fire replace glass
+
+clone -23 96 -29 -15 100 -33 -107 105 -45 masked
+fill -107 105 -45 -99 109 -41 fire replace glass
+
+clone -24 96 -35 -12 103 -45 -94 105 -42 masked
+fill -94 105 -32 -82 112 -42 fire replace glass
+
+clone -17 96 -69 -7 101 -77 -121 105 -35 masked
+fill -121 105 -35 -111 110 -27 fire replace glass
+
+clone -24 96 -35 -12 103 -45 -118 105 -24 masked
+fill -118 105 -24 -106 112 -14 fire replace glass

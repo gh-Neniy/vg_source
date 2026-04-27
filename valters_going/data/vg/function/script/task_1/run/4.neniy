@@ -1,0 +1,10 @@
+use vg
+
+ex pos -99 105 -29 run fn mob/boss/skeleton
+pls entity.skeleton.ambient @a -99 105 -29 10 0
+ptc cloud -99 106 -29 1 1 1 0.1 800 normal
+title @a title {}
+title @a subtitle {text='Предводитель Скелетов',color=yellow}
+bossbar add boss_skeleton {text='Предводитель Скелетов',color=yellow}
+bossbar set boss_skeleton players @a
+bossbar set boss_skeleton color purple

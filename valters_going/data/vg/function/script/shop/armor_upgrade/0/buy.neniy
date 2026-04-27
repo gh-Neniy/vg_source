@@ -1,0 +1,25 @@
+use vg
+
+scb players add #armor data 1
+
+fn script/side/shop
+clear @s iron_nugget 12
+
+clear @s leather_boots
+clear @s leather_leggings
+clear @s leather_chestplate
+
+fn item/shop/armor_2
+
+setblock oak_wall_sign[facing=east, sign=[ 
+  {text='Улучшение брони', color=blue}
+  {text='Цена:'}
+  {text='35 Серебряных', color=gray}
+  {text='копеек', color=gray}
+]] ~ ~1 ~ replace
+
+tellraw @a [
+  {text='Улучшение брони ', color=green}
+  {text='Защита', color=blue}
+  {text=' получено', color=green}
+]

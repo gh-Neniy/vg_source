@@ -7,3 +7,5 @@ ex as @e[data=[item=redstone[tag=redstone]]] at @s run fn script/side/redstone
 ex as @e[data=[item=lapis[tag=lapis]]] at @s run fn script/side/lapis
 
 ex as @e[data=[item=stone_button[tag=rotting_zombie]]] at @s run fn script/side/rotting_zombie
+ex as @e[data=[item=stone_button[tag=skeleton]]] at @s run fn script/side/skeleton
+ex as @e[data=[item=stone_button[tag=boss_skeleton]]] at @s run fn script/side/boss_skeleton

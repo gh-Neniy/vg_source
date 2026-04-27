@@ -1,0 +1,2 @@
+title @a title {text='Задание провалено',color=red}
+fn vg:script/task_1/stop

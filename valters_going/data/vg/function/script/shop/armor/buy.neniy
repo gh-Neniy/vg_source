@@ -1,0 +1,10 @@
+use vg
+
+fn script/side/shop
+
+clear @s iron_nugget 10
+
+ex if score #armor data 0 run fn item/shop/armor
+ex if score #armor data 1 run fn item/shop/armor_2
+ex if score #armor data 2 run fn item/shop/armor_3
+ex if score #armor data 3 run fn item/shop/armor_4

@@ -1,0 +1,2 @@
+scb players set #boss_timer data 0
+scb players set #boss_timer_active data 1

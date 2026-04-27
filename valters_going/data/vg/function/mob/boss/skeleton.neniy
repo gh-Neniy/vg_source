@@ -1,0 +1,12 @@
+sm skeleton [
+  name={text='Предводитель Скелетов', color=yellow},
+  health=100.0,
+  loot_table=vg:boss_skeleton,
+  name_visible,
+  no_despawn,
+  right_hand=bone,
+  left_hand=gold_ingot[name={text='Трофей Предводителя', color=gold}, shine],
+  // left_hand_chance=1.0,
+  tag=enemy,
+  tag=boss_skeleton
+] ~ ~ ~

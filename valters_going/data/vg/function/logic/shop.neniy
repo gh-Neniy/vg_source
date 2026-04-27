@@ -1,1 +1,11 @@
-ex if block -131 87 -38 warped_button[powered] run fn script/shop/main_buy
+use vg
+
+ex pos -131 87 -38 if block ~ ~ ~ warped_button[powered] run fn script/shop/main_buy
+
+ex pos -134 86 -53 if block ~ ~ ~ crimson_button[powered] run fn script/shop/arrow
+ex pos -132 86 -53 if block ~ ~ ~ crimson_button[powered] run fn script/shop/tea
+ex pos -130 86 -53 if block ~ ~ ~ crimson_button[powered] run fn script/shop/essence
+
+ex pos -130 86 -23 if block ~ ~ ~ crimson_button[powered] run fn script/shop/armor
+ex pos -132 86 -23 if block ~ ~ ~ crimson_button[powered] run fn script/shop/armor_upgrade
+ex pos -134 86 -23 if block ~ ~ ~ crimson_button[powered] run fn script/shop/shield

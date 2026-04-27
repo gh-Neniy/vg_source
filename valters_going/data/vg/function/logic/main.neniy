@@ -7,3 +7,4 @@ effect give @a[tag=night_vision] night_vision infinite 0
 kill @e[type=experience_orb]
 
 ex if score #timer_active data 1 run scb players add #timer data 1
+ex if score #boss_timer_active data 1 run scb players add #boss_timer data 1

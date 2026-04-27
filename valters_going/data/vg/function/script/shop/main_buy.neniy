@@ -1,8 +1,8 @@
 use vg
 
-ex if score #shop data 0 pos -131 87 -38 run fn script/shop/main_buy/0
-ex if score #shop data 1 pos -131 87 -38 run fn script/shop/main_buy/1
-ex if score #shop data 2 pos -131 87 -38 run fn script/shop/main_buy/2
-ex if score #shop data 3 pos -131 87 -38 run fn script/shop/main_buy/3
-ex if score #shop data 4 pos -131 87 -38 run fn script/shop/main_buy/4
-ex if score #shop data 5 pos -131 87 -38 run fn script/shop/main_buy/5
+ex if score #shop data 0 run fn script/shop/main_buy/0
+ex if score #shop data 1 run fn script/shop/main_buy/1
+ex if score #shop data 2 run fn script/shop/main_buy/2
+ex if score #shop data 3 run fn script/shop/main_buy/3
+ex if score #shop data 4 run fn script/shop/main_buy/4
+ex if score #shop data 5 run fn script/shop/main_buy/5

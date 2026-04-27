@@ -4,3 +4,6 @@ scb obj add data dummy
 ex uninited #timer_active data run scb players set #timer_active data 0
 ex uninited #progress data run scb players set #progress data 0
 ex uninited #timer data run scb players set #timer data 0
+
+ex uninited #boss_timer_active data run scb players set #boss_timer_active data 0
+ex uninited #boss_timer data run scb players set #boss_timer data 0
