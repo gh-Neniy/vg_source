@@ -1,7 +1,7 @@
-fn vg:script/task_1/remove_decor
+fn vg:script/task_2/remove_decor
 fill -94 105 4 -94 106 4 air replace
 gamerule natural_regeneration true
 tp @a[team=player] -76 107 4 90 0
-bossbar remove boss_skeleton
+bossbar remove boss_magma_cube
 kill @e[tag=enemy]
 kill @e[type=item, tag=!plot]

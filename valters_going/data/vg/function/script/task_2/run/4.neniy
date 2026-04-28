@@ -1,0 +1,5 @@
+fill -97 105 15 -101 109 15 air replace iron_bars
+ptc dripping_lava -99 107 15 1.5 1.5 0.1 0.1 1500 normal
+ptc flame -99 107 15 1.5 1.5 0.1 0.01 1000 normal
+pls block.fire.extinguish @a -99 107 15 2 0.7
+tellraw @a {text='Вы слышите странные звуки...', color=red}

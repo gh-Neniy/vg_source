@@ -1,0 +1,16 @@
+fill -111 105 -22 -100 108 -11 air replace
+fill -119 105 -33 -111 108 -29 air replace
+fill -90 105 -16 -88 107 -11 air replace
+fill -93 105 -22 -85 108 -18 air replace
+fill -91 105 -36 -80 108 -25 air replace
+fill -116 105 -43 -110 110 -37 air replace
+fill -91 105 -48 -85 110 -42 air replace
+fill -106 105 -46 -104 107 -41 air replace
+fill -98 105 -39 -94 107 -35 air replace dead_bush
+fill -98 105 -39 -94 107 -35 air replace sand
+fill -123 104 18 -75 104 -53 dirt_path replace sand
+fill -123 104 18 -75 104 -53 gravel replace sandstone
+fill -123 110 -5 -75 104 -53 stone_bricks replace sandstone
+fill -60 74 -39 -63 74 -39 air replace
+fill -60 74 -45 -63 74 -45 air replace
+fill -60 74 -51 -63 74 -51 air replace

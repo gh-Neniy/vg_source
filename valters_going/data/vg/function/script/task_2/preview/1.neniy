@@ -1,0 +1,6 @@
+fn vg:script/stop_cutscene
+
+scb players set #preview data 0
+
+tellraw @a {text='Вам открыто новое задание',color=green}
+tellraw @a {text='Завершите задание "Огненный босс"',color=dark_red}

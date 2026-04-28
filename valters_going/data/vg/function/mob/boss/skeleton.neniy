@@ -4,9 +4,13 @@ sm skeleton [
   loot_table=vg:boss_skeleton,
   name_visible,
   no_despawn,
+
   right_hand=bone,
+  right_hand_chance=0.0,
+  
   left_hand=gold_ingot[name={text='Трофей Предводителя', color=gold}, shine],
-  // left_hand_chance=1.0,
+  left_hand_chance=1.0,
+
   tag=enemy,
   tag=boss_skeleton
 ] ~ ~ ~

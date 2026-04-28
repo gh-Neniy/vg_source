@@ -1,0 +1,3 @@
+ptc soul_fire_flame ~ ~ ~ 0.3 0.3 0.3 0.03 20 normal
+pls block.soul_sand.step @a ~ ~ ~ 2 0
+kill @s

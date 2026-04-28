@@ -1,0 +1,9 @@
+sm phantom [
+  name={text='Фантом', color=yellow},
+  health=5.0,
+  loot_table=vg:phantom,
+  name_visible,
+  no_despawn,
+  attack_damage=0.5
+  tag=enemy
+] ~ ~ ~

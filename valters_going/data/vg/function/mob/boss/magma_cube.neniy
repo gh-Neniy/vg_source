@@ -1,0 +1,15 @@
+sm magma_cube [
+  name={text='Огненный босс', color=yellow},
+  health=130.0,
+  loot_table=vg:boss_magma_cube,
+  name_visible,
+  no_despawn,
+  stability=10.0,
+  size=5,
+
+  left_hand=fire_charge[name={text='Трофей Огненного Босса', color=gold}, shine],
+  left_hand_chance=1.0,
+
+  tag=enemy,
+  tag=boss_magma_cube
+] ~ ~ ~

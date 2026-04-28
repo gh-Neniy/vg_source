@@ -1,11 +1,11 @@
-fill -99 105 -29 -99 107 -29 polished_andesite replace
-setblock oak_button[facing=south] -99 106 -28 replace
-ptc happy_villager -99 107 -29 1.2 1.2 1.2 0.05 400 normal
-pls block.beacon.activate @a -99 107 -29 10 1
+fill ~ ~ ~ ~ ~2 ~ polished_andesite replace
+setblock oak_button[facing=south] ~ ~1 ~1 replace
+ptc happy_villager ~ ~2 ~ 1.2 1.2 1.2 0.05 400 normal
+pls block.beacon.activate @a ~ ~2 ~ 10 1
 
 setblock oak_wall_sign[facing=south, sign=[
   {text='Нападение'}
-  {text='Скелетов'}
+  {text='Скелетов', color=white}
   {}
   {text='Начать'}
-]] -99 107 -28 replace
+]] ~ ~2 ~1 replace

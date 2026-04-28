@@ -11,4 +11,4 @@ scb players set #armor data 0
 tellraw @a {text='Maгазин разблокирован', color=green}
 tellraw @a {text='Купите своё первое снаряжение', color=dark_red}
 
-tp @e[type=item, tag=!plot] @p[team=player]
+ex as @e[type=item, tag=!plot] at @s run tp @s @p[team=player]

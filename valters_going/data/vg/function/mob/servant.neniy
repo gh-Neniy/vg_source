@@ -1,0 +1,10 @@
+sm magma_cube [
+  name={text='Приспешник', color=yellow},
+  health=10.0,
+  loot_table=vg:servant,
+  name_visible,
+  no_despawn,
+  size=2,
+  attack_damage=1.5,
+  tag=enemy
+] ~ ~ ~

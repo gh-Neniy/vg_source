@@ -1,1 +1,2 @@
-fill -94 105 4 -94 106 4 air replace
+fn vg:script/task_1/stop
+scb players set #progress data 4

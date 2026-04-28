@@ -8,4 +8,8 @@ ex as @e[data=[item=lapis[tag=lapis]]] at @s run fn script/side/lapis
 
 ex as @e[data=[item=stone_button[tag=rotting_zombie]]] at @s run fn script/side/rotting_zombie
 ex as @e[data=[item=stone_button[tag=skeleton]]] at @s run fn script/side/skeleton
+ex as @e[data=[item=stone_button[tag=phantom]]] at @s run fn script/side/phantom
+ex as @e[data=[item=stone_button[tag=servant]]] at @s run fn script/side/servant
+
 ex as @e[data=[item=stone_button[tag=boss_skeleton]]] at @s run fn script/side/boss_skeleton
+ex as @e[data=[item=stone_button[tag=boss_magma_cube]]] at @s run fn script/side/boss_magma_cube

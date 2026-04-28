@@ -1,0 +1,4 @@
+ptc flame ~ ~1 ~ 2 2 2 0 200 normal
+ptc lava ~ ~1 ~ 1 1 1 0.2 100 normal
+pls block.fire.extinguish @a ~ ~1 ~ 2 0.7
+kill @s

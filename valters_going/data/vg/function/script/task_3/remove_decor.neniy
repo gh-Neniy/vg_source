@@ -1,0 +1,9 @@
+fill -103 105 -31 -97 109 -25 air replace
+fill -117 105 -39 -111 116 -33 air replace
+fill -91 105 -44 -80 112 -34 air replace
+fill -97 105 -22 -91 116 -16 air replace
+fill -84 105 -28 -78 110 -23 air replace
+fill -115 105 -26 -109 110 -21 air replace
+fill -107 105 -19 -101 110 -14 air replace
+fill -101 105 -44 -95 110 -39 air replace
+fill -123 104 18 -75 104 -53 dirt_path replace dirt

@@ -1,0 +1,13 @@
+use vg
+
+fn script/stop_cutscene
+title @a title {}
+title @a subtitle {text='Огненный босс', color=red}
+pls ambient.cave @a -99 107 15 10 0.7
+
+ex pos -99 105 20 run fn mob/boss/magma_cube
+
+bossbar add boss_magma_cube {text='Огненный босс', color=yellow}
+bossbar set boss_magma_cube players @a
+bossbar set boss_magma_cube color red
+bossbar set boss_magma_cube max 130
