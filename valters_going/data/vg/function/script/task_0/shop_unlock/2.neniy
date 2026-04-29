@@ -4,6 +4,7 @@ gamerule natural_regeneration true
 scb obj add defeat deathCount
 scb players set @a[team=player] defeat 0
 
+scb players set #shop_unlock data 0
 scb players set #progress data 3
 scb players set #shop data 0
 scb players set #armor data 0

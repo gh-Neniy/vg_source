@@ -1,1 +1,1 @@
-ex unless score #preview data 0 run fn script/task_1/preview
+ex if score #preview data 1 run fn script/task_1/preview

@@ -11,12 +11,12 @@ gm adventure @a[team=player]
 ex as @a[team=player] run fn script/spawn/set_id
 
 ex as @r[team=player] run fn item/flint_and_steel
-scb players add #progress data 1 // sets to 1
+scb players set #progress data 1
 scb players set #candle data 0
 setblock crimson_trapdoor[half=top,facing=south] 4 99 -11 replace
 
-tellraw @a {text='Приветствуем Вас на нашей карте! Зелёный текст - это основные оповещения. Красным текстом вам пишутся задания. Правила: Облака - выкл, прорисовка - 6 чанков, обязательно включите звуки.', color=green}
-tellraw @a {text='Совершите ритуал по призыву Вальтера. Для этого в Замке зажгите 12 свечей вокруг Несокрушимого Блока.', color=dark_red}
+tellraw @a {text='Приветствуем Вас на нашей карте! Зелёный текст - это основные оповещения. Красным текстом вам пишутся задания. Правила: Облака - выкл, прорисовка - 6 чанков, обязательно включите звуки', color=green}
+tellraw @a {text='Совершите ритуал по призыву Вальтера. Для этого в Замке зажгите 12 свечей вокруг Несокрушимого Блока', color=dark_red}
 time set night
 fill 8 101 -10 8 102 -10 air replace
 ptc campfire_cosy_smoke 8 101.5 -10 0.3 0.3 0.3 0.01 30 normal
