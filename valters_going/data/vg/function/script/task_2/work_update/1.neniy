@@ -1,0 +1,3 @@
+pls entity.villager.trade @a -63 106 20 1 1
+fill -63 105 16 -61 106 18 raw_iron_block replace coal_block
+ptc happy_villager -63 106 20 1 1 1 1 200 normal

@@ -1,0 +1,5 @@
+use vg
+
+ex if score #timer data 0 run fn script/task_2/work_update/0
+ex if score #timer data 50 run fn script/task_2/work_update/1
+ex if score #timer data 100 run fn script/task_2/work_update/2

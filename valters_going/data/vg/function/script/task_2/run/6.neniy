@@ -1,4 +1,3 @@
-scb players set #timer_active data 1
 fn vg:script/stop_boss_timer
-
-ex as @e[type=item, tag=!plot] run tp @s @p[team=player]
+scb players add #timer data 1
+bossbar remove boss_magma_cube

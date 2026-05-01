@@ -1,0 +1,11 @@
+tellraw @a [
+  {text='Задание \"', color=green}
+  {text='Огненный босс', color=yellow}
+  {text='\" завершено',color=green}
+]
+tellraw @a {text='Купите снаряжение в магазине', color=dark_red}
+tellraw @a {text='Уровень Работы повышен', color=gold}
+
+fn vg:script/stop_cutscene
+
+scb players set #work_update data 2

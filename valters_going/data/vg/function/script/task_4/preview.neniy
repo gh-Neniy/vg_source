@@ -1,0 +1,5 @@
+use vg
+
+ex if score #timer data 0 run fn script/task_4/preview/0
+ex if score #timer data 50 pos -89 105 -19 run fn script/task_4/spawn
+ex if score #timer data 100 run fn script/task_4/preview/1

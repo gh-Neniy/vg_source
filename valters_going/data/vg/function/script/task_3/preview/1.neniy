@@ -1,0 +1,10 @@
+fn vg:script/stop_cutscene
+
+scb players set #task_3_preview data 2
+
+tellraw @a {text='Вам открыто новое задание',color=green}
+tellraw @a [
+  {text='Завершите задание \"',color=dark_red}
+  {text='Очищение Арены', color=aqua}
+  {text='\"', color=dark_red}
+]

@@ -1,0 +1,9 @@
+fn vg:script/stop_cutscene
+
+scb players set #task_survival_preview data 2
+
+tellraw @a [
+  {text='Режим ',color=green}
+  {text='Выживания', color=red}
+  {text=' теперь доступен', color=green}
+]

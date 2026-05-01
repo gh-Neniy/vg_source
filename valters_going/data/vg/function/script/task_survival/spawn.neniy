@@ -1,0 +1,14 @@
+setblock cracked_stone_bricks ~ ~ ~ replace
+setblock stone_bricks ~ ~1 ~ replace
+setblock cracked_stone_bricks ~ ~2 ~ replace
+
+setblock polished_blackstone_button[facing=south] ~ ~1 ~1 replace
+ptc soul ~ ~2 ~ 1 1 1 0.1 500 normal
+pls block.soul_sand.place @a ~ ~2 ~ 10 0
+
+setblock spruce_wall_sign[facing=south, sign=[
+  {}
+  {text='Выживание', color=red}
+  {}
+  {text='Начать'}
+]] ~ ~2 ~1 replace

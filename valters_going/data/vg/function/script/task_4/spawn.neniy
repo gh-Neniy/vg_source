@@ -3,7 +3,7 @@ setblock dark_oak_button[facing=south] ~ ~1 ~1 replace
 ptc smoke ~ ~2 ~ 1 1 1 0.1 500 normal
 pls entity.ravager.roar @a ~ ~2 ~ 1 1.2
 
-setblock acacia_wall_sign[facing=south, sign=[
+setblock dark_oak_sign[facing=south, sign=[
   {text='Нападение'}
   {text='Бандитов', color=dark_gray}
   {}

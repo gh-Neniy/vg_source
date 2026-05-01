@@ -1,0 +1,2 @@
+sm block_display[tag=cutscene, teleport_duration=3, rotation=[-140, 15]] -113.5 107.5 -16.5
+fn vg:script/start_cutscene
