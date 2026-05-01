@@ -1,7 +1,5 @@
 use vg
 
-ex if ent @a[team=player, score=[defeat=1]] run fn script/task_2/defeat
-
 ex if score #timer data 0 run fn script/task_2/run/0
 ex if score #timer data 60 run fn script/task_2/run/1
 
@@ -22,9 +20,15 @@ ex if score #timer data 700 pos -109 116 -26 run fn mob/phantom
 ex if score #timer data 700 run fn script/task_2/run/2
 ex if score #timer data 701 unless ent @e[tag=enemy] run scb players set #boss_timer_active data 1
 
-ex if score #boss_timer data 60 run fn script/task_2/run/3
+ex if score #boss_timer data 50 run fn script/task_2/run/3
 ex if score #boss_timer data 100 run fn script/task_2/run/4
-ex if score #boss_timer data 140 run fn script/task_2/run/5
+ex if score #boss_timer data 150 run fn script/task_2/run/5
 
 ex if score #boss_timer data 141..281 store bossbar boss_magma_cube run data get @e[tag=boss_magma_cube, limit=1] Health
 ex if score #boss_timer data 281 run fn script/task_2/servant
+
+// ex if score #timer data 701 unless ent @e[tag=boss_magma_cube] run 
+ex if score #timer data 702 unless ent @e[tag=enemy] run fn script/task_2/run/6
+ex if score #timer data 750 run fn script/task_2/run/7
+
+ex as @a[team=player, score=[defeat=1]] run fn script/task_2/defeat

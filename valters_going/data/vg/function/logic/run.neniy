@@ -1,0 +1,15 @@
+use vg
+
+ex if score #spawn_screamer data 1 run fn script/spawn/screamer
+ex if score #cauldron data 1 run fn script/spawn/cauldron
+ex if score #invocation data 1 run fn script/spawn/invocation
+
+ex if score #task_0_preview data 1 run fn script/task_0/preview
+ex if score #shop_unlock data 1 run fn script/task_0/shop_unlock
+
+ex if score #task_1_preview data 1 run fn script/task_1/preview
+ex if score #task_1_run data 1 run fn script/task_1/run
+ex if score #work_unlock data 1 run fn script/task_1/work_unlock
+
+ex if score #task_2_preview data 1 run fn script/task_2/preview
+ex if score #task_2_run data 1 run fn script/task_2/run

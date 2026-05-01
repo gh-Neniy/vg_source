@@ -1,4 +1,4 @@
-fn script/stop_cutscene
+fn vg:script/stop_subcutscene
 scb players set #boss_timer_active data 1
 scb players set #timer_active data 0
 scb players add #timer data 1

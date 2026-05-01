@@ -1,11 +1,9 @@
 use vg
 
-ex if ent @a[team=player, score=[defeat=1]] run fn script/task_1/defeat
-
 ex if score #timer data 0 run fn script/task_1/run/0
 ex if score #timer data 60 run fn script/task_1/run/1
-ex if score #timer data 120 at @r[team=player] pos ~ ~ ~ run fn mob/skeleton
-ex if score #timer data 220 at @r[team=player] pos ~ ~ ~ run fn mob/skeleton
+ex if score #timer data 120 pos -96 105 -30 run fn mob/skeleton
+ex if score #timer data 220 pos -92 105 -17 run fn mob/skeleton
 ex if score #timer data 320 run fn script/task_1/run/2
 ex if score #timer data 321 unless ent @e[tag=enemy] run scb players set #timer_active data 1
 ex if score #timer data 370 run fn script/task_1/run/3
@@ -24,3 +22,5 @@ ex if score #boss_timer data 600 at @e[tag=boss_skeleton] run fn mob/skeleton
 ex if score #timer data 471 unless ent @e[tag=boss_skeleton] run bossbar remove boss_skeleton
 ex if score #timer data 471 unless ent @e[tag=enemy] run fn script/task_1/run/7
 ex if score #timer data 550 run fn script/task_1/run/8
+
+ex as @a[team=player, score=[defeat=1]] run fn script/task_1/defeat

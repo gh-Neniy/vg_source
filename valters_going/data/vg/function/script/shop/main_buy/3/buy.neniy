@@ -15,4 +15,4 @@ setblock oak_wall_sign[facing=east, sign=[
   {text='копеек', color=gray}
 ]] ~ ~1 ~ replace
 
-scb players set #preview data 1
+scb players set #task_2_preview data 1

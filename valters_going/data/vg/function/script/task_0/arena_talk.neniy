@@ -3,4 +3,4 @@ tellraw @a [
   {text='Вы: ', color=#03C765}
   {text='Это похоже на арену', color=dark_green}
 ]
-scb players set #arena_talk data 0
+scb players set #arena_talk data 2

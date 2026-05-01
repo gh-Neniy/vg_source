@@ -1,2 +1,3 @@
 fn vg:script/task_1/stop
+scb players set #work_unlock data 1
 scb players set #progress data 4

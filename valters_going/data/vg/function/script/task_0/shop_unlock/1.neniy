@@ -1,1 +1,3 @@
 clone -70 114 1 -67 119 7 -70 104 1 replace move
+pls block.amethyst_block.step @a ~ ~ ~ 10 0
+ptc cloud -67 106.5 4 0 1 1 0 100 normal

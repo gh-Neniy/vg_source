@@ -1,7 +1,11 @@
-fn vg:script/task_1/remove_decor
+use vg
+
+fn script/task_1/remove_decor
 fill -94 105 4 -94 106 4 air replace
 gamerule natural_regeneration true
-tp @a[team=player] -76 107 4 90 0
 bossbar remove boss_skeleton
-kill @e[tag=enemy]
-kill @e[type=item, tag=!plot]
+scb players set #task_1_run data 2
+fn script/stop_timer
+fn script/stop_boss_timer
+
+ex as @e[tag=enemy] run fn script/delete_mob

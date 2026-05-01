@@ -1,4 +1,4 @@
 title @a title {text='Задание провалено',color=red}
 scb players set @s defeat 0
 tp @a[team=player] -76 107 4 90 0
-fn vg:script/task_1/stop
+fn vg:script/task_2/stop

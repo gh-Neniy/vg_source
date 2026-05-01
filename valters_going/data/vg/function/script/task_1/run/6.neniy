@@ -1,2 +1,2 @@
-ex at @e[tag=boss_skeleton] run fn mob/skeleton
+ex at @e[tag=boss_skeleton] run fn vg:mob/skeleton
 tellraw @a {text='Предводитель Скелетов: Вперёд, раздавим этого смертного!',color=yellow}

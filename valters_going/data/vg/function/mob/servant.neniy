@@ -6,5 +6,6 @@ sm magma_cube [
   no_despawn,
   size=2,
   attack_damage=1.5,
-  tag=enemy
+  tag=enemy,
+  tag=servant
 ] ~ ~ ~

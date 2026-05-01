@@ -1,6 +1,6 @@
 use vg
 
-ex if score #timer data 0..120 as @e[type=block_display, tag=cutscene] at @s facing -31 102 4 run tp @s ~ ~ ~-0.075 ~ ~
+ex if score #timer data 0..120 as @e[type=block_display, tag=cutscene, tag=!decor] at @s facing -31 102 4 run tp @s ~ ~ ~-0.075 ~ ~
 
 ex if score #timer data 0 run fn script/spawn/invocation/0
 ex if score #timer data 20 run fn script/spawn/invocation/1
@@ -31,7 +31,7 @@ ex if score #timer data 101 pos -31 102 4 pos ~3 ~ ~-2 run fn script/spawn/invoc
 ex if score #timer data 104 pos -31 102 4 pos ~-3 ~ ~2 run fn script/spawn/invocation/magma
 ex if score #timer data 107 pos -31 102 4 pos ~-3 ~ ~-2 run fn script/spawn/invocation/magma
 
-ex if score #timer data 125 run tp @e[type=block_display, tag=cutscene, tag=!decor] -28.0 104.0 4.0 90 10
+ex if score #timer data 125 run tp @e[type=block_display, tag=cutscene, tag=!decor] -27.5 104.8 4.5 90 10
 ex if score #timer data 140 run fn script/spawn/invocation/3
 ex if score #timer data 190 run fn script/spawn/invocation/4
 ex if score #timer data 270 run fn script/spawn/invocation/5
