@@ -2,7 +2,7 @@ use vg
 
 fn logic/shop
 
-ex as @a[team=player] store score @s money run native 'clear @s iron_nugget 0'
+ex as @a[team=player] store score @s money run clear @s iron_nugget 0
 
 ex pos -57 106 4 if ent @a[team=player, distance=..8] run fn script/side/shop_tp
 ex pos -110 87 -38 if ent @a[team=player, distance=..8] run fn script/side/shop_tp
@@ -13,8 +13,9 @@ ex pos -110 86 -38 as @a[team=player, y_rotation=-130..-50, dx=0, dy=1, dz=0] po
 ex pos -101 105 16 as @a[team=player, dx=4, dy=1, dz=0] at @s run tp @s ~ ~ ~-1
 
 // for buttons on the arena (partially available on different stages)
-ex if score #task_1 data 1 run fn script/task_1/run
-ex if score #task_2 data 1 run fn script/task_2/run
-ex if score #task_3 data 1 run fn script/task_3/run
-ex if score #task_4 data 1 run fn script/task_4/run
-ex if score #task_5 data 1 run fn script/task_5/run
+ex if score #task_1 data 1 run fn logic/task_1
+ex if score #task_2 data 1 run fn logic/task_2
+ex if score #task_3 data 1 run fn logic/task_3
+ex if score #task_4 data 1 run fn logic/task_4
+ex if score #task_5 data 1 run fn logic/task_5
+ex if score #task_survival data 1 run fn logic/task_survival

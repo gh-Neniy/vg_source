@@ -7,6 +7,7 @@ ex as @a[team=player,tag=cutscene,gm=!spectator] run gm spectator @s
 ex as @a[team=player,tag=cutscene] run spectate @e[type=block_display, tag=cutscene, tag=!decor, limit=1]
 
 effect give @a[tag=night_vision] night_vision infinite 0
+effect clear @a[tag=!night_vision] night_vision
 
 kill @e[type=experience_orb]
 
