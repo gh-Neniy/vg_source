@@ -1,0 +1,5 @@
+use vg
+
+clear @a[team=player] wither_rose
+
+ex pos 6 101 -8 if block ~ ~ ~ flower_pot run fn script/valter_rose

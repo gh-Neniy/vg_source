@@ -1,7 +1,5 @@
 use vg
 
-fn logic/run
-
 ex as @a[team=player,tag=!cutscene,gm=!adventure] at @s run fn script/valter_regulation
 ex as @a[team=player,tag=cutscene,gm=!spectator] run gm spectator @s
 ex as @a[team=player,tag=cutscene] run spectate @e[type=block_display, tag=cutscene, tag=!decor, limit=1]
