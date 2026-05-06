@@ -1,0 +1,13 @@
+sm zombie[
+  name={text='Телохранитель', color=dark_aqua},
+  health=30.0,
+  loot_table=vg:bodyguard,
+  name_visible,
+  no_despawn,
+  right_hand=stone_sword[name={text='Старый меч', color=gray}],
+  right_hand_chance=0.2,
+  left_hand=shield[name={text='Сколотый щит', color=gray}],
+  left_hand_chance=0.15,
+  tag=enemy,
+  tag=blood
+] ~ ~ ~

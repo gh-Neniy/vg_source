@@ -1,0 +1,7 @@
+fn vg:script/stop_subcutscene
+
+bossbar add boss_stray_1 {text='Первый Загрязнитель',color=aqua}
+bossbar set boss_stray_1 players @a
+bossbar set boss_stray_1 color blue
+
+tag @e[tag=boss_stray] add boss_stray_1

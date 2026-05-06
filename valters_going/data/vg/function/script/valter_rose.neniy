@@ -1,5 +1,6 @@
 scb players add #valter_rose data 1
 fn vg:script/side/valter_rose
+tag @p[team=player] add valter_rose
 
 ex if score #valter_rose data 1 run advancement @a vg:valter_rose/1
 ex if score #valter_rose data 3 run advancement @a vg:valter_rose/3

@@ -4,5 +4,6 @@ sm skeleton [
   loot_table=vg:skeleton,
   name_visible,
   no_despawn,
-  tag=enemy
+  tag=enemy,
+  tag=bones
 ] ~ ~ ~

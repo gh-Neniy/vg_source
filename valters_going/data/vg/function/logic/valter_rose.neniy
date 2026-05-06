@@ -1,5 +1,5 @@
 use vg
 
-clear @a[team=player] wither_rose
+ex as @a[tag=valter_rose] run fn script/valter_rose/clear
 
 ex pos 6 101 -8 if block ~ ~ ~ flower_pot run fn script/valter_rose

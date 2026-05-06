@@ -1,0 +1,3 @@
+fn vg:mob/bodyguard
+scb players set #timer_active data 0
+scb players add #timer data 1

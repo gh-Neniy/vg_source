@@ -4,5 +4,6 @@ sm zombie[
   loot_table=vg:rotting_zombie,
   name_visible,
   no_despawn,
-  tag=enemy
+  tag=enemy,
+  tag=blood
 ] ~ ~ ~

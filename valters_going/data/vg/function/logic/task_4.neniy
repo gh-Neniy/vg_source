@@ -1,5 +1,5 @@
 use vg
 
 ex pos -89 106 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/tp
-ex pos -57 91 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/return_to_arena
-ex pos -57 91 -14 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run scb players set #task_4_run data 1
+ex pos -59 91 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/return_to_arena
+ex pos -59 91 -14 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run scb players set #task_4_run data 1

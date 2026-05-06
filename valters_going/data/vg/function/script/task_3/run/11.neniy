@@ -1,0 +1,10 @@
+fn vg:script/stop_subcutscene
+
+bossbar add boss_stray_3 {text='Третий Загрязнитель',color=aqua}
+bossbar set boss_stray_3 players @a
+bossbar set boss_stray_3 color blue
+
+tag @e[tag=boss_stray, tag=!boss_stray_1, tag=!boss_stray_2] add boss_stray_3
+
+scb players set #timer_active data 0
+scb players add #timer data 1

@@ -1,0 +1,39 @@
+use vg
+
+ex if score #timer data 0 run fn script/task_3/run/0
+ex if score #timer data 60 run fn script/task_3/run/1
+
+ex if score #timer data 100 pos -94 106 -19 run fn mob/bodyguard
+ex if score #timer data 250 pos -108 105 20 run fn mob/bodyguard
+ex if score #timer data 400 pos -90 106 -38 run fn mob/bodyguard
+ex if score #timer data 550 pos -114 106 -36 run fn mob/bodyguard
+ex if score #timer data 700 pos -86 105 -26 run fn script/task_3/run/2
+
+ex if score #timer data 701 unless ent @e[tag=enemy] run scb players set #timer_active data 1
+
+ex if score #timer data 702.. store bossbar boss_stray_1 run data get @e[tag=boss_stray_1, limit=1] Health
+ex if score #timer data 702.. store bossbar boss_stray_2 run data get @e[tag=boss_stray_2, limit=1] Health
+ex if score #timer data 702.. store bossbar boss_stray_3 run data get @e[tag=boss_stray_3, limit=1] Health
+
+ex if score #timer data 760 run fn script/task_3/run/3
+ex if score #timer data 800 pos -111 105 -16 run fn script/task_3/run/4
+ex if score #timer data 840 run fn script/task_3/run/5
+
+ex if score #timer data 840.. unless ent @e[tag=boss_stray_1] run bossbar remove boss_stray_1
+
+ex if score #timer data 1300 run fn script/task_3/run/6
+ex if score #timer data 1340 pos -107 105 -43 run fn script/task_3/run/7
+ex if score #timer data 1380 run fn script/task_3/run/8
+
+ex if score #timer data 1380.. unless ent @e[tag=boss_stray_2] run bossbar remove boss_stray_2
+
+ex if score #timer data 1800 run fn script/task_3/run/9
+ex if score #timer data 1840 pos -86 105 -18 run fn script/task_3/run/10
+ex if score #timer data 1880 run fn script/task_3/run/11
+
+ex if score #timer data 1880.. unless ent @e[tag=boss_stray_3] run bossbar remove boss_stray_3
+ex if score #timer data 1881 unless ent @e[tag=enemy] run scb players set #timer_active data 1
+
+ex if score #timer data 1940 run fn script/task_3/run/12
+
+ex as @a[team=player, score=[defeat=1]] run fn script/task_3/defeat

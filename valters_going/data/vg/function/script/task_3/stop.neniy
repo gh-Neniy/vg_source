@@ -1,0 +1,13 @@
+use vg
+
+fn script/task_3/remove_decor
+fill -94 105 4 -94 106 4 air replace
+gamerule natural_regeneration true
+bossbar remove boss_stray_1
+bossbar remove boss_stray_2
+bossbar remove boss_stray_3
+scb players set #task_3_run data 2
+fn script/stop_timer
+fn script/stop_boss_timer
+
+ex as @e[tag=enemy] run fn script/delete_mob

@@ -1,0 +1,18 @@
+sm stray [
+  name={text='Загрязнитель', color=aqua},
+  health=100.0,
+  stability=10.0,
+  loot_table=vg:boss_stray,
+  name_visible,
+  no_despawn,
+
+  right_hand=crimson_nylium[name={text='Блок Загрязнения', color=red}, shine],
+  right_hand_chance=0.3,
+
+  tag=enemy,
+  tag=boss_stray,
+  tag=bones
+] ~ ~ ~
+
+pls ambient.warped_forest.mood @a ~ ~ ~ 3 2
+ptc cloud ~ ~ ~ 1 1 1 0.05 100 normal
