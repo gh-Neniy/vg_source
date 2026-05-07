@@ -1,3 +1,3 @@
-sm marker[tag=return] ~ ~ ~
+sm marker[tag=return] ~ ~1 ~
 native 'scoreboard players operation @e[tag=return,limit=1,sort=nearest] data = @s data'
 native 'data modify entity @e[tag=return,limit=1,sort=nearest] Rotation set from entity @s Rotation'

@@ -1,0 +1,5 @@
+give @s snowball[
+  name={text='Выделить область', color=#0373b5},
+  shine,
+  tag=select
+]

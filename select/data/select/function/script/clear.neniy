@@ -1,0 +1,19 @@
+ex as @e[tag=select_ray] at @s run fn select:script/ray/break
+kill @e[tag=selected1]
+kill @e[tag=selected2]
+kill @e[tag=area]
+
+scb players reset #pos1_x select.data
+scb players reset #pos1_y select.data
+scb players reset #pos1_z select.data
+scb players reset #pos2_x select.data
+scb players reset #pos2_y select.data
+scb players reset #pos2_z select.data
+scb players reset #start_x select.data
+scb players reset #start_y select.data
+scb players reset #start_z select.data
+scb players reset #scale_x select.data
+scb players reset #scale_y select.data
+scb players reset #scale_z select.data
+scb players reset #matches select.data
+scb players reset #clear select.data

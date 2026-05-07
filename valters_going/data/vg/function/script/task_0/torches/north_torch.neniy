@@ -1,0 +1,2 @@
+setblock wall_torch[facing=north] ~ ~ ~ replace
+pls block.wood.place @a ~ ~ ~ 3 1

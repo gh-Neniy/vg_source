@@ -1,0 +1,14 @@
+use select
+
+ex store score #pos2_x select.data run data get @e[tag=selected2, limit=1] Pos[0]
+ex store score #pos2_y select.data run data get @e[tag=selected2, limit=1] Pos[1]
+ex store score #pos2_z select.data run data get @e[tag=selected2, limit=1] Pos[2]
+
+scb players set #matches select.data 0
+
+ex if score #pos1_x select.data = #pos2_x run scb players add #matches select.data 1
+ex if score #pos1_y select.data = #pos2_y run scb players add #matches select.data 1
+ex if score #pos1_z select.data = #pos2_z run scb players add #matches select.data 1
+
+ex unless score #matches select.data 3 run fn script/area/recalculate/0
+ex if score #matches select.data 3 run scb players set #clear select.data 1

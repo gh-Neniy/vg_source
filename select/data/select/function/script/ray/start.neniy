@@ -1,0 +1,3 @@
+ex at @s as @p[tag=spectator] at @s anchored eyes run fn select:script/ray/spawn
+stopsound @a entity.snowball.throw
+kill @s

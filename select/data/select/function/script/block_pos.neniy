@@ -1,0 +1,1 @@
+native '$tellraw @s {"text":"$(x1) $(y1) $(z1)","color":"#00CD74",click_event:{action:"copy_to_clipboard",value:"$(x1) $(y1) $(z1)"},hover_event:{action:"show_text", value:{text:"Скопировать", color:"gray"}}}'

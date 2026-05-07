@@ -1,0 +1,7 @@
+use select
+
+fn script/area/recalculate
+
+// Creating the area
+fn script/area/spawn
+fn script/area/set

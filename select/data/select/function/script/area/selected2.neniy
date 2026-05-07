@@ -1,0 +1,5 @@
+use select
+
+ex align xyz run fn script/area/selected2_spawn
+data modify @e[tag=selected1, limit=1] block_state.Name set air
+fn script/area/create

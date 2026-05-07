@@ -1,0 +1,4 @@
+scb obj add select.data dummy
+
+ex uninited #timer select.data run scb players set #timer select.data 0
+scb players set #thousand select.data 1000
