@@ -4,15 +4,18 @@
       "id": "minecraft:shield"
     },
     "title": {
-      "text": "Cюжет",
+      "text": "Счастье",
       "color": "#1CBD77"
     },
     "description": {
-      "text": "Попадите на арену Нижних Земель",
-      "color": "gray"
+      "text": "Попадите на арену ",
+      "color": "gray",
+      "extra": [
+        {"text": "Нижних Земель", "color": "red"}
+      ]
     },
     "background": "block/chiseled_deepslate",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": false
   },

@@ -1,4 +1,0 @@
-fn vg:script/stop_cutscene
-
-scb players set #torches data 2
-scb players set #task_0_preview data 1

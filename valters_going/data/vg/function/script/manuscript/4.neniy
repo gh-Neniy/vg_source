@@ -1,0 +1,5 @@
+clear @s book[tag=manuscript3] 1
+fn vg:item/artifact
+
+pls entity.wither.spawn @a ~ ~ ~ 0.7 2
+ptc enchant ~ ~1 ~ 0.5 0.5 0.5 0.1 200 normal

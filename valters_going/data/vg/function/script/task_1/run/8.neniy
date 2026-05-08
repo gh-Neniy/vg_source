@@ -1,3 +1,5 @@
-fn vg:script/task_1/stop
-scb players set #work_unlock data 1
-scb players set #progress data 4
+use vg
+
+fn script/task_1/stop
+
+ex if score #progress data 3 run fn script/task_1/run/9

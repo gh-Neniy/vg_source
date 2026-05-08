@@ -1,4 +1,6 @@
 scb obj add data dummy
+scb obj add manuscript dummy
+scb obj add manuscript2 dummy
 
 // initialization
 ex uninited #timer_active data run scb players set #timer_active data 0

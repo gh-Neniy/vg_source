@@ -1,0 +1,11 @@
+use vg
+
+ex as @a store score @s manuscript run clear @s book[tag=manuscript] 0
+ex as @a store score @s manuscript2 run clear @s book[tag=manuscript2] 0
+
+ex as @a if score @s manuscript 2.. at @s run fn script/manuscript/0
+ex as @a if score @s manuscript 1.. if score @s manuscript2 1.. at @s run fn script/manuscript/1
+ex as @a if score @s manuscript2 2.. at @s run fn script/manuscript/2
+
+ex as @a[data=[selected_item=book[tag=manuscript3]]] at @s run fn script/manuscript/interaction
+ex unless ent @a[data=[selected_item=book[tag=manuscript3]]] run kill @e[type=interaction, tag=manuscript]

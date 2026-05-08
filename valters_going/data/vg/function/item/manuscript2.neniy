@@ -8,5 +8,6 @@ give @s book [
     {text='The Shadow Has Scared You', color=#3B2772, hieroglyph}
     {text='When The Voice Of The Soul', color=#3B2772, hieroglyph}
     {text='Getting Near To Your Back', color=#3B2772, hieroglyph}
-  ]
+  ],
+  tag=manuscript2
 ]

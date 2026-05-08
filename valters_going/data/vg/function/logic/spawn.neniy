@@ -2,7 +2,7 @@ use vg
 
 ex pos 10 100 11 if ent @a[team=player, dx=2, dy=1, dz=2] if block 12 101 14 warped_nylium run fn script/spawn/cave
 
-ex if score #spawn_screamer data 0 if block 4 100 -7 crimson_door[open] run scb players set #spawn_screamer data 1
+ex unless score #spawn_screamer data 2 if block 4 100 -7 crimson_door[open] run scb players set #spawn_screamer data 1
 
-ex if score #cauldron data 0 pos 16 94 -31 if ent @a[team=player, distance=..3] run scb players set #cauldron data 1
+ex unless score #cauldron data 2 pos 16 94 -31 if ent @a[team=player, distance=..3] run scb players set #cauldron data 1
 ex pos 4.0 91.0 -23.0 as @a[team=player, dx=11, dy=1.5, dz=3] at @s run fn script/spawn/player_burned
