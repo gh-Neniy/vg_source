@@ -11,7 +11,7 @@ clear @s leather_chestplate
 
 fn item/shop/armor_3
 
-setblock oak_wall_sign[facing=east, sign=[ 
+setblock oak_wall_sign[facing=north, sign=[ 
   {text='Улучшение брони', color=blue}
   {text='Цена:'}
   {text='60 Серебряных', color=gray}

@@ -1,0 +1,4 @@
+tp @s -59 90 -16 90 14
+pls entity.ravager.ambient @a -59 90 -16 1 0.7
+effect give @s blindness 2 100
+setblock dark_oak_button[facing=south] ~ ~ ~ replace

@@ -1,0 +1,18 @@
+use vg
+
+scb players add #attack_speed data 1
+
+fn script/side/shop
+clear @s iron_nugget 30
+
+setblock oak_wall_sign[facing=east, sign=[ 
+  {text='Скорость атаки', color=blue}
+  {text='Цена:'}
+  {text='45 Серебряных', color=gray}
+  {text='копеек', color=gray}
+]] ~ ~1 ~ replace
+
+tellraw @a [
+  {text='Скорость ваших атак повышена ещё на ', color=green}
+  {text='0.4 единицы', color=blue}
+]

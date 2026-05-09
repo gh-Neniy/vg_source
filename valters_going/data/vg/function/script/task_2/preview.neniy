@@ -1,5 +1,6 @@
 use vg
 
-ex if score #timer data 0 run fn script/task_2/preview/0
-ex if score #timer data 50 pos -108 105 -40 run fn script/task_2/spawn
-ex if score #timer data 100 run fn script/task_2/preview/1
+ex if score #timer data 0 run scb players set #timer_active data 1
+ex if score #timer data 40 run fn script/task_2/preview/0
+ex if score #timer data 90 pos -108 105 -40 run fn script/task_2/spawn
+ex if score #timer data 140 run fn script/task_2/preview/1

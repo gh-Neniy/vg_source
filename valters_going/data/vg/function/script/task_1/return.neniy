@@ -1,0 +1,2 @@
+fn vg:script/return_to_arena
+setblock oak_button[facing=south] ~ ~ ~ replace

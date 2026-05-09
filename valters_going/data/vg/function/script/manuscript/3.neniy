@@ -1,3 +1,3 @@
 kill @s
 
-ex as @a[sort=nearest, data=[selected_item=book[tag=manuscript3]]] run fn vg:script/manuscript/4
+ex as @a[sort=nearest, data=[selected_item=book[tag=manuscript3]], limit=1] run fn vg:script/manuscript/4

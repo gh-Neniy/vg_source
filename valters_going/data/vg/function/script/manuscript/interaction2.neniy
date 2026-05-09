@@ -1,0 +1,4 @@
+ex unless ent @e[type=interaction, tag=artifact, distance=..5] run sm interaction[tag=artifact] ~ ~ ~
+tp @e[type=interaction, tag=artifact, sort=nearest, limit=1] ~ ~ ~
+
+ex as @e[type=interaction, tag=artifact, sort=nearest, limit=1] if ent @s[data=[interaction]] run fn vg:script/manuscript/5

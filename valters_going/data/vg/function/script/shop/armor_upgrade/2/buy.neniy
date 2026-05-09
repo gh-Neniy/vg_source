@@ -11,7 +11,7 @@ clear @s iron_chestplate
 
 fn item/shop/armor_4
 
-setblock oak_wall_sign[facing=east, sign=[ 
+setblock oak_wall_sign[facing=north, sign=[ 
   {}
   {text='Завершено', color=gold}
   {}

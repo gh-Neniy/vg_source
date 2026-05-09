@@ -1,0 +1,6 @@
+use vg
+
+ex as @a[data=[selected_item=blaze_rod[tag=fire_staff]]] at @s pos ~ ~1 ~ pos ^ ^ ^0.5 run fn script/fire_staff/interaction
+ex unless ent @a[data=[selected_item=blaze_rod[tag=fire_staff]]] run kill @e[type=interaction, tag=fire_staff]
+
+fn script/fire_staff/fireball/move

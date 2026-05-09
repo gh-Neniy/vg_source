@@ -1,5 +1,5 @@
 use vg
 
 ex pos -111 106 -20 if block ~ ~ ~ acacia_button[powered] as @p[team=player] run fn script/task_3/tp
-ex pos -68 91 -18 if block ~ ~ ~ acacia_button[powered] as @p[team=player] run fn script/return_to_arena
-ex pos -68 91 -14 if block ~ ~ ~ acacia_button[powered] as @p[team=player] run scb players set #task_3_run data 1
+ex pos -68 91 -18 if block ~ ~ ~ acacia_button[powered] as @p[team=player] run fn script/task_3/return
+ex pos -68 91 -14 if block ~ ~ ~ acacia_button[powered] as @p[team=player] run fn script/task_3/start_button

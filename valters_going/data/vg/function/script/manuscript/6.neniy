@@ -1,0 +1,2 @@
+ex unless score @s artifact 8 run pls block.respawn_anchor.charge @a ~ ~ ~ 0.4 1.6
+scb players add @s artifact 1

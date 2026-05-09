@@ -1,0 +1,2 @@
+scb players set #task_3_run data 1
+setblock acacia_button[facing=north] ~ ~ ~ replace

@@ -1,5 +1,6 @@
 use vg
 
+fn logic/attributes
 fn logic/main
 fn logic/placeholder
 fn logic/arrow/main
@@ -9,3 +10,4 @@ fn logic/progress
 fn logic/valter_rose
 fn logic/run
 fn logic/manuscript
+fn logic/fire_staff

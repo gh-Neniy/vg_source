@@ -1,0 +1,2 @@
+scb players set #task_4_run data 1
+setblock dark_oak_button[facing=north] ~ ~ ~ replace

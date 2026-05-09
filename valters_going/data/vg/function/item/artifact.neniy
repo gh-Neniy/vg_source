@@ -1,4 +1,12 @@
 give @s nether_star [
-  name={text='Рунический артефакт', color=#5000A0},
-  lore=[{text='Используется на Алтаре', color=gray}]
+  name={text='Рунический Aртефакт', color=#5000A0},
+  lore=[
+    {text='Используется на Алтаре', color=gray}
+    [
+      {text='Способность: ', color=blue, bold}
+      {text='нажимайте ПКМ, чтобы вызвать взрыв', color=green}
+    ]
+  ],
+  stack=1,
+  tag=artifact
 ]

@@ -1,0 +1,5 @@
+ex unless ent @e[type=interaction, tag=fire_staff, distance=..5] run sm interaction[tag=fire_staff] ~ ~ ~
+tp @e[type=interaction, tag=fire_staff, sort=nearest, limit=1] ~ ~ ~
+
+ex as @e[type=interaction, tag=fire_staff, sort=nearest, limit=1]
+   if ent @s[data=[interaction]] run fn vg:script/fire_staff/launch

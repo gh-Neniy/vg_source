@@ -1,0 +1,15 @@
+ex if score #attack_damage data 1 as @a[team=player] run attribute @s attack_damage 2
+ex if score #attack_damage data 2 as @a[team=player] run attribute @s attack_damage 3
+ex if score #attack_damage data 3 as @a[team=player] run attribute @s attack_damage 4
+ex if score #attack_damage data 4 as @a[team=player] run attribute @s attack_damage 5
+ex if score #attack_damage data 5 as @a[team=player] run attribute @s attack_damage 6
+
+ex if score #attack_speed data 1 as @a[team=player] run attribute @s attack_speed 4.4
+ex if score #attack_speed data 2 as @a[team=player] run attribute @s attack_speed 4.8
+ex if score #attack_speed data 3 as @a[team=player] run attribute @s attack_speed 5.2
+
+ex if score #health data 1 as @a[team=player] run attribute @s health 24
+ex if score #health data 2 as @a[team=player] run attribute @s health 28
+ex if score #health data 3 as @a[team=player] run attribute @s health 32
+ex if score #health data 4 as @a[team=player] run attribute @s health 36
+ex if score #health data 5 as @a[team=player] run attribute @s health 40

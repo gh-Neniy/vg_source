@@ -1,0 +1,17 @@
+use vg
+
+scb players add #attack_damage data 1
+
+fn script/side/shop
+clear @s iron_nugget 50
+
+setblock oak_wall_sign[facing=east, sign=[ 
+  {}
+  {text='Завершено', color=gold}
+  {}
+  {}
+]] ~ ~1 ~ replace
+
+tellraw @a [
+  {text='Урон от ваших атак повышен максимально', color=green}
+]

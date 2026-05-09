@@ -4,11 +4,13 @@ fn logic/shop
 
 ex as @a[team=player] store score @s money run clear @s iron_nugget 0
 
-ex pos -57 106 4 if ent @a[team=player, distance=..8] run fn script/side/shop_tp
-ex pos -110 87 -38 if ent @a[team=player, distance=..8] run fn script/side/shop_tp
+ex pos -57 106 4 if ent @a[team=player, distance=..10] run fn script/side/shop_tp
+ex pos -110 87 -38 if ent @a[team=player, distance=..10] run fn script/side/shop_tp
 
-ex pos -57 105 4 as @a[team=player, y_rotation=-130..-50, dx=0, dy=1, dz=0] pos -110 86 -38 run fn script/shop/tp
-ex pos -110 86 -38 as @a[team=player, y_rotation=-130..-50, dx=0, dy=1, dz=0] pos -57 105 4 run fn script/shop/tp
+ex pos -57 105 4 as @a[team=player, tag=!shop_cooldown, distance=..0.5] at @s pos ~-53 ~-19 ~-42 run fn script/shop/tp
+ex pos -110 86 -38 as @a[team=player, tag=!shop_cooldown, distance=..0.5] at @s pos ~53 ~19 ~42 run fn script/shop/tp
+
+ex as @a pos -57 105 4 unless ent @s[distance=..2] pos -110 86 -38 unless ent @s[distance=..2] run tag @s remove shop_cooldown
 
 ex pos -101 105 16 as @a[team=player, dx=4, dy=1, dz=0] at @s run tp @s ~ ~ ~-1
 

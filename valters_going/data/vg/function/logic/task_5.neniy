@@ -1,5 +1,5 @@
 use vg
 
 ex pos -92 106 -38 if block ~ ~ ~ birch_button[powered] as @p[team=player] run fn script/task_5/tp
-ex pos -68 81 -18 if block ~ ~ ~ birch_button[powered] as @p[team=player] run fn script/return_to_arena
-ex pos -68 81 -14 if block ~ ~ ~ birch_button[powered] as @p[team=player] run scb players set #task_5_run data 1
+ex pos -68 81 -18 if block ~ ~ ~ birch_button[powered] as @p[team=player] run fn script/task_5/return
+ex pos -68 81 -14 if block ~ ~ ~ birch_button[powered] as @p[team=player] run fn script/task_5/start_button

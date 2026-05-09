@@ -1,0 +1,3 @@
+kill @s
+
+ex as @a[sort=nearest, data=[selected_item=nether_star[tag=artifact]], limit=1] run fn vg:script/manuscript/6

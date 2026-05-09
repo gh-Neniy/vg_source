@@ -3,9 +3,23 @@ use vg
 ex as @a store score @s manuscript run clear @s book[tag=manuscript] 0
 ex as @a store score @s manuscript2 run clear @s book[tag=manuscript2] 0
 
-ex as @a if score @s manuscript 2.. at @s run fn script/manuscript/0
-ex as @a if score @s manuscript 1.. if score @s manuscript2 1.. at @s run fn script/manuscript/1
-ex as @a if score @s manuscript2 2.. at @s run fn script/manuscript/2
+ex as @a[score=[manuscript=2..]] at @s run fn script/manuscript/0
+ex as @a[score=[manuscript=1.., manuscript2=1..]] at @s run fn script/manuscript/1
+ex as @a[score=[manuscript2=2..]] at @s run fn script/manuscript/2
 
-ex as @a[data=[selected_item=book[tag=manuscript3]]] at @s run fn script/manuscript/interaction
+ex as @a[data=[selected_item=book[tag=manuscript3]]] at @s pos ~ ~1 ~ pos ^ ^ ^0.5 run fn script/manuscript/interaction
 ex unless ent @a[data=[selected_item=book[tag=manuscript3]]] run kill @e[type=interaction, tag=manuscript]
+
+ex as @a[data=[selected_item=nether_star[tag=artifact]]] at @s pos ~ ~1 ~ pos ^ ^ ^0.5 run fn script/manuscript/interaction2
+ex unless ent @a[data=[selected_item=nether_star[tag=artifact]]] run kill @e[type=interaction, tag=artifact]
+ex as @a unless ent @s[data=[selected_item=nether_star[tag=artifact]]] run scb players set @s artifact 0
+
+ex as @a[score=[artifact=1..8]] at @s run fn script/side/artifact/0
+ex as @a[score=[artifact=2..8]] at @s run fn script/side/artifact/1
+ex as @a[score=[artifact=3..8]] at @s run fn script/side/artifact/2
+ex as @a[score=[artifact=4..8]] at @s run fn script/side/artifact/3
+ex as @a[score=[artifact=5..8]] at @s run fn script/side/artifact/4
+ex as @a[score=[artifact=6..8]] at @s run fn script/side/artifact/5
+ex as @a[score=[artifact=7..8]] at @s run fn script/side/artifact/6
+ex as @a[score=[artifact=8]] at @s run fn script/side/artifact/7
+ex as @a[score=[artifact=9]] at @s run fn script/manuscript/explosion

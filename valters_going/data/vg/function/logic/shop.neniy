@@ -9,3 +9,7 @@ ex pos -130 86 -53 if block ~ ~ ~ crimson_button[powered] run fn script/shop/ess
 ex pos -130 86 -23 if block ~ ~ ~ crimson_button[powered] run fn script/shop/armor
 ex pos -132 86 -23 if block ~ ~ ~ crimson_button[powered] run fn script/shop/armor_upgrade
 ex pos -134 86 -23 if block ~ ~ ~ crimson_button[powered] run fn script/shop/shield
+
+ex pos -147 86 -36 if block ~ ~ ~ crimson_button[powered] run fn script/shop/health
+ex pos -147 86 -38 if block ~ ~ ~ crimson_button[powered] run fn script/shop/attack_speed
+ex pos -147 86 -40 if block ~ ~ ~ crimson_button[powered] run fn script/shop/attack_damage

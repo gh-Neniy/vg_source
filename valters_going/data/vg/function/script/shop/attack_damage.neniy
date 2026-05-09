@@ -1,0 +1,7 @@
+use vg
+
+ex if block ~ ~ ~ crimson_button[powered] if score #attack_damage data 0 run fn script/shop/attack_damage/0
+ex if block ~ ~ ~ crimson_button[powered] if score #attack_damage data 1 run fn script/shop/attack_damage/1
+ex if block ~ ~ ~ crimson_button[powered] if score #attack_damage data 2 run fn script/shop/attack_damage/2
+ex if block ~ ~ ~ crimson_button[powered] if score #attack_damage data 3 run fn script/shop/attack_damage/3
+ex if block ~ ~ ~ crimson_button[powered] if score #attack_damage data 4 run fn script/shop/attack_damage/4

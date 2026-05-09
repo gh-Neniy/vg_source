@@ -1,0 +1,9 @@
+use vg
+
+ex at @e[type=marker, tag=fireball] run ptc flame ~ ~ ~ 0 0 0 0 1 force
+
+// 8 blocks per second
+ex as @e[type=marker, tag=fireball] at @s run fn script/fire_staff/fireball/step
+ex as @e[type=marker, tag=fireball] at @s run fn script/fire_staff/fireball/step
+ex as @e[type=marker, tag=fireball] at @s run fn script/fire_staff/fireball/step
+ex as @e[type=marker, tag=fireball] at @s run fn script/fire_staff/fireball/step

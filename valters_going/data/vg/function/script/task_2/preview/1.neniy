@@ -1,6 +1,7 @@
 fn vg:script/stop_cutscene
 
 scb players set #task_2_preview data 2
+scb players set #logic_task_2 data 1
 
 tellraw @a {text='Вам открыто новое задание',color=green}
 tellraw @a [
