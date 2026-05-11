@@ -13,3 +13,5 @@ tellraw @a {text='Maгазин разблокирован', color=green}
 tellraw @a {text='Купите своё первое снаряжение', color=dark_red}
 
 ex as @e[type=item, tag=!plot] at @s run tp @s @p[team=player]
+
+setblock air -94 106 12 replace

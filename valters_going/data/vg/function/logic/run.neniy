@@ -11,7 +11,6 @@ ex if score #task_1_preview data 1 run fn script/task_1/preview
 ex if score #task_1_run data 1 run fn script/task_1/run
 ex if score #work_unlock data 1 run fn script/task_1/work_unlock
 
-ex if score #task_survival_preview data 1 run fn script/task_survival/preview
 ex if score #task_survival_run data 1 run fn script/task_survival/run
 
 ex if score #task_2_preview data 1 run fn script/task_2/preview

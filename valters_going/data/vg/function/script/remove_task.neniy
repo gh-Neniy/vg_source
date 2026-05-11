@@ -1,0 +1,8 @@
+use vg
+
+ex if score #logic_task_1 data 1 run fn script/task_1/remove_task
+ex if score #logic_task_2 data 1 run fn script/task_2/remove_task
+ex if score #logic_task_3 data 1 run fn script/task_3/remove_task
+ex if score #logic_task_4 data 1 run fn script/task_4/remove_task
+ex if score #logic_task_5 data 1 run fn script/task_5/remove_task
+ex if score #logic_task_survival data 1 run fn script/task_survival/remove_task

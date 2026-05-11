@@ -1,7 +1,6 @@
-fn vg:script/stop_cutscene
-
 scb players set #task_2_preview data 2
 scb players set #logic_task_2 data 1
+scb players set #logic_task_survival data 1
 
 tellraw @a {text='Вам открыто новое задание',color=green}
 tellraw @a [
@@ -9,3 +8,9 @@ tellraw @a [
   {text='Огненный Босс', color=yellow}
   {text='\"', color=dark_red}
 ]
+tellraw @a [
+  {text='Режим ',color=green}
+  {text='Выживания', color=red}
+  {text=' теперь доступен', color=green}
+]
+fn vg:script/stop_cutscene

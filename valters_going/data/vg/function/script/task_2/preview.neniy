@@ -3,4 +3,6 @@ use vg
 ex if score #timer data 0 run scb players set #timer_active data 1
 ex if score #timer data 40 run fn script/task_2/preview/0
 ex if score #timer data 90 pos -108 105 -40 run fn script/task_2/spawn
-ex if score #timer data 140 run fn script/task_2/preview/1
+ex if score #timer data 140 as @e[type=block_display, tag=cutscene] run tp @s -98 108.5 -25 165 30
+ex if score #timer data 190 pos -99 105 -29 run fn script/task_survival/spawn
+ex if score #timer data 240 run fn script/task_2/preview/1
