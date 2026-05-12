@@ -1,0 +1,13 @@
+use vg
+
+ex if score #chest_timer data 0..30
+   as @e[type=block_display, tag=chest, distance=..2]
+   at @s run ptc dust_color_transition[from_color=[1.0, 0.0, 0.5], to_color=[0.5, 0.0, 1.0], scale=1] ~ ~0.1 ~ 0 0.2 0 0 1 normal
+
+ex if score #chest_timer data 0 run fn script/chest/0
+ex if score #chest_timer data 5 as @e[type=block_display, tag=chest, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #chest_timer data 10 as @e[type=block_display, tag=chest, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #chest_timer data 15 as @e[type=block_display, tag=chest, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #chest_timer data 20 as @e[type=block_display, tag=chest, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #chest_timer data 25 as @e[type=block_display, tag=chest, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #chest_timer data 30 pos ~ ~1.2 ~ run fn script/chest/1

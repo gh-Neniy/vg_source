@@ -1,0 +1,9 @@
+setblock barrier ~ ~ ~ keep
+
+sm block_display[id=chest, tag=chest, teleport_duration=5, rotation=[0, 0]] ~ ~ ~
+sm block_display[id=netherite_block, tag=chest, tag=decor, teleport_duration=5] ~ ~ ~
+sm interaction[tag=chest, height=1.02, width=1.02] ~ ~ ~
+
+native 'execute as @e[type=block_display, tag=chest, tag=!decor, limit=1, sort=nearest] run data modify entity @s transformation.translation set value [-0.5f, 0.0f, -0.5f]'
+native 'execute as @e[type=block_display, tag=chest, tag=decor, limit=1, sort=nearest] run data modify entity @s transformation.translation set value [-0.3f, 0.3f, -0.3f]'
+native 'execute as @e[type=block_display, tag=chest, tag=decor, limit=1, sort=nearest] run data modify entity @s transformation.scale set value [0.6f, 0.6f, 0.6f]'

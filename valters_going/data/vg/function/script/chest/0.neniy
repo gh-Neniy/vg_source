@@ -1,0 +1,5 @@
+setblock air ~ ~ ~ replace
+
+scb players set #chest_timer_active data 1
+pls block.chest.open @a ~ ~ ~ 1 0
+ex as @e[type=block_display, tag=chest, distance=..1] at @s run tp @s ~ ~0.15 ~ ~175 ~

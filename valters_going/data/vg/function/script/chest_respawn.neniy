@@ -1,0 +1,3 @@
+use vg
+
+ex pos 72 97 2 unless ent @e[tag=chest, distance=..1] run fn script/chest/spawn/north

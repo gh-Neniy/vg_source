@@ -15,3 +15,5 @@ ex uninited #boss_timer data run scb players set #boss_timer data 0
 ex uninited #attack_damage data run scb players set #attack_damage data 0
 ex uninited #attack_speed data run scb players set #attack_speed data 0
 ex uninited #health data run scb players set #health data 0
+
+ex uninited #chest_timer data run scb players set #chest_timer data 0

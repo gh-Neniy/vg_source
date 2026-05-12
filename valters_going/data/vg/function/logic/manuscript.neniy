@@ -23,3 +23,8 @@ ex as @a[score=[artifact=6..8]] at @s run fn script/side/artifact/5
 ex as @a[score=[artifact=7..8]] at @s run fn script/side/artifact/6
 ex as @a[score=[artifact=8]] at @s run fn script/side/artifact/7
 ex as @a[score=[artifact=9]] at @s run fn script/manuscript/explosion
+
+ex at @e[data=[item=book[tag=manuscript]]] run ptc enchant ~ ~1 ~ 0 0 0 0.4 1 normal
+ex at @e[data=[item=book[tag=manuscript2]]] run ptc enchant ~ ~1 ~ 0 0 0 0.4 1 normal
+ex at @e[data=[item=book[tag=manuscript3]]] run ptc enchant ~ ~1 ~ 0 0 0 0.4 1 normal
+ex at @e[data=[item=nether_star[tag=artifact]]] run ptc enchant ~ ~1 ~ 0 0 0 0.7 2 normal

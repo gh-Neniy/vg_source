@@ -1,7 +1,5 @@
 use vg
 
-ex pos 17 97 14 unless items block container.13 book run fn script/side/chest
-ex pos -62 102 33 unless items block container.13 book run fn script/side/chest
-ex pos -64 102 76 unless items block container.13 book run fn script/side/chest
-ex pos -89 106 15 unless items block container.13 book run fn script/side/chest
-ex pos -170 91 -112 unless items block container.13 book run fn script/side/chest
+ex if score #chest_timer_active data 1 run scb players add #chest_timer data 1
+
+ex as @e[type=interaction, tag=chest, data=[interaction]] at @s run fn script/chest
