@@ -1,0 +1,3 @@
+fn script/ray/break
+ex align xyz if ent @e[tag=filler1, distance=..0.1] run fn script/filler2/replace
+ex align xyz unless ent @e[tag=filler1, distance=..0.1] unless ent @e[tag=filler2, distance=..0.1] run fn script/filler1/spawn

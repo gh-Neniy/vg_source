@@ -1,0 +1,4 @@
+scb obj add fill.data dummy
+
+ex uninited #timer fill.data run scb players set #timer fill.data 0
+ex uninited #timer_filler2 fill.data run scb players set #timer_filler2 fill.data 0

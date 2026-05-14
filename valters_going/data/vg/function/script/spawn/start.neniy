@@ -1,5 +1,3 @@
-use vg
-
 gamerule keep_inventory true
 gamerule natural_regeneration true
 

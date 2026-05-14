@@ -1,5 +1,3 @@
-use vg
-
 fn logic/attributes
 fn logic/main
 fn logic/placeholder

@@ -13,4 +13,4 @@ tellraw @a [
   {text='Выживания', color=red}
   {text=' теперь доступен', color=green}
 ]
-fn vg:script/stop_cutscene
+fn script/stop_cutscene

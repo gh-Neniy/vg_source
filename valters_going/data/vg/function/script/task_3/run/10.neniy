@@ -1,4 +1,4 @@
-fn vg:mob/boss/stray
+fn mob/boss/stray
 
 title @a title {}
 title @a subtitle {text='Третий Загрязнитель', color=yellow}

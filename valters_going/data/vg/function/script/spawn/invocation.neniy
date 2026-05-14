@@ -1,5 +1,3 @@
-use vg
-
 ex if score #timer data 0..120 as @e[type=block_display, tag=cutscene, tag=!decor] at @s facing -31 102 4 run tp @s ~ ~ ~-0.075 ~ ~
 
 ex if score #timer data 0 run fn script/spawn/invocation/0

@@ -6,6 +6,6 @@ tellraw @a [
 tellraw @a {text='Купите снаряжение в магазине', color=dark_red}
 tellraw @a {text='Уровень Работы повышен', color=gold}
 
-fn vg:script/stop_cutscene
+fn script/stop_cutscene
 
 scb players set #work_update data 2

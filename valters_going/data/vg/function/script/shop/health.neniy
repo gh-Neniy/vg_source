@@ -1,5 +1,3 @@
-use vg
-
 ex if block ~ ~ ~ crimson_button[powered] if score #health data 0 run fn script/shop/health/0
 ex if block ~ ~ ~ crimson_button[powered] if score #health data 1 run fn script/shop/health/1
 ex if block ~ ~ ~ crimson_button[powered] if score #health data 2 run fn script/shop/health/2

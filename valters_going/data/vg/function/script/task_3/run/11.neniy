@@ -1,4 +1,4 @@
-fn vg:script/stop_subcutscene
+fn script/stop_subcutscene
 
 bossbar add boss_stray_3 {text='Третий Загрязнитель',color=aqua}
 bossbar set boss_stray_3 players @a

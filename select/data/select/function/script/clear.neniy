@@ -1,4 +1,4 @@
-ex as @e[tag=select_ray] at @s run fn select:script/ray/break
+ex as @e[tag=select_ray] at @s run fn script/ray/break
 kill @e[tag=selected1]
 kill @e[tag=selected2]
 kill @e[tag=area]

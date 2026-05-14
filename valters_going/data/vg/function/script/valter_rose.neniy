@@ -1,9 +1,11 @@
-scb players add #valter_rose data 1
-fn vg:script/side/valter_rose
-tag @p[team=player] add valter_rose
+ex if score #valter_rose_timer data 0..30
+   as @e[type=block_display, tag=valter_rose, distance=..2]
+   at @s run ptc dust_color_transition[from_color=[1.0, 0.0, 1.0], to_color=[1.0, 1.0, 1.0], scale=1] ~ ~0.1 ~ 0 0.2 0 0 1 normal
 
-ex if score #valter_rose data 1 run advancement @a vg:valter_rose/1
-ex if score #valter_rose data 3 run advancement @a vg:valter_rose/3
-ex if score #valter_rose data 5 run advancement @a vg:valter_rose/5
-ex if score #valter_rose data 8 run advancement @a vg:valter_rose/8
-ex if score #valter_rose data 10 run advancement @a vg:valter_rose/10
+ex if score #valter_rose_timer data 0 run fn script/valter_rose/0
+ex if score #valter_rose_timer data 5 as @e[type=block_display, tag=valter_rose, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #valter_rose_timer data 10 as @e[type=block_display, tag=valter_rose, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #valter_rose_timer data 15 as @e[type=block_display, tag=valter_rose, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #valter_rose_timer data 20 as @e[type=block_display, tag=valter_rose, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #valter_rose_timer data 25 as @e[type=block_display, tag=valter_rose, distance=..2] at @s run tp @s ~ ~0.15 ~ ~175 ~
+ex if score #valter_rose_timer data 30 pos ~ ~1.2 ~ run fn script/valter_rose/1

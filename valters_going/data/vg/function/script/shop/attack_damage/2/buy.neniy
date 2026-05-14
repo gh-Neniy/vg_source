@@ -1,5 +1,3 @@
-use vg
-
 scb players add #attack_damage data 1
 
 fn script/side/shop

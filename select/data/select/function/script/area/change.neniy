@@ -1,5 +1,3 @@
-use select
-
 ex align xyz run tp @e[tag=selected2] ~ ~ ~
 fn script/area/recalculate
 fn script/area/set

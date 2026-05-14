@@ -1,2 +1,2 @@
 sm block_display[tag=cutscene, rotation=[-15, 35]] -87 108 -22
-fn vg:script/start_subcutscene
+fn script/start_subcutscene

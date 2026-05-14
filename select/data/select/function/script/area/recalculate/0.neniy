@@ -1,5 +1,3 @@
-use select
-
 // Coordinates for area beginning
 scb players opr #start_x select.data = #pos1_x
 scb players opr #start_y select.data = #pos1_y
@@ -23,7 +21,7 @@ ex store storage select.storage x2 int 1 run scb players get #scale_x select.dat
 ex store storage select.storage y2 int 1 run scb players get #scale_y select.data
 ex store storage select.storage z2 int 1 run scb players get #scale_z select.data
 
-ex as @a[tag=spectator, sort=nearest] run fn script/area_pos select.storage
+ex as @a[tag=admin, sort=nearest] run fn script/area_pos select.storage
 
 scb players opr #scale_x select.data -= #start_x
 scb players opr #scale_y select.data -= #start_y

@@ -1,0 +1,7 @@
+ex as @e[type=egg, data=[item=egg[tag=fill]]] at @s run fn script/ray/start
+
+ex unless ent @a[tag=admin, data=[selected_item=egg[tag=fill]]] run fn script/clear
+
+fn logic/ray
+fn logic/filler1
+fn logic/filler2

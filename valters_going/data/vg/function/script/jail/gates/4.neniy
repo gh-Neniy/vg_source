@@ -1,2 +1,2 @@
 ex as @e[tag=jail_gates, tag=0] run kill @s
-fn vg:script/stop_timer
+fn script/stop_timer

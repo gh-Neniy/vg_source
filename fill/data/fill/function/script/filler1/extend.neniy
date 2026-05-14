@@ -1,0 +1,6 @@
+tag @s remove new
+
+ex pos ~1 ~ ~ run fn script/filler1/replicate
+ex pos ~-1 ~ ~ run fn script/filler1/replicate
+ex pos ~ ~ ~1 run fn script/filler1/replicate
+ex pos ~ ~ ~-1 run fn script/filler1/replicate

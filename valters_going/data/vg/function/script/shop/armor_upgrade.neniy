@@ -1,5 +1,3 @@
-use vg
-
 ex if block ~ ~ ~ crimson_button[powered] if score #armor data 0 run fn script/shop/armor_upgrade/0
 ex if block ~ ~ ~ crimson_button[powered] if score #armor data 1 run fn script/shop/armor_upgrade/1
 ex if block ~ ~ ~ crimson_button[powered] if score #armor data 2 run fn script/shop/armor_upgrade/2

@@ -1,5 +1,3 @@
-use vg
-
 setblock warped_button[facing=east] ~ ~ ~ replace
 
 fn script/side/shop

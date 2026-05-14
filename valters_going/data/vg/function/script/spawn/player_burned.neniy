@@ -1,2 +1,2 @@
-fn vg:script/side/burned
+fn script/side/burned
 tp @s 6 95 -12 -158 14

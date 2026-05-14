@@ -1,4 +1,4 @@
-fn vg:script/stop_cutscene
+fn script/stop_cutscene
 
 scb players set #work_unlock data 2
 

@@ -1,0 +1,5 @@
+ex as @e[tag=filler1, tag=new] at @s run fn script/filler1/extend
+
+ex if ent @e[tag=filler1] if score #timer fill.data 0..9 run scb players add #timer fill.data 1
+ex if score #timer fill.data 10 as @e[tag=filler1] at @s run ptc happy_villager ~0.5 ~0.5 ~0.5 0 0 0 0 0 force
+ex if score #timer fill.data 10 run scb players set #timer fill.data 0

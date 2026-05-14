@@ -1,5 +1,3 @@
-use vg
-
 ex if score #timer data 0 run fn script/spawn/cauldron/0
 ex if score #timer data 30 run fn script/spawn/cauldron/pop
 ex if score #timer data 55 run fn script/spawn/cauldron/pop

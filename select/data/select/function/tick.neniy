@@ -1,11 +1,11 @@
-use select
-
 fn logic/ray
 
 ex as @e[type=snowball, data=[item=snowball[tag=select]]] run fn script/ray/start
 
-ex if ent @a[tag=spectator, data=[selected_item=snowball[tag=select]]] run scb players set #timer select.data 0
-ex unless ent @a[tag=spectator, data=[selected_item=snowball[tag=select]]] run scb players add #timer select.data 1
+ex if ent @a[tag=admin, data=[selected_item=snowball[tag=select]]] run scb players set #timer select.data 0
+ex unless ent @a[tag=admin, data=[selected_item=snowball[tag=select]]]
+   if score #timer select.data 0..99 run scb players add #timer select.data 1
+   
 ex if score #timer select.data 100 run fn script/clear
 
 ex if score #clear select.data 1 run fn script/clear

@@ -1,5 +1,3 @@
-use select
-
 fn script/area/recalculate
 
 // Creating the area

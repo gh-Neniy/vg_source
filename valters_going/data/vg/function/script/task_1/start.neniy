@@ -5,7 +5,5 @@ gamerule natural_regeneration false
 
 setblock iron_bars -94 106 12 replace
 
-use vg
-
 fn script/task_1/decor
 fn script/remove_task

@@ -1,5 +1,3 @@
-use vg
-
 fn script/task_1/remove_decor
 fill -94 105 4 -94 106 4 air replace
 setblock air -94 106 12 replace

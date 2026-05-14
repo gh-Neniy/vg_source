@@ -1,5 +1,3 @@
-use vg
-
 ex if score #timer data 0 run fn script/task_2/run/0
 ex if score #timer data 60 run fn script/task_2/run/1
 

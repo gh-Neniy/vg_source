@@ -1,4 +1,4 @@
-fn vg:script/start_timer
+fn script/start_timer
 effect give @a[team=player] blindness 1 0
 clear @a[team=player] flint_and_steel
 stopsound @a ambient.crimson_forest.loop

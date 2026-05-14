@@ -1,0 +1,2 @@
+ex as @e[tag=filler1] at @s run fn script/filler2/spawn
+kill @e[tag=filler1]

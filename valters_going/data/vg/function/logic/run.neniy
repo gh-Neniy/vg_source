@@ -1,5 +1,3 @@
-use vg
-
 ex if score #spawn_screamer data 1 run fn script/spawn/screamer
 ex if score #cauldron data 1 run fn script/spawn/cauldron
 ex if score #invocation data 1 run fn script/spawn/invocation
@@ -11,7 +9,7 @@ ex if score #task_1_preview data 1 run fn script/task_1/preview
 ex if score #task_1_run data 1 run fn script/task_1/run
 ex if score #work_unlock data 1 run fn script/task_1/work_unlock
 
-ex if score #task_survival_run data 1 run fn script/task_survival/run
+//ex if score #task_survival_run data 1 run fn script/task_survival/run
 
 ex if score #task_2_preview data 1 run fn script/task_2/preview
 ex if score #task_2_run data 1 run fn script/task_2/run
@@ -20,8 +18,8 @@ ex if score #work_update data 1 run fn script/task_2/work_update
 ex if score #task_3_preview data 1 run fn script/task_3/preview
 ex if score #task_3_run data 1 run fn script/task_3/run
 
-ex if score #task_4_preview data 1 run fn script/task_4/preview
-ex if score #task_4_run data 1 run fn script/task_4/run
+// ex if score #task_4_preview data 1 run fn script/task_4/preview
+// ex if score #task_4_run data 1 run fn script/task_4/run
 
-ex if score #task_5_preview data 1 run fn script/task_5/preview
-ex if score #task_5_run data 1 run fn script/task_5/run
+// ex if score #task_5_preview data 1 run fn script/task_5/preview
+// ex if score #task_5_run data 1 run fn script/task_5/run

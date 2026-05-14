@@ -1,2 +1,2 @@
-fn vg:script/return_to_arena
+fn script/return_to_arena
 setblock birch_button[facing=south] ~ ~ ~ replace

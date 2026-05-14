@@ -1,4 +1,4 @@
-fn vg:script/stop_cutscene
+fn script/stop_cutscene
 
 scb players set #task_4_preview data 2
 scb players set #logic_task_4 data 1

@@ -1,5 +1,3 @@
-use vg
-
 ex if score #chest_timer_active data 1 run scb players add #chest_timer data 1
 
 ex as @e[type=interaction, tag=chest, data=[interaction]] at @s run fn script/chest

@@ -1,5 +1,3 @@
-use vg
-
 ex pos -85 106 -27 if block ~ ~ ~ oak_button[powered] as @p[team=player] run fn script/task_1/tp
 ex pos -68 101 -18 if block ~ ~ ~ oak_button[powered] as @p[team=player] run fn script/task_1/return
 ex pos -68 101 -14 if block ~ ~ ~ oak_button[powered] as @p[team=player] run fn script/task_1/start_button

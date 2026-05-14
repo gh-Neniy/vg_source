@@ -4,7 +4,5 @@ kill @e[type=block_display, tag=chest, distance=..1]
 scb players set #chest_timer_active data 0
 scb players set #chest_timer data 0
 
-use vg
-
 fn script/side/chest
 fn mob/item/manuscript

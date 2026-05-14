@@ -1,0 +1,5 @@
+ex as @e[tag=fill_ray] at @s run fn script/ray/break
+scb players set #timer fill.data 0
+
+kill @e[tag=filler1]
+kill @e[tag=filler2]

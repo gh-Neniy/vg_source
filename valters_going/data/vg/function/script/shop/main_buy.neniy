@@ -1,5 +1,3 @@
-use vg
-
 ex if block ~ ~ ~ warped_button[powered] if score #shop data 0 run fn script/shop/main_buy/0
 ex if block ~ ~ ~ warped_button[powered] if score #shop data 1 run fn script/shop/main_buy/1
 ex if block ~ ~ ~ warped_button[powered] if score #shop data 2 run fn script/shop/main_buy/2

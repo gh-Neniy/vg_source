@@ -1,4 +1,4 @@
-use vg
+ex as @a[tag=!admin, team=!player] run 
 
 ex as @a[team=player,tag=!cutscene,gm=!adventure] at @s run fn script/valter_regulation
 ex as @a[team=player,tag=cutscene,gm=!spectator] run gm spectator @s

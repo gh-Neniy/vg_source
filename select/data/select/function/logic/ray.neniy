@@ -1,5 +1,3 @@
-use select
-
 // 20 blocks per second
 ex as @e[tag=select_ray] at @s run fn script/ray/step
 ex as @e[tag=select_ray] at @s run fn script/ray/step

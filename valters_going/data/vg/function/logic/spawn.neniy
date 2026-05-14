@@ -1,5 +1,3 @@
-use vg
-
 ex pos 10 100 11 if ent @a[team=player, dx=2, dy=1, dz=2] if block 12 101 14 warped_nylium run fn script/spawn/cave
 
 ex unless score #spawn_screamer data 2 if block 4 100 -7 crimson_door[open] run scb players set #spawn_screamer data 1

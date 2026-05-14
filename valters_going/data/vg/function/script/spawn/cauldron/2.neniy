@@ -1,5 +1,3 @@
-use vg
-
 ex pos 4 93 -33 as @a[team=player, dx=14, dy=6, dz=23] run tp @s 6 100 -11 90 42
 setblock crimson_planks 4 99 -11 replace
 scb players set #cauldron data 2

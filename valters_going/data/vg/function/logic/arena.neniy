@@ -1,5 +1,3 @@
-use vg
-
 fn logic/shop
 
 ex as @a[team=player] store score @s money run clear @s iron_nugget 0

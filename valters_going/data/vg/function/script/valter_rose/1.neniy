@@ -1,0 +1,15 @@
+kill @s
+kill @e[type=block_display, tag=valter_rose, distance=..1]
+
+scb players set #valter_rose_timer_active data 0
+scb players set #valter_rose_timer data 0
+
+fn script/side/valter_rose
+
+scb players add #valter_rose data 1
+
+ex if score #valter_rose data 1 run advancement @a vg:valter_rose/1
+ex if score #valter_rose data 3 run advancement @a vg:valter_rose/3
+ex if score #valter_rose data 5 run advancement @a vg:valter_rose/5
+ex if score #valter_rose data 8 run advancement @a vg:valter_rose/8
+ex if score #valter_rose data 10 run advancement @a vg:valter_rose/10

@@ -1,5 +1,3 @@
-use select
-
 ex if ent @e[tag=selected1] if ent @e[tag=selected2] run fn script/area/change
 ex if ent @e[tag=selected1] unless ent @e[tag=selected2] run fn script/area/selected2
 ex unless ent @e[tag=selected1] run fn script/area/selected1

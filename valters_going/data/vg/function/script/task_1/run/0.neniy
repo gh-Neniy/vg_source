@@ -1,4 +1,2 @@
-use vg
-
 fn script/start_timer
 ex as @a[team=player] run fn script/task_1/start

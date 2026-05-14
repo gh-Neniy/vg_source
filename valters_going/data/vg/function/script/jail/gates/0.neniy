@@ -1,4 +1,4 @@
-fn vg:script/start_timer
+fn script/start_timer
 fill ~ ~ ~ ~ ~4 ~5 air replace nether_brick_fence
 
 sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~

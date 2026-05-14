@@ -19,4 +19,4 @@ setblock bedrock -31 102 4 replace
 
 kill @e[tag=valter]
 kill @e[type=!player, tag=cutscene]
-fn vg:script/stop_timer
+fn script/stop_timer

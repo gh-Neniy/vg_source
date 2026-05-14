@@ -1,5 +1,3 @@
-use vg
-
 ex if score #timer data 0 run fn script/jail/gates/0
 ex if score #timer data 40 run fn script/jail/gates/1
 ex if score #timer data 80 run fn script/jail/gates/2

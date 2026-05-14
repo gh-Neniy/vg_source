@@ -1,0 +1,6 @@
+// 10 blocks per second
+ex as @e[tag=fill_ray] at @s run fn script/ray/step
+ex as @e[tag=fill_ray] at @s run fn script/ray/step
+ex as @e[tag=fill_ray] at @s run fn script/ray/step
+ex as @e[tag=fill_ray] at @s run fn script/ray/step
+ex as @e[tag=fill_ray] at @s run fn script/ray/step

@@ -1,5 +1,3 @@
-use vg
-
 ex as @a store score @s manuscript run clear @s book[tag=manuscript] 0
 ex as @a store score @s manuscript2 run clear @s book[tag=manuscript2] 0
 

@@ -1,5 +1,3 @@
-use vg
+ex if score #valter_rose_timer_active data 1 run scb players add #valter_rose_timer data 1
 
-ex as @a[tag=valter_rose] run fn script/valter_rose/clear
-
-ex pos 6 101 -8 if block ~ ~ ~ flower_pot run fn script/valter_rose
+ex as @e[type=interaction, tag=valter_rose, data=[interaction]] at @s run fn script/valter_rose

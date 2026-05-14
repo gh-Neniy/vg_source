@@ -1,5 +1,3 @@
-use vg
-
 setblock crimson_button[facing=east] ~ ~ ~ replace
 
 ex as @p[team=player] unless score @s money 15.. run fn script/shop/decline

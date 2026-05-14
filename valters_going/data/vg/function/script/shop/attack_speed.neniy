@@ -1,5 +1,3 @@
-use vg
-
 ex if block ~ ~ ~ crimson_button[powered] if score #attack_speed data 0 run fn script/shop/attack_speed/0
 ex if block ~ ~ ~ crimson_button[powered] if score #attack_speed data 1 run fn script/shop/attack_speed/1
 ex if block ~ ~ ~ crimson_button[powered] if score #attack_speed data 2 run fn script/shop/attack_speed/2

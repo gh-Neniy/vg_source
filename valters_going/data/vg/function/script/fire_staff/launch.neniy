@@ -1,2 +1,2 @@
 kill @s
-ex as @p[data=[selected_item=blaze_rod[tag=fire_staff]]] at @s anchored eyes pos ^-0.3 ^ ^ run fn vg:script/fire_staff/fireball
+ex as @p[data=[selected_item=blaze_rod[tag=fire_staff]]] at @s anchored eyes pos ^-0.3 ^ ^ run fn script/fire_staff/fireball

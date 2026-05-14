@@ -1,0 +1,5 @@
+give @s egg [
+  name={text='Заполнение', color=#0ab921},
+  shine,
+  tag=fill
+]

@@ -1,5 +1,3 @@
-use vg
-
 fn script/stop_subcutscene
 title @a title {}
 title @a subtitle {text='Огненный босс', color=red}

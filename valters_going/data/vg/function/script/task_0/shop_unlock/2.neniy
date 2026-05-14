@@ -1,4 +1,4 @@
-fn vg:script/stop_cutscene
+fn script/stop_cutscene
 gamerule natural_regeneration true
 
 scb obj add defeat deathCount

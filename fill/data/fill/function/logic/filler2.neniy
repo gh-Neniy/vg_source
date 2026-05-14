@@ -1,0 +1,3 @@
+ex if ent @e[tag=filler2] if score #timer_filler2 fill.data 0..9 run scb players add #timer_filler2 fill.data 1
+ex if score #timer_filler2 fill.data 10 as @e[tag=filler2] at @s run fn script/filler2/fill
+ex if score #timer_filler2 fill.data 10 run scb players set #timer_filler2 fill.data 0

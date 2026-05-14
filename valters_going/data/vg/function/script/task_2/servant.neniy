@@ -1,2 +1,2 @@
 scb players set #boss_timer data 151
-ex at @e[tag=boss_magma_cube] run fn vg:mob/servant
+ex at @e[tag=boss_magma_cube] run fn mob/servant

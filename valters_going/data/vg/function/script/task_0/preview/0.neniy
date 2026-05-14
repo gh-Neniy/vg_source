@@ -1,5 +1,5 @@
 sm block_display[tag=cutscene, teleport_duration=38, rotation=[100, 0]] -99 107 -7
 ex as @e[type=block_display, tag=cutscene, tag=!decor] at @s run tp @s ~ ~ ~ ~80 ~
-fn vg:script/start_cutscene
+fn script/start_cutscene
 
 setblock iron_bars -94 106 12 replace

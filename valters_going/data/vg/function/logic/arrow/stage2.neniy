@@ -1,7 +1,5 @@
 native '$item replace entity @s container.0 with $(block_id)'
 
-use vg
-
 ex if items ent @s container.0 #vg:stone_type if ent @s[tag=crit] run fn script/side/arrow_big_sparks
 ex if items ent @s container.0 #vg:stone_type run fn script/side/arrow_sparks
 ex unless items ent @s container.0 #vg:stone_type run fn script/side/arrow

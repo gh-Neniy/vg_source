@@ -1,1 +1,1 @@
-ex as @e[tag=return] run fn vg:script/return/use
+ex as @e[tag=return] run fn script/return/use

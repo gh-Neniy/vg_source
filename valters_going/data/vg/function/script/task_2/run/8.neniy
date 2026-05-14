@@ -1,3 +1,3 @@
-fn vg:script/task_2/stop
+fn script/task_2/stop
 scb players set #work_update data 1
 scb players set #progress data 5

@@ -1,5 +1,3 @@
-use vg
-
 tag @a[team=player] remove cutscene
 gm adventure @a[team=player]
 fn script/stop_return

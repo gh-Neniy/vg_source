@@ -1,0 +1,2 @@
+sm marker[tag=fill_ray] ~ ~ ~
+tp @e[tag=fill_ray, limit=1, sort=nearest] ^ ^ ^ ~ ~
