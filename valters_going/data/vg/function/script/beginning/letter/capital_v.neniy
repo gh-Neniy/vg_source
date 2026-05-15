@@ -1,0 +1,2 @@
+clone 74 66 -32 74 75 -26 72 66 -32 replace move
+ex pos 72 71 -29 run fn script/beginning/letter

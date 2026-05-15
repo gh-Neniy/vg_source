@@ -1,4 +1,4 @@
-ex pos 4 93 -33 as @a[team=player, dx=14, dy=6, dz=23] run tp @s 6 100 -11 90 42
-setblock crimson_planks 4 99 -11 replace
+ex pos 44 90 -43 as @a[team=player, dx=14, dy=6, dz=23] run tp @s 46 100 -21 90 42
+setblock crimson_planks 44 99 -21 replace
 scb players set #cauldron data 2
 fn script/stop_timer

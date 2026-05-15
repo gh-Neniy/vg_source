@@ -1,3 +1,5 @@
+ex if score #beginning_preview data 1 run fn script/beginning/preview
+
 ex if score #spawn_screamer data 1 run fn script/spawn/screamer
 ex if score #cauldron data 1 run fn script/spawn/cauldron
 ex if score #invocation data 1 run fn script/spawn/invocation

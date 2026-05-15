@@ -1,0 +1,8 @@
+tag @a[team=player] remove cutscene
+gm adventure @a[team=player]
+kill @e[tag=cutscene]
+tp @a[team=player] 61 102 -6
+
+fn script/stop_timer
+scb players set #beginning_preview data 2
+scb players set #progress data 1

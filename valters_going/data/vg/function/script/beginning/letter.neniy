@@ -1,0 +1,2 @@
+pls block.amethyst_block.place @a ~ ~ ~ 10 0
+ptc cloud ~-0.7 ~ ~ 0.8 2.5 1.5 0.03 250 force

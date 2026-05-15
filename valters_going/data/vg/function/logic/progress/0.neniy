@@ -1,5 +1,8 @@
 ex pos 89 73 -25 if block ~ ~ ~ stone_button[powered] run fn script/beginning/oak_button
-ex pos 89 73 -25 if block ~ ~ ~ stone_button[powered] run tp @a[gm=adventure] 82 72 -25
+ex pos 89 73 -25 if block ~ ~ ~ oak_button[powered] run fn script/beginning/difficulty/tp
 
 ex pos 81 73 -24 if block ~ ~ ~ stone_button[powered] run fn script/beginning/oak_button
+ex pos 81 73 -24 if block ~ ~ ~ oak_button[powered] run fn script/beginning/difficulty/default
+
 ex pos 81 73 -26 if block ~ ~ ~ stone_button[powered] run fn script/beginning/oak_button
+ex pos 81 73 -26 if block ~ ~ ~ oak_button[powered] run fn script/beginning/difficulty/hard

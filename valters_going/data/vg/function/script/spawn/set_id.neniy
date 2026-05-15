@@ -1,2 +1,2 @@
-native 'scoreboard players operation @s data = #id data'
+scb players opr @s data = #id
 scb players add #id data 1

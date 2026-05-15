@@ -6,7 +6,7 @@ ex if score #timer data 90 run fn script/spawn/cauldron/pop
 ex if score #timer data 100 run fn script/spawn/cauldron/pop
 ex if score #timer data 120 run fn script/spawn/cauldron/1
 
-ex if score #timer data 121 pos 16.0 94.0 -31.0
+ex if score #timer data 121 pos 56 94 -41
   unless ent @e[data=[item=trident[tag=trident]],dx=0,dy=1,dz=0] run scb players set #timer_active data 1
   
 ex if score #timer data 160 run fn script/spawn/cauldron/2

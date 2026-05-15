@@ -1,6 +1,6 @@
-fill 13 101 14 11 101 13 air replace
-sm falling_block[block=warped_nylium] 13 101 13
-sm falling_block[block=warped_nylium] 13 101 14
-sm falling_block[block=warped_nylium] 12 101 14
-sm falling_block[block=warped_nylium] 11 101 14
+fill 67 101 4 68 101 6 air replace
+sm falling_block[block=warped_nylium] 67 101 6
+sm falling_block[block=warped_nylium] 67 101 5
+sm falling_block[block=warped_nylium] 68 101 5
+sm falling_block[block=warped_nylium] 68 101 4
 pls block.netherrack.fall @a ~ ~ ~ 1 1

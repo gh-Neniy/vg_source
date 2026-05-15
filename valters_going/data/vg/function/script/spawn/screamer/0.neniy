@@ -1,2 +1,2 @@
 fn script/start_timer
-sm piglin_brute[no_ai, invulnerable, no_despawn, silent, rotation=[-90.0, 50.0],tag=valter] 4 100 -8
+sm piglin_brute[no_ai, invulnerable, no_despawn, silent, rotation=[-90.0, 50.0],tag=valter] 44 100 -18

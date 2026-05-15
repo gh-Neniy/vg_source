@@ -1,5 +1,5 @@
 ex as @e[tag=valter] at @s run tp @s ~ ~-10 ~
 ex as @e[tag=valter] run kill @s
-ptc cloud 4 101 -8 0.3 0.6 0.3 0.001 100 normal
+ptc cloud 44 101 -18 0.3 0.6 0.3 0.001 100 normal
 scb players set #spawn_screamer data 2
 fn script/stop_timer

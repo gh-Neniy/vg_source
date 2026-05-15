@@ -1,0 +1,7 @@
+tp @a[team=player] 82 72 -25
+
+title @a title {}
+title @a subtitle [
+  {text='Выберите ', color=gray}
+  {text='уровень сложности', color=red}
+]

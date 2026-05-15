@@ -1,0 +1,2 @@
+sm block_display[tag=cutscene, rotation=[-90, 5]] 44 64 -5.0
+tag @a[team=player] add cutscene

@@ -1,0 +1,3 @@
+//sm item_display[about=flint_and_steel[shine], rotation=[90, 0], tag=flint_and_steel] 47 101.5 -21
+
+//native 'execute as @e[type=item_display, tag=flint_and_steel, limit=1, sort=nearest] run data modify entity @s transformation.scale set value [0.6f, 0.6f, 0.6f]'
