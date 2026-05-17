@@ -1,0 +1,11 @@
+effect give @s invisibility infinite 0
+
+ex as @e[tag=mushroom_red, tag=stem, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0
+ex as @e[tag=mushroom_red, tag=hat, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0
+
+ex as @e[tag=mushroom_red, tag=hat_border1, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0
+ex as @e[tag=mushroom_red, tag=hat_border2, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0
+ex as @e[tag=mushroom_red, tag=hat_border3, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0
+ex as @e[tag=mushroom_red, tag=hat_border4, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0
+
+ex as @e[tag=mushroom_red, tag=text, sort=nearest, limit=1] run tp @s ^ ^ ^ ~ 0

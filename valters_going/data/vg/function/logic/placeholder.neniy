@@ -1,5 +1,7 @@
 ex at @e[tag=blood, data=[hurt_time=10]] run fn script/side/blood
 ex at @e[tag=bones, data=[hurt_time=10]] run fn script/side/bones
+ex at @e[tag=mushroom, data=[hurt_time=10]] run fn script/side/mushroom
+ex at @e[tag=mushroom_red, data=[hurt_time=10]] run fn script/side/mushroom
 
 ex as @e[data=[item=coal[tag=coal]]] at @s run fn script/side/coal
 ex as @e[data=[item=raw_iron[tag=iron]]] at @s run fn script/side/iron
@@ -11,6 +13,8 @@ ex as @e[data=[item=stone_button[tag=rotting_zombie]]] at @s run fn script/side/
 ex as @e[data=[item=stone_button[tag=skeleton]]] at @s run fn script/side/skeleton
 ex as @e[data=[item=stone_button[tag=phantom]]] at @s run fn script/side/phantom
 ex as @e[data=[item=stone_button[tag=servant]]] at @s run fn script/side/servant
+
+ex as @e[data=[item=stone_button[tag=mushroom]]] at @s run fn script/side/mushroom_explosion
 
 ex as @e[data=[item=stone_button[tag=boss_skeleton]]] at @s run fn script/side/boss_skeleton
 ex as @e[data=[item=stone_button[tag=boss_magma_cube]]] at @s run fn script/side/boss_magma_cube

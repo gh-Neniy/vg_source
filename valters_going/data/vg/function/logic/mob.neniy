@@ -1,0 +1,5 @@
+ex as @e[type=zombie, tag=mushroom] at @s run fn logic/mob/mushroom
+ex as @e[type=zombie, tag=mushroom_red] at @s run fn logic/mob/mushroom_red
+
+ex as @e[tag=mushroom, type=!zombie] at @s unless ent @e[type=zombie, tag=mushroom, distance=..2] run kill @s
+ex as @e[tag=mushroom_red, type=!zombie] at @s unless ent @e[type=zombie, tag=mushroom_red, distance=..2] run kill @s
