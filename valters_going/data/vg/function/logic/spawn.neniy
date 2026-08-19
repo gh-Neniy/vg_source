@@ -1,6 +1,3 @@
-ex pos 67 100 4 if ent @a[team=player, distance=..3] if block 68 101 4 warped_nylium run fn script/spawn/cave
+ex pos 68 101 5 if ent @a[team=player, distance=..3] if block ~ ~ ~ warped_nylium run fn script/spawn/cave
 
 ex unless score #spawn_screamer data 2 if block 44 100 -17 crimson_door[open] run scb players set #spawn_screamer data 1
-
-ex unless score #cauldron data 2 pos 56 94 -41 if ent @a[team=player, distance=..3] run scb players set #cauldron data 1
-ex pos 45 91 -33 as @a[team=player, dx=11, dy=1.5, dz=3] at @s run fn script/spawn/player_burned

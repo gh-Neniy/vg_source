@@ -1,2 +1,2 @@
-clone 74 66 -17 74 76 -13 72 66 -17 replace move
+clone 74 66 -17 74 76 -13 72 66 -17 masked
 ex pos 72 71 -15 run fn script/beginning/letter

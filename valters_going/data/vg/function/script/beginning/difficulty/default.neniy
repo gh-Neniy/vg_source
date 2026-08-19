@@ -1,3 +1,0 @@
-scb players set #beginning_preview data 1
-scb players set #difficulty data 0 // default level
-fill 81 73 -26 81 74 -24 air replace

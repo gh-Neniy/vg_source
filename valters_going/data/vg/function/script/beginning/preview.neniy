@@ -2,16 +2,24 @@ ex if score #timer data 0 run scb players set #timer_active data 1
 ex if score #timer data 30 run fn script/beginning/preview/0
 
 ex if score #timer data 50 run fn script/beginning/letter/capital_v
-ex if score #timer data 55 run fn script/beginning/letter/a
-ex if score #timer data 60 run fn script/beginning/letter/l
-ex if score #timer data 65 run fn script/beginning/letter/t
-ex if score #timer data 70 run fn script/beginning/letter/e
-ex if score #timer data 75 run fn script/beginning/letter/r
-ex if score #timer data 80 run fn script/beginning/letter/s
-ex if score #timer data 85 run fn script/beginning/letter/capital_g
-ex if score #timer data 90 run fn script/beginning/letter/o
-ex if score #timer data 95 run fn script/beginning/letter/i
-ex if score #timer data 100 run fn script/beginning/letter/n
-ex if score #timer data 105 run fn script/beginning/letter/g
+ex if score #timer data 54 run fn script/beginning/letter/a
+ex if score #timer data 58 run fn script/beginning/letter/l
+ex if score #timer data 62 run fn script/beginning/letter/t
+ex if score #timer data 66 run fn script/beginning/letter/e
+ex if score #timer data 70 run fn script/beginning/letter/r
+ex if score #timer data 74 run fn script/beginning/letter/s
+ex if score #timer data 78 run fn script/beginning/letter/capital_g
+ex if score #timer data 82 run fn script/beginning/letter/o
+ex if score #timer data 86 run fn script/beginning/letter/i
+ex if score #timer data 90 run fn script/beginning/letter/n
+ex if score #timer data 94 run fn script/beginning/letter/g
 
-ex if score #timer data 180 run fn script/beginning/preview/1
+ex if score #timer data 110 run fn script/beginning/letter/b
+ex if score #timer data 112 run fn script/beginning/letter/y
+ex if score #timer data 114 run fn script/beginning/letter/n2
+ex if score #timer data 118 run fn script/beginning/letter/e2
+ex if score #timer data 120 run fn script/beginning/letter/n3
+ex if score #timer data 122 run fn script/beginning/letter/i2
+ex if score #timer data 124 run fn script/beginning/letter/y2
+
+ex if score #timer data 200 run fn script/beginning/preview/1

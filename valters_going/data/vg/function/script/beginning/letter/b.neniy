@@ -1,0 +1,2 @@
+clone 74 42 -29 74 48 -25 72 42 -29 masked
+ex pos 72 46 -27 run fn script/beginning/letter
