@@ -1,2 +1,2 @@
 fn script/return_to_arena
-setblock oak_button[facing=south] ~ ~ ~ replace
+setblock ~ ~ ~ oak_button[facing=south] replace

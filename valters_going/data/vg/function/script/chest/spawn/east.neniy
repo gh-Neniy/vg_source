@@ -1,4 +1,4 @@
-setblock barrier ~ ~ ~ keep
+setblock ~ ~ ~ barrier keep
 
 sm block_display[id=chest, tag=chest, teleport_duration=5, rotation=[90, 0]] ~ ~ ~
 sm block_display[id=netherite_block, tag=chest, tag=decor, teleport_duration=5] ~ ~ ~

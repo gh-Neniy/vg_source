@@ -1,4 +1,4 @@
-setblock warped_button[facing=east] ~ ~ ~ replace
+setblock ~ ~ ~ warped_button[facing=east] replace
 
 ex as @p[team=player] unless score @s money 100.. run fn script/shop/decline
 ex as @p[team=player] if score @s money 100.. run fn script/shop/main_buy/12/buy 

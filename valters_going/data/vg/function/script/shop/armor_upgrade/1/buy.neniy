@@ -9,12 +9,12 @@ clear @s leather_chestplate
 
 fn item/shop/armor_3
 
-setblock oak_wall_sign[facing=north, sign=[ 
+setblock ~ ~1 ~ oak_wall_sign[facing=north, sign=[ 
   {text='Улучшение брони', color=blue}
   {text='Цена:'}
   {text='60 Серебряных', color=gray}
   {text='копеек', color=gray}
-]] ~ ~1 ~ replace
+]] replace
 
 tellraw @a [
   {text='Улучшение брони ', color=green}

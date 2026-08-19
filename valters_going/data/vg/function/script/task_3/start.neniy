@@ -3,7 +3,7 @@ fill -94 105 4 -94 106 4 iron_bars replace
 tp @a[team=player] -99 105 -2 -180 0
 gamerule natural_regeneration false
 
-setblock iron_bars -94 106 12 replace
+setblock -94 106 12 iron_bars replace
 
 fn script/task_3/decor
 fn script/remove_task

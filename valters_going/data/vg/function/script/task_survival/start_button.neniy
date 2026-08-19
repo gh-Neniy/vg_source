@@ -1,2 +1,2 @@
 scb players set #task_survival_run data 1
-setblock spruce_button[facing=north] ~ ~ ~ replace
+setblock ~ ~ ~ spruce_button[facing=north] replace

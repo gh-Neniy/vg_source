@@ -1,15 +1,15 @@
-setblock warped_button[facing=east] ~ ~ ~ replace
+setblock ~ ~ ~ warped_button[facing=east] replace
 
 fn script/side/shop
 scb players add #shop data 1
 
 ex as @a[team=player] run fn item/shop/training_sword
 
-setblock oak_wall_sign[facing=east, sign=[ 
+setblock ~ ~1 ~ oak_wall_sign[facing=east, sign=[ 
   {text='Улучшение меча', color=blue}
   {text='Цена:'}
   {text='2 Серебряные', color=gray}
   {text='копейки', color=gray}
-]] ~ ~1 ~ replace
+]] replace
 
 scb players set #task_1_preview data 1

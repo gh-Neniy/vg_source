@@ -15,7 +15,7 @@ scb players set #invocation data 2
 
 scb players reset #candle data
 fill -35 102 0 -27 102 8 red_terracotta replace magma_block
-setblock bedrock -31 102 4 replace
+setblock -31 102 4 bedrock replace
 
 kill @e[tag=valter]
 kill @e[type=!player, tag=cutscene]

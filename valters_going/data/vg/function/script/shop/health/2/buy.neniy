@@ -3,12 +3,12 @@ scb players add #health data 1
 fn script/side/shop
 clear @s iron_nugget 20
 
-setblock oak_wall_sign[facing=east, sign=[ 
+setblock ~ ~1 ~ oak_wall_sign[facing=east, sign=[ 
   {text='Здоровье', color=blue}
   {text='Цена:'}
   {text='25 Серебряных', color=gray}
   {text='копеек', color=gray}
-]] ~ ~1 ~ replace
+]] replace
 
 tellraw @a [
   {text='Количество вашего здоровья повышено ещё на ', color=green}

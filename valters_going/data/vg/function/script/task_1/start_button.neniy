@@ -1,2 +1,2 @@
 scb players set #task_1_run data 1
-setblock oak_button[facing=north] ~ ~ ~ replace
+setblock ~ ~ ~ oak_button[facing=north] replace

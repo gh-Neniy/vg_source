@@ -14,4 +14,4 @@ tellraw @a {text='Купите своё первое снаряжение', colo
 
 ex as @e[type=item, tag=!plot] at @s run tp @s @p[team=player]
 
-setblock air -94 106 12 replace
+setblock -94 106 12 air replace

@@ -1,4 +1,4 @@
 tp @s -68 80 -16 90 14
 pls entity.husk.ambient @a -68 80 -16 1 0
 effect give @s blindness 2 100
-setblock birch_button[facing=south] ~ ~ ~ replace
+setblock ~ ~ ~ birch_button[facing=south] replace

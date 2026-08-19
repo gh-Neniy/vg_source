@@ -1,4 +1,4 @@
-setblock crimson_button[facing=north] ~ ~ ~ replace
+setblock ~ ~ ~ crimson_button[facing=north] replace
 
 ex as @p[team=player] unless score @s money 35.. run fn script/shop/decline
 ex as @p[team=player] if score @s money 35.. run fn script/shop/armor_upgrade/1/buy

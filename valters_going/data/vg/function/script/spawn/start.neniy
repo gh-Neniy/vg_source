@@ -11,7 +11,7 @@ ex as @a[team=player] run fn script/spawn/set_id
 ex as @r[team=player] run fn item/flint_and_steel
 scb players set #progress data 1
 scb players set #candle data 0
-setblock crimson_trapdoor[half=top,facing=south] 44 99 -21 replace
+setblock 44 99 -21 crimson_trapdoor[half=top,facing=south] replace
 
 tellraw @a {text='Приветствуем Вас на нашей карте! Зелёный текст - это основные оповещения. Красным текстом вам пишутся задания. Правила: Облака - выкл, прорисовка - 6 чанков, обязательно включите звуки', color=green}
 tellraw @a {text='Совершите ритуал по призыву Вальтера. Для этого в Замке зажгите 12 свечей вокруг Несокрушимого Блока', color=dark_red}

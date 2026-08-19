@@ -6,12 +6,12 @@ clear @a[team=player] wooden_sword
 
 ex as @a[team=player] run fn item/shop/training_sword_3
 
-setblock oak_wall_sign[facing=east, sign=[ 
+setblock ~ ~1 ~ oak_wall_sign[facing=east, sign=[ 
   {text='Лук', color=gray}
   {text='Цена:'}
   {text='10 Серебряных', color=gray}
   {text='копеек', color=gray}
-]] ~ ~1 ~ replace
+]] replace
 
 tellraw @a [
   {text='Улучшение меча ', color=green}

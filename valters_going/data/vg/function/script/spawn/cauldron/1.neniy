@@ -1,6 +1,6 @@
 fn script/spawn/cauldron/pop
-setblock cauldron 56 94 -41 replace
-setblock light[level=15] 56 97 -41 replace
+setblock 56 94 -41 cauldron replace
+setblock 56 97 -41 light[level=15] replace
 ex pos 56 95 -41 run fn mob/item/trident
 scb players set #timer_active data 0
 scb players add #timer data 1

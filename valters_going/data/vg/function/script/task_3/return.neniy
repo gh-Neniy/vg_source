@@ -1,2 +1,2 @@
 fn script/return_to_arena
-setblock acacia_button[facing=south] ~ ~ ~ replace
+setblock ~ ~ ~ acacia_button[facing=south] replace

@@ -12,7 +12,7 @@ ex as @a pos -57 105 4 unless ent @s[distance=..2] pos -110 86 -38 unless ent @s
 
 ex pos -101 105 16 as @a[team=player, dx=4, dy=1, dz=0] at @s run tp @s ~ ~ ~-1
 
-ex pos -89 106 15 if block ~ ~ ~ air unless ent @a[team=player, distance=..10] run setblock iron_bars -94 106 12 replace
+ex pos -89 106 15 if block ~ ~ ~ air unless ent @a[team=player, distance=..10] run setblock -94 106 12 iron_bars replace
 
 // for buttons on the arena (partially available on different stages)
 ex if score #logic_task_1 data 1 run fn logic/task_1
