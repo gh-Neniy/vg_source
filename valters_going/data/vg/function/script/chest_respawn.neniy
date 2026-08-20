@@ -1,1 +1,4 @@
-ex pos 72 97 2 unless ent @e[tag=chest, distance=..1] run fn script/chest/spawn/north
+ex pos 72 97 2 run fn script/chest/spawn/north
+ex pos -89 106 15 run fn script/chest/spawn/south
+
+// need to made with chest spawner because of chunk loading specific

@@ -2,4 +2,4 @@ ex unless score #arena_talk data 2 pos -94 105 4 if ent @a[team=player, distance
 
 ex unless score #task_0_preview data 2 pos -102 105 -3 if ent @a[team=player, dx=6, dy=1, dz=0] run scb players set #task_0_preview data 1
 
-ex if score #task_0_preview data 2 pos -99 106 -29 unless ent @e[tag=enemy] run scb players set #shop_unlock data 1
+ex if score #task_0_preview data 2 unless ent @e[tag=enemy] run scb players set #shop_unlock data 1
