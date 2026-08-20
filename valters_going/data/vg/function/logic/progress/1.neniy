@@ -1,1 +1,1 @@
-ex pos 48 101 -20 if block ~ ~ ~ stone_button[powered] run fn script/spawn/start
+ex as @e[type=interaction, tag=flint_and_steel, data=[interaction]] at @s run fn script/spawn/start

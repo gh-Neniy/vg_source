@@ -1,9 +1,8 @@
 fn script/start_timer
-effect give @a[team=player] blindness 1 0
 clear @a[team=player] flint_and_steel
 stopsound @a ambient.crimson_forest.loop
 
 tag @a[team=player] add cutscene
-sm block_display[tag=cutscene, teleport_duration=3] -26 106 8
-sm block_display[tag=cutscene, id=bedrock, tag=decor] -31.0 102 4.0
-setblock -31 102 4 air replace
+sm block_display[tag=cutscene, tp_time=3] 15 107.5 -2
+sm block_display[tag=cutscene, block=bedrock, tag=decor] 9.0 102 -6.0
+setblock 9 102 -6 air replace

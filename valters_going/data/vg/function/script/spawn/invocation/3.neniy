@@ -8,8 +8,8 @@ sm piglin_brute[
   silent
   invulnerable
   tag=valter
-] -31 103 4
+] 9 103 -6
 
-pls entity.wither.spawn @a -31 103 4 1 1
-ptc explosion -31 103 4 1 1 1 1 100 normal
-ptc cloud -31 103 4 1 1 1 1 100 normal
+pls entity.wither.spawn @a 9 103 -6 1 1
+ptc explosion 9 103 -6 1 1 1 1 100 normal
+ptc cloud 9 103 -6 1 1 1 1 100 normal

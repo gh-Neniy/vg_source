@@ -1,5 +1,5 @@
 tellraw @a [
   {text='Вы: ', color=#03C765}
-  {text='Я согласен', color=dark_green}
+  {text='Счастье? Хорошо, я согласен.', color=dark_green}
 ]
 ex as @a[team=player] at @s run pls entity.wandering_trader.yes @s ~ ~ ~ 1 0.8

@@ -1,4 +1,4 @@
-ex pos -7 102 4 if ent @a[team=player,distance=..2] if block -9 104 4 netherite_block run fn script/spawn/gates
+ex pos 31 103 -6 if ent @a[team=player, distance=..3] if block ~ ~ ~ netherite_block run fn script/spawn/gates
 
 ex pos -28 103 5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
 ex pos -29 103 6 if block ~ ~ ~ candle[lit] run fn script/spawn/candle

@@ -1,0 +1,57 @@
+sm block_display[tag=spawn_gates, tag=left_door, tag=0, block=netherite_block, tp_time=50] ~ ~ ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=0, block=netherite_block, tp_time=50] ~ ~1 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=0, block=netherite_block, tp_time=50] ~ ~2 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=0, block=netherite_block, tp_time=50] ~ ~3 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=0, block=netherite_block, tp_time=50] ~ ~4 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=1, block=warped_planks, tp_time=50] ~ ~ ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=1, block=warped_planks, tp_time=50] ~ ~1 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=1, block=warped_planks, tp_time=50] ~ ~2 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=1, block=warped_planks, tp_time=50] ~ ~3 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=1, block=warped_planks, tp_time=50] ~ ~4 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=2, block=warped_planks, tp_time=50] ~ ~ ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=2, block=warped_planks, tp_time=50] ~ ~1 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=2, block=warped_planks, tp_time=50] ~ ~2 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=2, block=warped_planks, tp_time=50] ~ ~3 ~3
+sm block_display[tag=spawn_gates, tag=left_door, tag=2, block=warped_planks, tp_time=50] ~ ~4 ~3
+
+sm block_display[tag=spawn_gates, tag=right_door, tag=0, block=netherite_block, tp_time=50] ~ ~ ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=0, block=netherite_block, tp_time=50] ~ ~1 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=0, block=netherite_block, tp_time=50] ~ ~2 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=0, block=netherite_block, tp_time=50] ~ ~3 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=0, block=netherite_block, tp_time=50] ~ ~4 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=1, block=warped_planks, tp_time=50] ~ ~ ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=1, block=warped_planks, tp_time=50] ~ ~1 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=1, block=warped_planks, tp_time=50] ~ ~2 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=1, block=warped_planks, tp_time=50] ~ ~3 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=1, block=warped_planks, tp_time=50] ~ ~4 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=2, block=warped_planks, tp_time=50] ~ ~ ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=2, block=warped_planks, tp_time=50] ~ ~1 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=2, block=warped_planks, tp_time=50] ~ ~2 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=2, block=warped_planks, tp_time=50] ~ ~3 ~-3
+sm block_display[tag=spawn_gates, tag=right_door, tag=2, block=warped_planks, tp_time=50] ~ ~4 ~-3
+
+ex as @e[type=block_display, tag=spawn_gates, tag=left_door, tag=0]
+    run data modify @s transformation.scale set [1.0, 1.0, 0.5]
+ex as @e[type=block_display, tag=spawn_gates, tag=right_door, tag=0]
+    run data modify @s transformation.scale set [1.0, 1.0, 0.5]
+
+ex as @e[type=block_display, tag=spawn_gates, tag=left_door, tag=0]
+    run data modify @s transformation.translation set [-0.5, 0.0, -3.0]
+ex as @e[type=block_display, tag=spawn_gates, tag=left_door, tag=1]
+    run data modify @s transformation.translation set [-0.5, 0.0, -2.5]
+ex as @e[type=block_display, tag=spawn_gates, tag=left_door, tag=2]
+    run data modify @s transformation.translation set [-0.5, 0.0, -1.5]
+
+ex as @e[type=block_display, tag=spawn_gates, tag=right_door, tag=0]
+    run data modify @s transformation.translation set [-0.5, 0.0, 2.5]
+ex as @e[type=block_display, tag=spawn_gates, tag=right_door, tag=1]
+    run data modify @s transformation.translation set [-0.5, 0.0, 1.5]
+ex as @e[type=block_display, tag=spawn_gates, tag=right_door, tag=2]
+    run data modify @s transformation.translation set [-0.5, 0.0, 0.5]
+
+ex as @e[type=block_display, tag=spawn_gates, tag=left_door] at @s run tp @s ~ ~ ~ ~-45 ~
+ex as @e[type=block_display, tag=spawn_gates, tag=right_door] at @s run tp @s ~ ~ ~ ~45 ~
+
+pls block.shroomlight.step @a ~ ~ ~ 3 0
+pls ambient.cave @a ~ ~ ~ 3 1
+ptc campfire_cosy_smoke ~0.5 ~2 ~ 0 2 0 0.005 35 force

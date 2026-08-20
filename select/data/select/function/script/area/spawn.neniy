@@ -1,1 +1,1 @@
-sm block_display[tag=area, id=white_stained_glass, shine] ~ ~ ~
+sm block_display[tag=area, block=white_stained_glass, shine] ~ ~ ~

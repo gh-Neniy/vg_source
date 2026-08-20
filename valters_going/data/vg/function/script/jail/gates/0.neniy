@@ -1,30 +1,30 @@
 fn script/start_timer
 fill ~ ~ ~ ~ ~4 ~5 air replace nether_brick_fence
 
-sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~
-sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~1
-sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~2
-sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~3
-sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~4
-sm block_display[tag=jail_gates, tag=0, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~ ~5
+sm block_display[tag=jail_gates, tag=0, block=nether_brick_fence[north, south], tp_time=40] ~ ~ ~
+sm block_display[tag=jail_gates, tag=0, block=nether_brick_fence[north, south], tp_time=40] ~ ~ ~1
+sm block_display[tag=jail_gates, tag=0, block=nether_brick_fence[north, south], tp_time=40] ~ ~ ~2
+sm block_display[tag=jail_gates, tag=0, block=nether_brick_fence[north, south], tp_time=40] ~ ~ ~3
+sm block_display[tag=jail_gates, tag=0, block=nether_brick_fence[north, south], tp_time=40] ~ ~ ~4
+sm block_display[tag=jail_gates, tag=0, block=nether_brick_fence[north, south], tp_time=40] ~ ~ ~5
 
-sm block_display[tag=jail_gates, tag=1, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~1 ~
-sm block_display[tag=jail_gates, tag=1, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~1 ~1
-sm block_display[tag=jail_gates, tag=1, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~1 ~2
-sm block_display[tag=jail_gates, tag=1, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~1 ~3
-sm block_display[tag=jail_gates, tag=1, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~1 ~4
-sm block_display[tag=jail_gates, tag=1, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~1 ~5
+sm block_display[tag=jail_gates, tag=1, block=nether_brick_fence[north, south], tp_time=40] ~ ~1 ~
+sm block_display[tag=jail_gates, tag=1, block=nether_brick_fence[north, south], tp_time=40] ~ ~1 ~1
+sm block_display[tag=jail_gates, tag=1, block=nether_brick_fence[north, south], tp_time=40] ~ ~1 ~2
+sm block_display[tag=jail_gates, tag=1, block=nether_brick_fence[north, south], tp_time=40] ~ ~1 ~3
+sm block_display[tag=jail_gates, tag=1, block=nether_brick_fence[north, south], tp_time=40] ~ ~1 ~4
+sm block_display[tag=jail_gates, tag=1, block=nether_brick_fence[north, south], tp_time=40] ~ ~1 ~5
 
-sm block_display[tag=jail_gates, tag=2, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~2 ~
-sm block_display[tag=jail_gates, tag=2, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~2 ~1
-sm block_display[tag=jail_gates, tag=2, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~2 ~2
-sm block_display[tag=jail_gates, tag=2, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~2 ~3
-sm block_display[tag=jail_gates, tag=2, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~2 ~4
-sm block_display[tag=jail_gates, tag=2, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~2 ~5
+sm block_display[tag=jail_gates, tag=2, block=nether_brick_fence[north, south], tp_time=40] ~ ~2 ~
+sm block_display[tag=jail_gates, tag=2, block=nether_brick_fence[north, south], tp_time=40] ~ ~2 ~1
+sm block_display[tag=jail_gates, tag=2, block=nether_brick_fence[north, south], tp_time=40] ~ ~2 ~2
+sm block_display[tag=jail_gates, tag=2, block=nether_brick_fence[north, south], tp_time=40] ~ ~2 ~3
+sm block_display[tag=jail_gates, tag=2, block=nether_brick_fence[north, south], tp_time=40] ~ ~2 ~4
+sm block_display[tag=jail_gates, tag=2, block=nether_brick_fence[north, south], tp_time=40] ~ ~2 ~5
 
-sm block_display[tag=jail_gates, tag=3, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~3 ~1
-sm block_display[tag=jail_gates, tag=3, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~3 ~2
-sm block_display[tag=jail_gates, tag=3, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~3 ~3
-sm block_display[tag=jail_gates, tag=3, id=nether_brick_fence[north, south], teleport_duration=40] ~ ~3 ~4
+sm block_display[tag=jail_gates, tag=3, block=nether_brick_fence[north, south], tp_time=40] ~ ~3 ~1
+sm block_display[tag=jail_gates, tag=3, block=nether_brick_fence[north, south], tp_time=40] ~ ~3 ~2
+sm block_display[tag=jail_gates, tag=3, block=nether_brick_fence[north, south], tp_time=40] ~ ~3 ~3
+sm block_display[tag=jail_gates, tag=3, block=nether_brick_fence[north, south], tp_time=40] ~ ~3 ~4
 
 ex as @e[tag=jail_gates] at @s run tp @s ~ ~1 ~

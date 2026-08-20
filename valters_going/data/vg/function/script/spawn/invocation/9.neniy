@@ -1,21 +1,21 @@
 tag @a[team=player] remove cutscene
 gm adventure @a[team=player]
-tp @a[team=player] -76 107 4 90 10
-pls block.portal.travel @a -76 107 4 0.4 1
-ptc glow_squid_ink -76 108 4 0.4 0.8 0.4 0.1 200 normal
-spawnpoint @a[team=player] -76 107 4
-advancement @a vg:plot/beginning
+tp @a[team=player] -76 106 4 90 10
+pls block.portal.travel @a -76 106 4 0.4 1
+ptc glow_squid_ink -76 107 4 0.4 0.8 0.4 0.1 200 normal
+spawnpoint @a[team=player] -76 106 4
 
 scb obj add money dummy {text='Деньги', color=gray}
 scb obj set below_name money
 scb obj set sidebar money
 scb players set @a[team=player] money 0
-scb players set #progress data 2
+scb players set #progress data 3
 scb players set #invocation data 2
 
 scb players reset #candle data
-fill -35 102 0 -27 102 8 red_terracotta replace magma_block
-setblock -31 102 4 bedrock replace
+fill 5 102 -10 13 102 -2 red_terracotta replace magma_block
+setblock 9 102 -6 bedrock replace
+setblock 9 109 -6 lantern replace
 
 kill @e[tag=valter]
 kill @e[type=!player, tag=cutscene]

@@ -1,2 +1,2 @@
-ptc block[block=lantern] -31 103.3 4 0.2 0.2 0.2 0 50 normal
-pls block.glass.break @a -31 103 4 1 0.7
+ptc block[block=lantern] 9 103.3 -6 0.2 0.2 0.2 0 50 normal
+pls block.glass.break @a 9 103 -6 1 0.7

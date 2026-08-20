@@ -1,2 +1,2 @@
-sm block_display[tag=cutscene, teleport_duration=3, rotation=[140, 15]] -85.5 107.5 -14.5
+sm block_display[tag=cutscene, tp_time=3, rotation=[140, 15]] -85.5 107.5 -14.5
 fn script/start_cutscene

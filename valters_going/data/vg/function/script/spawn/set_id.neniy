@@ -1,2 +1,2 @@
-scb players opr @s data = #id
-scb players add #id data 1
+scb players opr @s data = #block
+scb players add #block data 1

@@ -2,20 +2,26 @@ gamerule keep_inventory true
 gamerule natural_regeneration true
 
 team add player
-team join player @a[tag=!spectator]
+team join player @a[tag=!admin]
 team modify player friendly_fire false
 team modify player collision never
 gm adventure @a[team=player]
 ex as @a[team=player] run fn script/spawn/set_id
+ex as @p[team=player] run fn item/flint_and_steel
+kill @e[tag=flint_and_steel]
 
-ex as @r[team=player] run fn item/flint_and_steel
-scb players set #progress data 1
+scb players set #progress data 2
 scb players set #candle data 0
-setblock 44 99 -21 crimson_trapdoor[half=top,facing=south] replace
 
-tellraw @a {text='Приветствуем Вас на нашей карте! Зелёный текст - это основные оповещения. Красным текстом вам пишутся задания. Правила: Облака - выкл, прорисовка - 6 чанков, обязательно включите звуки', color=green}
-tellraw @a {text='Совершите ритуал по призыву Вальтера. Для этого в Замке зажгите 12 свечей вокруг Несокрушимого Блока', color=dark_red}
+tellraw @a [
+    {text='Добро пожаловать на карту Valter\'s Going!\n', color=gray},
+    {text='Зеленым текстом', color=green},
+    {text=' пишутся основные оповещения, ', color=gray},
+    {text='красным текстом', color=dark_red},
+    {text=' пишется текущее задание.' color=gray}
+]
+tellraw @a {text='Совершите ритуал по призыву Вальтера. Для этого в замке зажгите 12 свечей вокруг Несокрушимого Блока.', color=dark_red}
 time set night
-fill 48 101 -20 48 102 -20 air replace
-ptc campfire_cosy_smoke 48 101.5 -20 0.3 0.3 0.3 0.01 30 normal
-pls entity.minecart.inside @a 8 101 -10 0.1 0
+
+ptc campfire_cosy_smoke ~ ~0.1 ~ 0.3 0.025 0.3 0.01 5 normal
+pls item.axe.wax_off @a ~ ~0.1 ~ 1 2

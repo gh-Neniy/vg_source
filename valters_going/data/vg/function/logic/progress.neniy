@@ -4,8 +4,8 @@ ex if score #progress data 1..2 run fn logic/spawn
 ex if score #progress data 1 run fn logic/progress/1 // after beginning preview
 ex if score #progress data 2 run fn logic/progress/2 // after flint and steel pick up
 
-// ex if score #progress data 2..5 run fn logic/arena
-// ex if score #progress data 2 run fn logic/progress/2 // after invocation
-// ex if score #progress data 3 run fn logic/progress/3 // after shop unlock (task 0), placeholder for task 1
-// ex if score #progress data 4 run fn logic/progress/4 // after task 1, placeholder for task 2
-// ex if score #progress data 5 run fn logic/progress/5 // after task 2
+ex if score #progress data 3.. run fn logic/arena
+ex if score #progress data 3 run fn logic/progress/3 // after invocation
+// ex if score #progress data 4 run fn logic/progress/3 // after shop unlock (task 0), placeholder for task 1
+// ex if score #progress data 5 run fn logic/progress/4 // after task 1, placeholder for task 2
+// ex if score #progress data 6 run fn logic/progress/5 // after task 2
