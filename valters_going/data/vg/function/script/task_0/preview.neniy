@@ -22,6 +22,6 @@ ex if score #timer data 72 pos -84 110 -10 run fn script/task_0/preview/north_to
 ex if score #timer data 76 pos -91 110 -7 run fn script/task_0/preview/north_torch
 
 ex if score #timer data 95 as @e[type=block_display, tag=cutscene, tag=!decor] run data modify @s tp_time set 0
-ex if score #timer data 96 run tp @e[type=block_display, tag=cutscene, tag=!decor] -94 110 -24 135 35
+ex if score #timer data 96 run tp @e[type=block_display, tag=cutscene, tag=!decor] -101 107 -26 -145 17
 ex if score #timer data 146 run fn script/task_0/preview/1
 ex if score #timer data 196 run fn script/task_0/preview/2

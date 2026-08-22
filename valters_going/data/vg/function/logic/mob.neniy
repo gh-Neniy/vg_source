@@ -1,3 +1,5 @@
+ex as @e[type=zombie, tag=blood, tag=new] if score @s data ..29 at @s run fn script/side/rising
+
 ex as @e[type=zombie, tag=mushroom] at @s run fn logic/mob/mushroom
 ex as @e[type=zombie, tag=mushroom_red] at @s run fn logic/mob/mushroom_red
 

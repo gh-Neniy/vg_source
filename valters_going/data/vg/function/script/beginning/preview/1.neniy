@@ -4,7 +4,6 @@ kill @e[tag=cutscene]
 tp @a[team=player] 61 102 -6
 
 fn script/stop_timer
-fn script/chest_respawn
 ex pos 47 101.051 -21 run fn script/spawn/flint_and_steel
 scb players set #beginning_preview data 2
 scb players set #progress data 1

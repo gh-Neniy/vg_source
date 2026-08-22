@@ -1,4 +1,4 @@
-setblock ~ ~ ~ air replace
+fill ~ ~ ~ ~ ~ ~ air replace minecraft:chest
 
 scb players set #chest_timer_active data 1
 pls block.chest.open @a ~ ~ ~ 1 0

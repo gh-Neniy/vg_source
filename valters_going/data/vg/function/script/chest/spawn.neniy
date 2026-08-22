@@ -1,0 +1,4 @@
+ex if block ~ ~ ~ chest[facing=east] align xyz pos ~0.5 ~ ~0.5 run fn script/chest/spawn/east
+ex if block ~ ~ ~ chest[facing=north] align xyz pos ~0.5 ~ ~0.5 run fn script/chest/spawn/north
+ex if block ~ ~ ~ chest[facing=south] align xyz pos ~0.5 ~ ~0.5 run fn script/chest/spawn/south
+ex if block ~ ~ ~ chest[facing=west] align xyz pos ~0.5 ~ ~0.5 run fn script/chest/spawn/west

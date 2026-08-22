@@ -11,7 +11,4 @@ files:
 		cp "$$file" "$(DIR)/$$file"; \
 	done
 
-clean:
-	rm -rf output
-
-.PHONY: all clean
+.PHONY: all files

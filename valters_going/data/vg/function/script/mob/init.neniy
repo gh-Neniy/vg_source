@@ -1,0 +1,3 @@
+tag @s remove new
+data modify @s NoAI set 0
+data modify @s Invulnerable set 0

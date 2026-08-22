@@ -1,9 +1,5 @@
-setblock ~ ~ ~ barrier keep
+fn script/chest/shared
 
-sm block_display[block=chest, tag=chest, tp_time=5, rotation=[180, 0]] ~ ~ ~
-sm block_display[block=netherite_block, tag=chest, tag=decor, tp_time=5] ~ ~ ~
-sm interaction[tag=chest, height=1.02, width=1.02] ~ ~ ~
+sm block_display[block=chest, tag=chest, tp_time=5, rotation=[0, 0]] ~ ~ ~
 
-//ex as @e[type=block_display, tag=chest, tag=!decor, limit=1, sort=nearest] run data modify @s transformation.translation set [-0.5, 0.0, -0.5]
-//ex as @e[type=block_display, tag=chest, tag=decor, limit=1, sort=nearest] run data modify @s transformation.translation set [-0.3, 0.3, -0.3]
-//ex as @e[type=block_display, tag=chest, tag=decor, limit=1, sort=nearest] run data modify @s transformation.scale set [0.6, 0.6, 0.6]
+fn script/chest/set_model

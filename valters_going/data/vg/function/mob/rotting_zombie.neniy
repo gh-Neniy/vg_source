@@ -1,9 +1,14 @@
 sm zombie[
   name={text='Гниющий зомби', color=gray},
-  health=5.0,
+  health=7.0,
   loot_table=vg:rotting_zombie,
   name_visible,
   no_despawn,
   tag=enemy,
-  tag=blood
-] ~ ~ ~
+  tag=blood,
+  tag=new,
+  no_ai,
+  invulnerable,
+] ~ ~-2 ~
+
+ex pos ~ ~-2 ~ run scb players set @e[type=zombie, tag=new, distance=..1] data 0
