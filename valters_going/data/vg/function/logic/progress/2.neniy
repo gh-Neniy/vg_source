@@ -1,18 +1,18 @@
-ex pos 31 103 -6 if ent @a[team=player, distance=..3] if block ~ ~ ~ netherite_block run fn script/spawn/gates
+ex pos 31 103 -6 if ent @a[team=player, distance=..4] if block ~ ~ ~ netherite_block run fn script/spawn/gates
 
-ex pos -28 103 5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -29 103 6 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -30 103 7 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -32 103 7 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -33 103 6 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -34 103 5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -34 103 3 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -33 103 2 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -32 103 1 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -30 103 1 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -29 103 2 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
-ex pos -28 103 3 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 12 103 -5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 11 103 -4 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 10 103 -3 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 8 103 -3 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 7 103 -4 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 6 103 -5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 6 103 -7 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 7 103 -8 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 8 103 -9 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 10 103 -9 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 11 103 -8 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
+ex pos 12 103 -7 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
 
 ex if score #candle data 12 run scb players set #invocation data 1
 
-fill -35 103 0 -27 103 8 air replace fire
+fill 6 103 -9 12 103 -3 air replace fire

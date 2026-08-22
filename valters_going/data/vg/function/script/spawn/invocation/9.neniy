@@ -19,4 +19,5 @@ setblock 9 109 -6 lantern replace
 
 kill @e[tag=valter]
 kill @e[type=!player, tag=cutscene]
+kill @e[tag=spawn_gates]
 fn script/stop_timer

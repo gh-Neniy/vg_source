@@ -12,6 +12,6 @@ scb players set #armor data 0
 tellraw @a {text='Maгазин разблокирован', color=green}
 tellraw @a {text='Купите своё первое снаряжение', color=dark_red}
 
-ex as @e[type=item, tag=!plot] at @s run tp @s @p[team=player]
+ex as @e[type=item] at @s run tp @s @p[team=player]
 
 ex pos -89 106 15 if ent @e[tag=chest, distance=..1] run setblock -94 106 12 air replace

@@ -1,0 +1,8 @@
+effect clear @p[team=player, tag=speed_essence] speed
+attribute @p[team=player, tag=speed_essence] attack_knockback 0
+
+tag @p[team=player, tag=speed_essence] remove speed_essence
+
+ptc cloud ~ ~1 ~ 0.4 0.7 0.4 0.05 50 normal
+
+damage @s 5

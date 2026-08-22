@@ -1,5 +1,3 @@
 sm block_display[tag=cutscene, tp_time=38, rotation=[100, 0]] -99 107 -7
 ex as @e[type=block_display, tag=cutscene, tag=!decor] at @s run tp @s ~ ~ ~ ~80 ~
 fn script/start_cutscene
-
-setblock -94 106 12 iron_bars replace

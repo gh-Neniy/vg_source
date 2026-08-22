@@ -1,11 +1,9 @@
-fill ~ ~ ~ ~ ~2 ~ polished_andesite replace
-setblock ~ ~1 ~1 oak_button[facing=south] replace
+sm text_display[tag=task_1, tag=name, text={text='Нападение Скелетов', color=white}, billboard=center] ~ ~2.5 ~
+sm text_display[tag=task_1, text={text='Старт', color=gray}, billboard=center] ~ ~2.2 ~
+sm item_display[about=bone[shine], tag=task_1, tag=spin, tp_time=2] ~ ~1 ~
+
+ex as @e[type=item_display, tag=task_1, limit=1, sort=nearest] run data modify @s transformation.scale set [1.5, 1.5, 1.5]
+ex as @e[type=text_display, tag=task_1, tag=name, limit=1, sort=nearest] run data modify @s transformation.scale set [1.5, 1.5, 1.5]
+
 ptc happy_villager ~ ~2 ~ 1.2 1.2 1.2 0.05 400 normal
 pls block.beacon.activate @a ~ ~2 ~ 10 1
-
-setblock ~ ~2 ~1 oak_wall_sign[facing=south, sign=[
-  {text='Нападение'}
-  {text='Скелетов', color=white}
-  {}
-  {text='Начать'}
-]] replace

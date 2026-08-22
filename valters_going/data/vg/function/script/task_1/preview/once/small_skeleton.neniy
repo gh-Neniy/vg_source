@@ -1,0 +1,68 @@
+// axis=x
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~-0.5 ~ ~-0.5
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~-1.5 ~ ~-0.5
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~-2.5 ~ ~-0.5
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~-3.5 ~ ~-0.5
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~-4.5 ~ ~-0.5
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~2.5 ~ ~-0.5
+sm block_display[block=bone_block[axis=x], tag=task_1_once, tp_time=2] ~3.5 ~ ~-0.5
+
+// axis=y
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-0.5 ~1 ~-0.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-2.5 ~1 ~-0.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~3.5 ~1 ~-0.5
+
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-0.5 ~-2 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-0.5 ~-2 ~1.5
+
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-2.5 ~-1 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-2.5 ~-1 ~1.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-2.5 ~-2 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-2.5 ~-2 ~1.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-4.5 ~-1 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-4.5 ~-1 ~1.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-4.5 ~-2 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~-4.5 ~-2 ~1.5
+
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~1.5 ~-1 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~1.5 ~-1 ~1.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~1.5 ~-2 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~1.5 ~-2 ~1.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~3.5 ~-1 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~3.5 ~-1 ~1.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~3.5 ~-2 ~-2.5
+sm block_display[block=bone_block[axis=y], tag=task_1_once, tp_time=2] ~3.5 ~-2 ~1.5
+
+// axis=z
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-0.5 ~ ~0.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-2.5 ~ ~0.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-4.5 ~ ~0.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~3.5 ~ ~0.5
+
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-2.5 ~ ~-1.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~1.5 ~ ~-1.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~3.5 ~ ~-1.5
+
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~1.5 ~ ~1.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-4.5 ~ ~1.5
+
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-2.5 ~ ~-2.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~-4.5 ~ ~-2.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~1.5 ~ ~-2.5
+sm block_display[block=bone_block[axis=z], tag=task_1_once, tp_time=2] ~3.5 ~ ~-2.5
+
+// soul soil
+sm block_display[block=soul_soil, tag=task_1_once, tp_time=2] ~-1.5 ~1 ~-0.5
+sm block_display[block=soul_soil, tag=task_1_once, tp_time=2] ~-4.5 ~1 ~-0.5
+sm block_display[block=soul_soil, tag=task_1_once, tp_time=2] ~2.5 ~1 ~-0.5
+sm block_display[block=soul_soil, tag=task_1_once, tp_time=2] ~-2.5 ~ ~1.5
+sm block_display[block=soul_soil, tag=task_1_once, tp_time=2] ~3.5 ~ ~1.5
+sm block_display[block=soul_soil, tag=task_1_once, tp_time=2] ~-0.5 ~-1 ~-2.5
+
+// soul fire
+sm block_display[block=soul_fire, tag=task_1_once, tp_time=2] ~-1.5 ~2 ~-0.5
+sm block_display[block=soul_fire, tag=task_1_once, tp_time=2] ~-4.5 ~2 ~-0.5
+sm block_display[block=soul_fire, tag=task_1_once, tp_time=2] ~2.5 ~2 ~-0.5
+sm block_display[block=soul_fire, tag=task_1_once, tp_time=2] ~-2.5 ~1 ~1.5
+sm block_display[block=soul_fire, tag=task_1_once, tp_time=2] ~3.5 ~1 ~1.5
+sm block_display[block=soul_fire, tag=task_1_once, tp_time=2] ~-0.5 ~ ~-2.5

@@ -1,0 +1,3 @@
+ex pos -103 103 -43 run fn script/task_1/preview/once/small_skeleton
+sm block_display[tag=cutscene, rotation=[-158, 31]] -106 110.5 -36
+fn script/start_cutscene

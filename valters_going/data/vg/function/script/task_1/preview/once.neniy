@@ -1,0 +1,9 @@
+ex if score #timer data 0 run fn script/task_1/preview/once/0
+ex if score #timer data 1..60 as @e[tag=task_1_once] at @s run tp @s ~ ~0.0667 ~
+ex if score #timer data 1..60 pos -103 105.5 -43 run fn script/task_1/preview/once/1
+
+ex if score #timer data 120 run fn script/task_1/preview/once/2
+ex if score #timer data 121..200 as @e[tag=task_1_once] at @s run tp @s ~ ~0.075 ~
+ex if score #timer data 121..200 pos -87 105.5 -18 run fn script/task_1/preview/once/3
+
+ex if score #timer data 240 run fn script/task_1/preview/once/4

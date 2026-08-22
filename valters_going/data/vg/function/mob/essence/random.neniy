@@ -1,0 +1,6 @@
+ex store score #random data run random 0..3
+
+ex if score #random data 0 run fn mob/essence/energy
+ex if score #random data 1 run fn mob/essence/fire
+ex if score #random data 2 run fn mob/essence/ice
+ex if score #random data 3 run fn mob/essence/speed

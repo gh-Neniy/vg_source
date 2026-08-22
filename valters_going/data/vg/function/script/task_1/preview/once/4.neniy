@@ -1,0 +1,5 @@
+kill @e[type=block_display, tag=task_1_once]
+fn script/stop_cutscene
+
+scb players set #task_1_preview_once data 2
+scb players set #task_1_run data 1

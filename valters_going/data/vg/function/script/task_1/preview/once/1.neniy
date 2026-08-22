@@ -1,0 +1,2 @@
+ptc block[block=dirt] ~ ~ ~ 4 0.3 2 0 20 normal
+pls block.gravel.break @a ~ ~ ~ 1 0

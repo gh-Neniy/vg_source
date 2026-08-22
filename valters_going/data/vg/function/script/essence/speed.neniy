@@ -1,0 +1,7 @@
+kill @s
+
+pls entity.evoker.prepare_summon @a ~ ~ ~ 0.3 2
+
+effect give @a[team=player, distance=..1, tag=!speed_essence] speed 15 0
+attribute @a[team=player, distance=..1, tag=!speed_essence, limit=1] attack_knockback 3
+tag @a[team=player, distance=..1, tag=!speed_essence] add speed_essence

@@ -4,10 +4,13 @@ ex as @a[team=player,tag=!cutscene,gm=!adventure] at @s run fn script/valter_reg
 ex as @a[team=player,tag=cutscene,gm=!spectator] run gm spectator @s
 ex as @a[team=player,tag=cutscene] run spectate @e[type=block_display, tag=cutscene, tag=!decor, limit=1]
 
+effect give @a[team=player] saturation infinite 0
 effect give @a[tag=night_vision] night_vision infinite 0
 effect clear @a[tag=!night_vision] night_vision
 
 kill @e[type=experience_orb]
+
+ex as @e[tag=spin] at @s run tp @s ~ ~ ~ ~-5 ~
 
 ex as @e[tag=boss_magma_cube] unless ent @s[data=[size=5]] run fn script/delete_mob
 ex as @e[tag=servant] unless ent @s[data=[size=2]] run fn script/delete_mob

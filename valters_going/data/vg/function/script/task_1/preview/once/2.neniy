@@ -1,0 +1,4 @@
+kill @e[type=block_display, tag=task_1_once]
+
+ex pos -87 100 -18 run fn script/task_1/preview/once/skull
+tp @e[type=block_display, tag=cutscene] -95 109.5 -21 -66 15
