@@ -5,5 +5,10 @@ sm skeleton [
   name_visible,
   no_despawn,
   tag=enemy,
-  tag=bones
-] ~ ~ ~
+  tag=bones,
+  tag=new,
+  no_ai,
+  invulnerable,
+] ~ ~-2 ~
+
+ex pos ~ ~-2 ~ run scb players set @e[type=skeleton, tag=new, distance=..1] data 0

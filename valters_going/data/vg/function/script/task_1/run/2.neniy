@@ -1,3 +1,5 @@
-ex pos -104 105 -18 run fn mob/skeleton
+fn script/task_1/run/random_pos
+ex pos -90 106 -18 run fn mob/essence/random
+
 scb players set #timer_active data 0
 scb players add #timer data 1

@@ -1,0 +1,17 @@
+sm skeleton [
+  name={text='Боевой Скелет', color=#FFA8A8},
+  health=15.0,
+  loot_table=vg:skeleton,
+  name_visible,
+  no_despawn,
+  tag=enemy,
+  tag=bones,
+  head=leather_helmet[name={text='Боевая фуражка скелета',color=#FFA8A8}],
+  chest=leather_chestplate[name={text='Боевая накидка', color=#FFA8A8}],
+  right_hand=wooden_hoe[name={text='Оружие скелета', color=#FFA8A8}, shine],
+  tag=new,
+  no_ai,
+  invulnerable,
+] ~ ~-2 ~
+
+ex pos ~ ~-2 ~ run scb players set @e[type=skeleton, tag=new, distance=..1] data 0

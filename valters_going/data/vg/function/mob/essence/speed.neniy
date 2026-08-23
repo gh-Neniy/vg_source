@@ -1,1 +1,1 @@
-sm text_display[tag=speed_essence, text={text='Эссенция Скорости', color=#8CC900}, billboard=center] ~ ~2 ~
+sm text_display[tag=essence, tag=speed, text={text='Эссенция Скорости', color=#8CC900}, billboard=center] ~ ~2 ~

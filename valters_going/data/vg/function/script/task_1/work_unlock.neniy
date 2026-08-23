@@ -1,3 +1,0 @@
-ex if score #timer data 0 run fn script/task_1/work_unlock/0
-ex if score #timer data 50 run fn script/task_1/work_unlock/1
-ex if score #timer data 100 run fn script/task_1/work_unlock/2

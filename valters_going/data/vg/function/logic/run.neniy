@@ -9,7 +9,7 @@ ex if score #shop_unlock data 1 run fn script/task_0/shop_unlock
 ex if score #task_1_preview data 1 run fn script/task_1/preview
 ex if score #task_1_preview_once data 1 run fn script/task_1/preview/once
 ex if score #task_1_run data 1 run fn script/task_1/run
-ex if score #work_unlock data 1 run fn script/task_1/work_unlock
+ex if score #work_and_trade_unlock data 1 run fn script/task_1/work_and_trade_unlock
 
 ex if score #task_2_preview data 1 run fn script/task_2/preview
 ex if score #task_2_run data 1 run fn script/task_2/run

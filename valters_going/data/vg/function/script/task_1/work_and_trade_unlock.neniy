@@ -1,0 +1,5 @@
+ex if score #timer data 0 run fn script/task_1/work_and_trade_unlock/0
+ex if score #timer data 50 run fn script/task_1/work_and_trade_unlock/1
+ex if score #timer data 100 as @e[type=block_display, tag=cutscene] at @s run tp @s ~ ~ ~ ~180 ~
+ex if score #timer data 140 run fn script/task_1/work_and_trade_unlock/2
+ex if score #timer data 190 run fn script/task_1/work_and_trade_unlock/3

@@ -1,0 +1,5 @@
+fn script/stop_cutscene
+
+scb players set #work_and_trade_unlock data 2
+
+tellraw @a {text='Работа и Продажа вещей разблокированы!', color=gold}

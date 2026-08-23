@@ -1,7 +1,7 @@
-ex at @e[type=text_display, tag=fire_essence] run ptc flame ~ ~-1 ~ 0.2 0.5 0.2 0.01 2 normal
-ex as @e[type=text_display, tag=fire_essence] at @s pos ~ ~-2 ~ if ent @a[team=player, distance=..1, tag=!fire_essence] run fn script/essence/fire
+ex at @e[type=text_display, tag=essence, tag=fire] run ptc flame ~ ~-1 ~ 0.2 0.5 0.2 0.01 2 normal
+ex as @e[type=text_display, tag=essence, tag=fire] at @s pos ~ ~-2 ~ if ent @a[team=player, distance=..1, tag=!fire] run fn script/essence/fire
 
-ex at @a[team=player, tag=fire_essence] run ptc flame ~ ~0.3 ~ 0.2 0.2 0.2 0.01 1 normal
-ex at @a[team=player, tag=fire_essence] as @e[tag=enemy, distance=..2, data=[hurt_time=10]] at @s run fn script/essence/fire/hit
-ex at @a[team=player, tag=fire_essence] pos ^ ^ ^1.5 as @e[tag=enemy, distance=..2, data=[hurt_time=10]] at @s run fn script/essence/fire/hit
-ex at @a[team=player, tag=fire_essence] pos ^ ^ ^3 as @e[tag=enemy, distance=..2, data=[hurt_time=10]] at @s run fn script/essence/fire/hit
+ex at @a[team=player, tag=fire] run ptc flame ~ ~0.3 ~ 0.2 0.2 0.2 0.01 1 normal
+ex at @a[team=player, tag=fire] as @e[tag=enemy, distance=..2, data=[hurt_time=10]] at @s run fn script/essence/fire/hit
+ex at @a[team=player, tag=fire] pos ^ ^ ^1.5 as @e[tag=enemy, distance=..2, data=[hurt_time=10]] at @s run fn script/essence/fire/hit
+ex at @a[team=player, tag=fire] pos ^ ^ ^3 as @e[tag=enemy, distance=..2, data=[hurt_time=10]] at @s run fn script/essence/fire/hit

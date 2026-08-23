@@ -8,3 +8,4 @@ fn script/stop_timer
 fn script/stop_boss_timer
 
 ex as @e[tag=enemy] run fn script/delete_mob
+fn script/essence/clear

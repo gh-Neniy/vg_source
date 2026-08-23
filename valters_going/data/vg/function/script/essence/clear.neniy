@@ -1,0 +1,6 @@
+kill @e[tag=essence]
+
+tag @a[team=player] remove fire
+tag @a[team=player] remove ice
+tag @a[team=player] remove speed
+tag @a[team=player] remove energy

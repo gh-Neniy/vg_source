@@ -1,4 +1,4 @@
-tag @p[team=player, tag=ice_essence] remove ice_essence
+tag @p[team=player, tag=ice] remove ice
 
 ptc end_rod ~ ~1 ~ 0.4 0.7 0.4 0.05 100 normal
 ptc block[block=ice] ~ ~1 ~ 0.4 0.7 0.4 0.2 50 normal

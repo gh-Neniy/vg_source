@@ -1,5 +1,0 @@
-fn script/stop_cutscene
-
-scb players set #work_unlock data 2
-
-tellraw @a {text='Работа разблокирована', color=gold}

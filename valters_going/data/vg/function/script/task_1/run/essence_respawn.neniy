@@ -1,0 +1,3 @@
+ex at @e[tag=boss_skeleton] run fn script/task_1/run/random_mob
+ex pos -90 106 -18 run fn mob/essence/random
+ex pos -103 105 -43 run fn mob/essence/random

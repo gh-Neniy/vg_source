@@ -1,4 +1,4 @@
 scb players set #timer_active data 1
 fn script/stop_boss_timer
 
-ex as @e[type=item, tag=!plot] run tp @s @p[team=player]
+ex as @e[type=item] at @s run tp @s @p[team=player]

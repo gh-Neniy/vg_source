@@ -1,4 +1,4 @@
-tag @p[team=player, tag=energy_essence] remove energy_essence
+tag @p[team=player, tag=energy] remove energy
 
 ptc scrape ~ ~1 ~ 0.4 0.7 0.4 0.05 100 normal
 ptc campfire_cosy_smoke ~ ~1 ~ 0.4 0.7 0.4 0.03 15 normal

@@ -1,0 +1,4 @@
+ex store score #random_mob data run random 0..1
+
+ex if score #random_mob data 0 run fn mob/skeleton
+ex if score #random_mob data 1 run fn mob/combat_skeleton
