@@ -1,0 +1,3 @@
+ex as @e[type=wandering_trader, tag=trader] at @s run tp @s ~ ~ ~ 90 5
+data modify @e[type=wandering_trader, tag=trader, limit=1] CustomNameVisible set 0
+data modify @e[type=wandering_trader, tag=trader, limit=1] Silent set 1

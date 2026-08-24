@@ -1,0 +1,6 @@
+ex pos -72 105 -9 unless ent @e[type=wandering_trader, tag=trader, distance=..1] run fn mob/npc/trader
+
+ex pos -78.0 105.0 -11.0 if ent @a[team=player, dx=7, dy=2, dz=4] run fn script/trade/trader_activate
+ex pos -78.0 105.0 -11.0 unless ent @a[team=player, dx=7, dy=2, dz=4] run fn script/trade/trader_deactivate
+
+ex pos -73 106 -9 as @e[type=item, distance=..1] at @s run fn script/trade/sell

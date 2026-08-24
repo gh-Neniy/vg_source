@@ -8,7 +8,7 @@ sm skeleton [
   right_hand=bone,
   right_hand_chance=0.0,
   
-  left_hand=gold_ingot[name={text='Трофей Предводителя', color=gold}, shine],
+  left_hand=gold_ingot[name={text='Трофей Предводителя', color=gold}, shine, tag=boss_skeleton_trophy],
   left_hand_chance=1.0,
 
   tag=enemy,

@@ -6,5 +6,5 @@ ptc campfire_cosy_smoke ~ ~1 ~ 0.4 0.7 0.4 0.05 30 normal
 pls entity.firework_rocket.large_blast @a ~ ~ ~ 1 1
 pls block.lava.extinguish @a ~ ~ ~ 1 0.6
 
-native 'execute as @e[tag=enemy,distance=..3] run data modify entity @s Fire set value 80' // problem with commas in value
+ex as @e[tag=enemy,distance=..3] run data modify @s Fire set 80
 damage @s 15

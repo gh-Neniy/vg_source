@@ -1,0 +1,3 @@
+pls entity.player.levelup @a ~ ~ ~ 1 1.8
+native 'execute if entity @s[nbt={Item:{count:1}}] run kill @s'
+native 'execute unless entity @s[nbt={Item:{count:1}}] run function vg:script/trade/sell/decrement'

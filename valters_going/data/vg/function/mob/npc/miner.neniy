@@ -1,0 +1,12 @@
+sm villager[
+  name={text='Шахтёр', color=gold}
+  no_ai
+  no_trade
+  rotation=[90.0, 5.0]
+  profession=toolsmith
+  right_hand=iron_pickaxe[shine]
+  no_despawn
+  silent
+  invulnerable
+  tag=miner
+] ~ ~ ~

@@ -7,4 +7,7 @@ ex if score #progress data 2 run fn logic/progress/2 // after flint and steel pi
 ex if score #progress data 3.. run fn logic/arena
 ex if score #progress data 3 run fn logic/progress/3 // after invocation
 ex if score #progress data 4 run fn logic/progress/4 // after shop unlock (task 0)
+
+ex if score #progress data 5.. run fn logic/trade
+ex if score #progress data 5.. run fn logic/work
 ex if score #progress data 5 run fn logic/progress/5 // after task 1

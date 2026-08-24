@@ -1,0 +1,10 @@
+sm wandering_trader[
+  name={text='Торговец', color=gold}
+  no_ai
+  no_trade
+  rotation=[90.0, 5.0]
+  no_despawn
+  silent
+  invulnerable
+  tag=trader
+] ~ ~ ~

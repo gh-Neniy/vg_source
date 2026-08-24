@@ -1,0 +1,3 @@
+ex as @e[type=villager, tag=miner] at @s facing @p[team=player] run tp @s ~ ~ ~ ~ ~
+data modify @e[type=villager, tag=miner, limit=1] CustomNameVisible set 1
+data modify @e[type=villager, tag=miner, limit=1] Silent set 0
