@@ -12,13 +12,17 @@
           "functions": [
             {
               "function": "set_name",
-              "name": { "text": "Медный самородок", "color": "red", "italic": false}
+              "name": { "text": "Самородная медь", "color": "red", "italic": false}
             },
             {
               "function": "set_components",
               "components": {
                 "enchantment_glint_override": true
               }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{tag: copper}"
             }
           ]
         }

@@ -1,0 +1,5 @@
+fill -44 114 68 -42 115 69 air replace cobblestone
+
+sm falling_block[block=cobblestone] -42 115 69
+sm falling_block[block=cobblestone] -42 114 69
+sm falling_block[block=cobblestone] -42 115 69

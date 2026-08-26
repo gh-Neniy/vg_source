@@ -1,3 +1,0 @@
-ptc smoke ~ ~ ~ 0.2 0.2 0.2 0.01 100 normal
-pls block.fire.extinguish @a ~ ~ ~ 1 2
-kill @s

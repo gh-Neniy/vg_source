@@ -1,0 +1,6 @@
+ex at @e[type=marker, tag=coal] run setblock ~ ~ ~ coal_ore keep
+ex at @e[type=marker, tag=iron] run setblock ~ ~ ~ iron_ore keep
+ex at @e[type=marker, tag=copper] run setblock ~ ~ ~ copper_ore keep
+ex at @e[type=marker, tag=gold] run setblock ~ ~ ~ gold_ore keep
+
+kill @e[type=marker, tag=work]

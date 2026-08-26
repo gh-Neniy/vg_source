@@ -1,0 +1,9 @@
+tag @s remove work_tp
+tag @s add work
+
+ex if score #random_work data 0 run tp @s -51 105 52
+ex if score #random_work data 1 run tp @s -96 100 86
+ex if score #random_work data 2 run tp @s -35 76 50
+
+scb players set #work_timer_active data 0
+scb players set #work_timer data 0
