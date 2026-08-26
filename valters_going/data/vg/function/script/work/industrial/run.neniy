@@ -1,0 +1,5 @@
+ex if score #work_run_timer data 1 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
+ex if score #work_run_timer data 46 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
+ex if score #work_run_timer data 91 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
+ex if score #work_run_timer data 136 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
+ex if score #work_run_timer data 181 pos -77 45.5 66 run fn script/work/industrial/run/restart

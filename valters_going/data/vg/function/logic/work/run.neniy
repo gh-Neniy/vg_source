@@ -1,1 +1,0 @@
-ex pos -46.0 99.0 59.0 if ent @a[team=player, tag=work, dx=7, dy=2, dz=0] if block -42 115 69 cobblestone run fn script/work/regular/stone_fall

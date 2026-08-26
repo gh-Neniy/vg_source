@@ -5,6 +5,6 @@ ex pos -70.0 105.0 16.0 unless ent @a[team=player, dx=9, dy=2, dz=8] run fn scri
 
 ex pos -61 103 27 if ent @a[team=player, distance=..2.5] run fn script/work/tp
 
-ex if ent @a[team=player, tag=work] run fn logic/work/run
+ex if ent @a[team=player, tag=work] run fn script/work/run
 
 ex pos -39 100 140 as @a[team=player, dx=2, dy=1, dz=0] run fn script/work/return

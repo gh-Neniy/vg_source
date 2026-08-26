@@ -17,3 +17,5 @@ ex as @e[tag=servant] unless ent @s[data=[size=2]] run fn script/delete_mob
 
 ex if score #timer_active data 1 run scb players add #timer data 1
 ex if score #boss_timer_active data 1 run scb players add #boss_timer data 1
+
+ex if score #work_run_timer_active data 1 run scb players add #work_run_timer data 1
