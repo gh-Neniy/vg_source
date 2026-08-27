@@ -1,3 +1,5 @@
+ex pos -51 76 48 if ent @a[team=player, dx=4, dy=1, dz=4] run scb players set #elevator data 1
+
 ex if score #work_run_timer data 1 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
 ex if score #work_run_timer data 46 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
 ex if score #work_run_timer data 91 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45

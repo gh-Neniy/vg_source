@@ -1,0 +1,75 @@
+ex pos -47 75 51 run fn script/work/industrial/collision
+ex pos -47 75 50 run fn script/work/industrial/collision
+ex pos -47 75 49 run fn script/work/industrial/collision
+
+ex pos -48 75 51 run fn script/work/industrial/collision
+ex pos -48 75 50 run fn script/work/industrial/collision
+ex pos -48 75 49 run fn script/work/industrial/collision
+
+ex pos -49 75 51 run fn script/work/industrial/collision
+ex pos -49 75 50 run fn script/work/industrial/collision
+ex pos -49 75 49 run fn script/work/industrial/collision
+
+ex pos -50 75 51 run fn script/work/industrial/collision
+ex pos -50 75 50 run fn script/work/industrial/collision
+ex pos -50 75 49 run fn script/work/industrial/collision
+
+ex pos -51 75 51 run fn script/work/industrial/collision
+ex pos -51 75 50 run fn script/work/industrial/collision
+ex pos -51 75 49 run fn script/work/industrial/collision
+
+ex pos -47 76 48 run fn script/work/industrial/collision
+ex pos -48 76 48 run fn script/work/industrial/collision
+ex pos -49 76 48 run fn script/work/industrial/collision
+ex pos -50 76 48 run fn script/work/industrial/collision
+ex pos -51 76 48 run fn script/work/industrial/collision
+
+ex pos -47 76 52 run fn script/work/industrial/collision
+ex pos -48 76 52 run fn script/work/industrial/collision
+ex pos -49 76 52 run fn script/work/industrial/collision
+ex pos -50 76 52 run fn script/work/industrial/collision
+ex pos -51 76 52 run fn script/work/industrial/collision
+
+// base
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -47.0 75 48.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -48.0 75 48.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -49.0 75 48.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -50.0 75 48.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -51.0 75 48.0
+
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -47.0 75 49.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -48.0 75 49.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -49.0 75 49.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -50.0 75 49.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -51.0 75 49.0
+
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -47.0 75 50.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -48.0 75 50.0
+sm block_display[block=iron_block, tag=elevator, tag=center, tp_time=3] -49.0 75 50.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -50.0 75 50.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -51.0 75 50.0
+
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -47.0 75 51.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -48.0 75 51.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -49.0 75 51.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -50.0 75 51.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -51.0 75 51.0
+
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -47.0 75 52.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -48.0 75 52.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -49.0 75 52.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -50.0 75 52.0
+sm block_display[block=iron_block, tag=elevator, tp_time=3] -51.0 75 52.0
+
+// railings
+sm block_display[block=iron_block, tag=elevator, tag=railing, tp_time=3] -47.0 76 48.0
+sm block_display[block=cobblestone_wall[east, west], tag=elevator, tp_time=3] -48.0 76 48.0
+sm block_display[block=iron_block, tag=elevator, tag=railing, tp_time=3] -49.0 76 48.0
+sm block_display[block=cobblestone_wall[east, west], tag=elevator, tp_time=3] -50.0 76 48.0
+sm block_display[block=iron_block, tag=elevator, tag=railing, tp_time=3] -51.0 76 48.0
+
+sm block_display[block=iron_block, tag=elevator, tag=railing, tp_time=3] -47.0 76 52.0
+sm block_display[block=cobblestone_wall[east, west], tag=elevator, tp_time=3] -48.0 76 52.0
+sm block_display[block=iron_block, tag=elevator, tag=railing, tp_time=3] -49.0 76 52.0
+sm block_display[block=cobblestone_wall[east, west], tag=elevator, tp_time=3] -50.0 76 52.0
+sm block_display[block=iron_block, tag=elevator, tag=railing, tp_time=3] -51.0 76 52.0

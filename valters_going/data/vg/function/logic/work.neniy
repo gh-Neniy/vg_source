@@ -11,3 +11,5 @@ ex as @a[team=player, tag=sell_ore] run fn script/work/sell_ore
 ex if ent @a[team=player, tag=work] run fn script/work/run
 
 ex if score #regular_work_stone_fall data 1 run fn script/work/regular/stone_fall
+
+ex if score #elevator data 1 run fn script/work/industrial/elevator

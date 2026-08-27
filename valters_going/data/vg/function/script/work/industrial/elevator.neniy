@@ -1,0 +1,6 @@
+ex if score #elevator_timer data 0 run scb players set #elevator_timer_active data 1
+ex if score #elevator_timer data 41..370 run fn script/work/industrial/elevator/down
+ex if score #elevator_timer data 370 at @e[tag=elevator, tag=center] run fn script/work/industrial/elevator/0
+ex if score #elevator_timer data 450 run fn script/work/industrial/elevator/1
+ex if score #elevator_timer data 451..780 run fn script/work/industrial/elevator/up
+ex if score #elevator_timer data 860 run fn script/work/industrial/elevator/2

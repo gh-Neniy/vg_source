@@ -1,0 +1,3 @@
+scb players set #elevator_timer_active data 0
+scb players set #elevator_timer data 0
+scb players set #elevator data 0
