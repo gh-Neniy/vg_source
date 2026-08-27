@@ -3,16 +3,16 @@
     {
       "rolls": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
       "entries": [
         {
           "type": "item",
-          "name": "raw_gold",
+          "name": "coal",
           "functions": [
             {
               "function": "set_name",
-              "name": { "text": "Самородное золото", "color": "gold", "italic": false}
+              "name": { "text": "Каменный уголь", "color": "gray", "italic": false}
             },
             {
               "function": "set_components",
@@ -22,7 +22,7 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{tag: gold}"
+              "tag": "{tag: coal}"
             }
           ]
         }
@@ -37,7 +37,7 @@
           "functions": [
             {
               "function": "set_custom_data",
-              "tag": "{tag: gold}"
+              "tag": "{tag: coal}"
             }
           ]
         }

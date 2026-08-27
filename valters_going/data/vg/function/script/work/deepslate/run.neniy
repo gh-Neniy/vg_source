@@ -1,0 +1,9 @@
+ex pos -100 93 104 if ent @a[team=player, dx=3, dy=0, dz=6] run fn script/work/deepslate/bridge
+
+ex pos -84 105 80 if ent @a[team=player, dx=5, dy=0, dz=6] run fn script/work/deepslate/right_collapse
+
+ex pos -122 105 84 if ent @a[team=player, dx=5, dy=0, dz=7] run fn script/work/deepslate/left_collapse
+
+ex pos -119 80 70 as @a[team=player, dx=41, dy=3, dz=41] run kill @s
+
+ex pos -99 104 124 as @a[team=player, distance=..1] run tag @s add work_return

@@ -1,0 +1,26 @@
+fill -100 92 103 -97 92 110 air destroy
+
+sm falling_block[block=spruce_log[axis=z]] -100 92 104
+sm falling_block[block=spruce_log[axis=z]] -100 92 105
+sm falling_block[block=spruce_log[axis=z]] -100 92 106
+sm falling_block[block=spruce_log[axis=z]] -100 92 107
+sm falling_block[block=spruce_log[axis=z]] -100 92 108
+sm falling_block[block=spruce_log[axis=z]] -100 92 109
+
+sm falling_block[block=spruce_log[axis=z]] -97 92 104
+sm falling_block[block=spruce_log[axis=z]] -97 92 105
+sm falling_block[block=spruce_log[axis=z]] -97 92 106
+sm falling_block[block=spruce_log[axis=z]] -97 92 107
+sm falling_block[block=spruce_log[axis=z]] -97 92 108
+sm falling_block[block=spruce_log[axis=z]] -97 92 109
+sm falling_block[block=spruce_log[axis=z]] -97 92 110
+
+sm falling_block[block=spruce_planks] -99 92 104
+sm falling_block[block=spruce_planks] -99 92 105
+sm falling_block[block=spruce_planks] -98 92 105
+sm falling_block[block=spruce_planks] -98 92 107
+sm falling_block[block=spruce_planks] -99 92 108
+sm falling_block[block=spruce_planks] -99 92 109
+sm falling_block[block=spruce_planks] -98 92 109
+sm falling_block[block=spruce_planks] -99 92 110
+sm falling_block[block=spruce_planks] -98 92 110

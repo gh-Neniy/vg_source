@@ -1,0 +1,25 @@
+fill -84 104 80 -79 104 86 air replace cobbled_deepslate_slab
+ptc block[block=cobbled_deepslate] -81 105 82 2 0.3 2 0.1 500 normal
+pls block.deepslate.break @a -81 104 82 3 0.6
+
+sm falling_block[block=cobbled_deepslate_slab] -84 104.5 80
+sm falling_block[block=cobbled_deepslate_slab] -84 104.5 81
+sm falling_block[block=cobbled_deepslate_slab] -83 104.5 80
+sm falling_block[block=cobbled_deepslate_slab] -83 104.5 81
+sm falling_block[block=cobbled_deepslate_slab] -83 104.5 82
+sm falling_block[block=cobbled_deepslate_slab] -82 104.5 80
+sm falling_block[block=cobbled_deepslate_slab] -82 104.5 81
+sm falling_block[block=cobbled_deepslate_slab] -82 104.5 82
+sm falling_block[block=cobbled_deepslate_slab] -82 104.5 83
+sm falling_block[block=cobbled_deepslate_slab] -82 104.5 84
+sm falling_block[block=cobbled_deepslate_slab] -81 104.5 80
+sm falling_block[block=cobbled_deepslate_slab] -81 104.5 81
+sm falling_block[block=cobbled_deepslate_slab] -81 104.5 82
+sm falling_block[block=cobbled_deepslate_slab] -81 104.5 83
+sm falling_block[block=cobbled_deepslate_slab] -80 104.5 81
+sm falling_block[block=cobbled_deepslate_slab] -80 104.5 82
+sm falling_block[block=cobbled_deepslate_slab] -80 104.5 83
+sm falling_block[block=cobbled_deepslate_slab] -79 104.5 82
+sm falling_block[block=cobbled_deepslate_slab] -79 104.5 83
+sm falling_block[block=cobbled_deepslate_slab] -81 104.5 85
+sm falling_block[block=cobbled_deepslate_slab] -81 104.5 86

@@ -1,0 +1,38 @@
+ex if score #work data 0 run sm text_display[
+    tag=work_info, text=[
+        {text='5 ', color=gold},
+        {text='Каменного угля\n', color=gray},
+        {text='продаются за\n', color=white},
+        {text='серебряную копейку', color=gray}
+    ], billboard=center
+] ~ ~ ~
+
+ex if score #work data 1 run sm text_display[
+    tag=work_info, text=[
+        {text='3 ', color=gold},
+        {text='Кусочка железной руды\n', color=white},
+        {text='продаются за\n', color=white},
+        {text='серебряную копейку', color=gray}
+    ], billboard=center
+] ~ ~ ~
+
+ex if score #work data 2 run sm text_display[
+    tag=work_info, text=[
+        {text='2 ', color=gold},
+        {text='Самородной меди\n', color=red},
+        {text='продаются за\n', color=white},
+        {text='серебряную копейку', color=gray}
+    ], billboard=center
+] ~ ~ ~
+
+ex if score #work data 3 run sm text_display[
+    tag=work_info, text=[
+        {text='Самородное золото', color=gold},
+        {text='\n', color=gold},
+        {text='продается за\n', color=white},
+        {text='2 ', color=gold},
+        {text='серебряных копейки', color=gray}
+    ], billboard=center
+] ~ ~ ~
+
+ex as @e[type=text_display, tag=work_info] run data modify @s transformation.scale set [0.7, 0.7, 0.7]

@@ -1,0 +1,15 @@
+// bridge
+fill -100 81 104 -97 82 110 water replace spruce_log
+fill -100 81 104 -97 82 110 water replace spruce_planks
+
+fill -100 92 103 -100 92 110 spruce_log[axis=z] keep
+fill -97 92 103 -97 92 110 spruce_log[axis=z] keep
+clone -101 117 94 -100 117 100 -99 92 104 replace
+
+// right thin deepslate
+fill -84 93 80 -79 95 86 air replace cobbled_deepslate_slab
+clone -105 117 83 -100 117 89 -84 104 80 masked
+
+// left thin deepslate
+fill -122 93 84 -117 95 91 air replace cobbled_deepslate_slab
+clone -112 117 87 -107 117 94 -122 104 84 masked
