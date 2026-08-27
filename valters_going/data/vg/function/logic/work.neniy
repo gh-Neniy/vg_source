@@ -3,8 +3,11 @@ ex pos -63 105 20 unless ent @e[type=villager, tag=miner, distance=..1] run fn m
 ex pos -70.0 105.0 16.0 if ent @a[team=player, dx=9, dy=2, dz=8] run fn script/work/miner_activate
 ex pos -70.0 105.0 16.0 unless ent @a[team=player, dx=9, dy=2, dz=8] run fn script/work/miner_deactivate
 
-ex pos -61 103 27 if ent @a[team=player, distance=..2.5] run fn script/work/tp
+ex pos -61 103 27 if ent @a[team=player, distance=..2.5] run tag @s add work_tp
+ex as @a[team=player, tag=work_tp] run fn script/work/tp
+ex as @a[team=player, tag=work_return] run fn script/work/return
+ex as @a[team=player, tag=sell_ore] run fn script/work/sell_ore
 
 ex if ent @a[team=player, tag=work] run fn script/work/run
 
-ex pos -39 100 140 as @a[team=player, dx=2, dy=1, dz=0] run fn script/work/return
+ex if score #regular_work_stone_fall data 1 run fn script/work/regular/stone_fall

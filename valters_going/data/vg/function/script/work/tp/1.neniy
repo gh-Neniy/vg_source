@@ -1,9 +1,14 @@
 tag @s remove work_tp
 tag @s add work
 
-ex if score #random_work data 0 run tp @s -51 105 52
-ex if score #random_work data 1 run tp @s -96 100 86
-ex if score #random_work data 2 run tp @s -35 76 50 // industrial
+ex if score #random_work data 0 run fn script/work/regular/tp
+ex if score #random_work data 1 run fn script/work/deepslate/tp
+ex if score #random_work data 2 run fn script/work/industrial/tp
 
-scb players set #work_timer_active data 0
-scb players set #work_timer data 0
+ex if score #work data 0 run fn item/work/wooden_pickaxe
+ex if score #work data 1 run fn item/work/stone_pickaxe
+ex if score #work data 2 run fn item/work/iron_pickaxe
+ex if score #work data 3 run fn item/work/iron_pickaxe_2
+
+tag @s remove timer_active
+scb players set @s timer 0

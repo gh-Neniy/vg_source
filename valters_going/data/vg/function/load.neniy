@@ -3,6 +3,8 @@ scb obj add manuscript dummy
 scb obj add manuscript2 dummy
 scb obj add artifact dummy
 scb obj add essence dummy
+scb obj add ore dummy
+scb obj add timer dummy
 
 // initialization
 ex uninited #timer_active data run scb players set #timer_active data 0

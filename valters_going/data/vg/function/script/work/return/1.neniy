@@ -1,0 +1,8 @@
+tag @s add sell_ore
+tag @s remove work_return
+tag @s remove work
+
+ex unless ent @a[team=player, tag=work] run fn script/work/ore_recovery
+
+tag @s remove timer_active
+scb players set @s timer 0

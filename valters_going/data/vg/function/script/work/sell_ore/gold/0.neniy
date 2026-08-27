@@ -1,0 +1,3 @@
+clear @s raw_gold[tag=gold] 3
+fn item/silver_coin
+fn item/silver_coin

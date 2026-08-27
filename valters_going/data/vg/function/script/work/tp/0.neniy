@@ -1,5 +1,4 @@
-scb players set #work_timer_active data 1
+tag @s add timer_active
 
+effect give @s blindness 3 0
 ex unless ent @a[team=player, tag=work] store score #random_work data run random 0..2
-ex as @a[team=player, distance=..12] run tag @s add work_tp
-ex as @a[team=player, distance=..12] run effect give @s blindness 3 0

@@ -1,0 +1,4 @@
+ex if score #work data 0 run fn script/work/sell_ore/coal
+ex if score #work data 1 run fn script/work/sell_ore/iron
+ex if score #work data 2 run fn script/work/sell_ore/copper
+ex if score #work data 3 run fn script/work/sell_ore/gold

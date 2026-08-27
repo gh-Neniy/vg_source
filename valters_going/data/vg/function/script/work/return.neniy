@@ -1,4 +1,2 @@
-tag @s remove work
-tag @s add work_return
-
-
+ex if score @s timer 0 run fn script/work/return/0
+ex if score @s timer 40 run fn script/work/return/1

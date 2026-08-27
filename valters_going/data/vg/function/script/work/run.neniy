@@ -1,1 +1,3 @@
+ex if score #random_work data 0 run fn script/work/regular/run
+ex if score #random_work data 1 run fn script/work/deepslate/run
 ex if score #random_work data 2 run fn script/work/industrial/run

@@ -1,0 +1,4 @@
+ex store score @s ore run clear @s coal[tag=coal] 0
+
+ex if score @s ore 0 run tag @s remove sell_ore
+ex unless score @s ore 0 run fn script/work/sell_ore/coal/0

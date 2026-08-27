@@ -1,2 +1,2 @@
-ex if score #work_timer data 0 run fn script/work/tp/0
-ex if score #work_timer data 40 as @a[tag=work_tp] run fn script/work/tp/1
+ex if score @s timer 0 run fn script/work/tp/0
+ex if score @s timer 40 run fn script/work/tp/1

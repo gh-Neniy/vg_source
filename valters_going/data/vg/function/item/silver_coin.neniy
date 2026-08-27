@@ -1,0 +1,5 @@
+give @s iron_nugget[
+    shine,
+    name={text='Серебряная копейка', color=gray},
+    lore=[{text='С помощью денег вы можете покупать вещи в Магазине', color=white}]
+]

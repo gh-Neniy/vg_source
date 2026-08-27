@@ -1,0 +1,4 @@
+ex unless score #regular_work_stone_fall data 2 pos -46 99 59
+    if ent @a[team=player, dx=7, dy=2, dz=0] run scb players set #regular_work_stone_fall data 1
+
+

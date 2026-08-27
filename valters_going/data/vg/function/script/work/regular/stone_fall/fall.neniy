@@ -1,0 +1,15 @@
+scb players set #work_run_timer_active data 1
+
+fill -43 116 68 -41 116 70 air replace cobblestone
+
+ptc block[block=cobblestone] -42 116 69 1 0.5 1 2 400 force
+pls minecraft:block.basalt.break @a -42 116 69 5 0.6
+
+sm falling_block[block=cobblestone] -43 116 68
+sm falling_block[block=cobblestone] -43 116 69
+sm falling_block[block=cobblestone] -43 116 70
+sm falling_block[block=cobblestone] -42 116 68
+sm falling_block[block=cobblestone] -42 116 69
+sm falling_block[block=cobblestone] -42 116 70
+sm falling_block[block=cobblestone] -41 116 68
+sm falling_block[block=cobblestone] -41 116 69

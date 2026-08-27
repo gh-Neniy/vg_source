@@ -1,0 +1,2 @@
+tag @s add timer_active
+effect give @s blindness 3 0

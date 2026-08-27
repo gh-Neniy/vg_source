@@ -1,0 +1,4 @@
+fill -43 116 68 -41 116 70 cobblestone keep
+fill -43 95 68 -41 95 70 lava replace magma_block
+
+scb players set #regular_work_stone_fall data 0

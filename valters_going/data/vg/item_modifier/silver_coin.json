@@ -1,11 +1,11 @@
 [
   {
     "function": "set_name",
-    "name": { "text": "Серебряная копейка", "color": "gray", "italic": false}
+    "name": { "text": "Серебряная копейка", "color": "gray", "italic": false, "bold": false, "font": "minecraft:uniform"}
   },
   {
     "function": "set_lore",
-    "lore": [ { "text": "С помощью денег мы можете покупать вещи в Магазине", "color": "white", "italic": false } ],
+    "lore": [ { "text": "С помощью денег вы можете покупать вещи в Магазине", "color": "white", "italic": false, "bold": false, "font": "minecraft:uniform" } ],
     "mode": "replace_all"
   },
   {

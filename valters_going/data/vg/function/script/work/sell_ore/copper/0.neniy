@@ -1,0 +1,2 @@
+clear @s raw_copper[tag=copper] 2
+fn item/silver_coin

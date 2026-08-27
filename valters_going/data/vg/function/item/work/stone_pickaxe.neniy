@@ -1,0 +1,8 @@
+give @s stone_pickaxe [
+  hide
+  shine
+  name={text='Кустарная кирка', color=gray}
+  lore= [{text='Может добывать железную руду', color=white}]
+  can_break=iron_ore
+  unbreakable
+]

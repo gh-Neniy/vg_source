@@ -1,0 +1,7 @@
+scb players set #regular_work_stone_fall data 2
+scb players set #work_run_timer_active data 0
+scb players set #work_run_timer data 0
+
+fill -43 95 68 -41 95 70 magma_block replace cobblestone
+pls block.lava.extinguish @a -42 96 69 1 0.8
+ptc smoke -42 96 69 1 0.7 1 0.05 200 normal

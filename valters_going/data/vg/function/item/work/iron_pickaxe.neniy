@@ -1,0 +1,8 @@
+give @s iron_pickaxe [
+  hide
+  shine
+  name={text='Добротная кирка', color=gray}
+  lore= [[{text='Может добывать ', color=white}, {text='медную руду', color=red}]]
+  can_break=copper_ore
+  unbreakable
+]

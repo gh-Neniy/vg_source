@@ -1,0 +1,8 @@
+give @s wooden_pickaxe [
+  hide
+  shine
+  name={text='Старая кирка', color=gray}
+  lore= [[{text='Может добывать ', color=white}, {text='угольную руду', color=gray}]]
+  can_break=coal_ore
+  unbreakable
+]
