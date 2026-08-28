@@ -1,0 +1,2 @@
+ex pos -71.0 42 66 run fn script/work/industrial/run/hit
+ex as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45

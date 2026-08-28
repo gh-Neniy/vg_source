@@ -1,0 +1,2 @@
+ex as @e[tag=wheel] run tag @s add old
+ex pos -77 45.5 66 run fn script/work/industrial/wheel

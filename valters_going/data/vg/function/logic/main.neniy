@@ -21,3 +21,4 @@ ex if score #boss_timer_active data 1 run scb players add #boss_timer data 1
 ex if score #work_run_timer_active data 1 run scb players add #work_run_timer data 1
 
 ex if score #elevator_timer_active data 1 run scb players add #elevator_timer data 1
+ex if score #small_elevator_timer_active data 1 run scb players add #small_elevator_timer data 1

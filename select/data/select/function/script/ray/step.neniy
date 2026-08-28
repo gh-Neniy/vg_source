@@ -1,2 +1,2 @@
-ex unless block ~ ~ ~ #air run fn script/ray/arrival
+ex unless block ~ ~ ~ air run fn script/ray/arrival
 tp @s ^ ^ ^0.1

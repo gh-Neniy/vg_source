@@ -1,0 +1,1 @@
+sm armor_stand[invisible, marker, tag=small_elevator, passenger=shulker[no_ai, silent, invulnerable, effect=invisibility, tag=small_elevator]] ~ ~ ~

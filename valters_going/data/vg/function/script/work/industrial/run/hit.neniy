@@ -1,0 +1,4 @@
+pls block.tuff.break @a ~ ~ ~ 0.7 0
+ptc campfire_cosy_smoke ~ ~ ~ 0.5 0.5 0.5 0.01 20 normal
+
+ptc item[item=lapis_block] ~-12 ~6 ~ 0.7 1 0.3 0 100 normal

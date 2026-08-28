@@ -1,7 +1,15 @@
 ex pos -51 76 48 if ent @a[team=player, dx=4, dy=1, dz=4] run scb players set #elevator data 1
+ex pos -70 42 21 if ent @a[team=player, dx=2, dy=1, dz=2] run scb players set #small_elevator data 1
 
-ex if score #work_run_timer data 1 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
-ex if score #work_run_timer data 46 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
-ex if score #work_run_timer data 91 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
-ex if score #work_run_timer data 136 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
-ex if score #work_run_timer data 181 pos -77 45.5 66 run fn script/work/industrial/run/restart
+ex if score #work_run_timer data 0 run fn script/work/industrial/run/0
+ex if score #work_run_timer data 30 pos -71.0 42 66 run fn script/work/industrial/run/hit
+ex if score #work_run_timer data 45 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
+ex if score #work_run_timer data 60 pos -71.0 42 66 run fn script/work/industrial/run/hit
+ex if score #work_run_timer data 90 run fn script/work/industrial/run/1
+ex if score #work_run_timer data 120 pos -71.0 42 66 run fn script/work/industrial/run/hit
+ex if score #work_run_timer data 135 as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45
+ex if score #work_run_timer data 150 pos -71.0 42 66 run fn script/work/industrial/run/hit
+ex if score #work_run_timer data 179 pos -77 45.5 66 run fn script/work/industrial/run/2
+ex if score #work_run_timer data 180 run fn script/work/industrial/run/restart
+
+ex pos -59 76 21 as @a[team=player, dx=0, dy=1, dz=2] run tag @s add work_return

@@ -1,0 +1,4 @@
+ex pos -71.0 42 66 run fn script/work/industrial/run/hit
+
+scb players set #work_run_timer_active data 1
+ex as @e[type=block_display, tag=wheel] at @s run tp @s ~ ~ ~ ~ ~-45

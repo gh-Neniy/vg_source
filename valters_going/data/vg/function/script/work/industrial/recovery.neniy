@@ -1,0 +1,3 @@
+ex unless ent @e[tag=wheel] pos -77 45.5 66 run fn script/work/industrial/wheel
+fn script/work/industrial/elevator/spawn
+fn script/work/industrial/small_elevator/spawn

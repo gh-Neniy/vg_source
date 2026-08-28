@@ -1,0 +1,5 @@
+ex if score #small_elevator_timer data 0 run scb players set #small_elevator_timer_active data 1
+ex if score #small_elevator_timer data 41..380 run fn script/work/industrial/small_elevator/up
+ex if score #small_elevator_timer data 380 run stopsound @a entity.minecart.riding
+ex if score #small_elevator_timer data 461..800 run fn script/work/industrial/small_elevator/down
+ex if score #small_elevator_timer data 880 run fn script/work/industrial/small_elevator/0

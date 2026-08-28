@@ -3,6 +3,7 @@ tag @s remove work_return
 tag @s remove work
 
 ex unless ent @a[team=player, tag=work] run fn script/work/ore_recovery
+ex unless ent @a[team=player, tag=work] if score #work data 2 run fn script/work/industrial/reset
 
 tag @s remove timer_active
 scb players set @s timer 0

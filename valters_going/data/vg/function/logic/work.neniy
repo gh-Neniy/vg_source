@@ -13,3 +13,4 @@ ex if ent @a[team=player, tag=work] run fn script/work/run
 ex if score #regular_work_stone_fall data 1 run fn script/work/regular/stone_fall
 
 ex if score #elevator data 1 run fn script/work/industrial/elevator
+ex if score #small_elevator data 1 run fn script/work/industrial/small_elevator

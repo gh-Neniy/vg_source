@@ -1,1 +1,1 @@
-ex if block ~ ~ ~ #air unless ent @e[tag=filler1, distance=..0.1] run fn script/filler1/spawn
+ex if block ~ ~ ~ air unless ent @e[tag=filler1, distance=..0.1] run fn script/filler1/spawn

@@ -1,3 +1,3 @@
-ex unless block ^ ^ ^0.1 #air run fn script/fire_staff/fireball/arrival
+ex unless block ^ ^ ^0.1 air run fn script/fire_staff/fireball/arrival
 ex pos ~ ~-1 ~ if ent @e[tag=enemy, distance=..1] pos ~ ~1 ~ run fn script/fire_staff/fireball/arrival
 tp @s ^ ^ ^0.1 ~ ~

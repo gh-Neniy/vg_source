@@ -1,4 +1,4 @@
-kill @e[tag=wheel]
-fn script/work/industrial/wheel
+kill @e[tag=wheel, tag=old]
 
+scb players set #work_run_timer_active data 0
 scb players set #work_run_timer data 0

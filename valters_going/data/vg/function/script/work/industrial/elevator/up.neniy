@@ -1,4 +1,4 @@
 ex at @e[tag=elevator] pos ~ ~1 ~ as @a[team=player, distance=..1] at @s run tp @s ~ ~0.1 ~
-ex as @e[tag=elevator] at @s run tp @s ~ ~0.1 ~
+ex as @e[tag=elevator, type=!shulker] at @s run tp @s ~ ~0.1 ~
 ex as @e[tag=elevator, tag=railing] at @s if block ~ ~ ~ iron_chain run setblock ~ ~ ~ air replace
 ex at @e[tag=elevator, tag=center] run pls entity.minecart.riding @a ~ ~ ~ 0.03 0
