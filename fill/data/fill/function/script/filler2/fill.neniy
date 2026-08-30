@@ -1,5 +1,5 @@
 kill @s
 
 setblock ~ ~ ~ stone keep
-pls block.stone.place @a ~ ~ ~ 0.1 1
+pls stone.place @a ~ ~ ~ 0.1 1
 ex pos ~ ~1 ~ run fn script/filler2/replicate

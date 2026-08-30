@@ -14,5 +14,5 @@ sm stray [
   tag=bones
 ] ~ ~ ~
 
-pls ambient.warped_forest.mood @a ~ ~ ~ 3 2
+pls warped_forest.mood @a ~ ~ ~ 3 2
 ptc cloud ~ ~ ~ 1 1 1 0.05 100 normal

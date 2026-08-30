@@ -1,7 +1,7 @@
 tag @a[team=player] remove cutscene
 gm adventure @a[team=player]
 tp @a[team=player] -76 106 4 90 10
-pls block.portal.travel @a -76 106 4 0.4 1
+pls portal.travel @a -76 106 4 0.4 1
 ptc glow_squid_ink -76 107 4 0.4 0.8 0.4 0.1 200 normal
 spawnpoint @a[team=player] -76 106 4
 

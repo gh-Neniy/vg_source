@@ -1,5 +1,5 @@
 sm marker[tag=work, tag=iron] ~ ~ ~
 
 ptc campfire_cosy_smoke ~ ~ ~ 0 0 0 0.01 50 normal
-pls block.ancient_debris.break @a ~ ~ ~ 1 0
+pls ancient_debris.break @a ~ ~ ~ 1 0
 kill @s

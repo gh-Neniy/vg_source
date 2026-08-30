@@ -3,7 +3,7 @@ tag @p[team=player, tag=energy] remove energy
 ptc scrape ~ ~1 ~ 0.4 0.7 0.4 0.05 100 normal
 ptc campfire_cosy_smoke ~ ~1 ~ 0.4 0.7 0.4 0.03 15 normal
 
-pls entity.generic.explode @a ~ ~ ~ 0.6 1.4
+pls generic.explode @a ~ ~ ~ 0.6 1.4
 
 ex at @e[tag=enemy, distance=..4] run ptc campfire_cosy_smoke ~ ~1 ~ 0.4 0.7 0.4 0.03 10 normal
 ex as @e[tag=enemy, distance=..4] run damage @s 5

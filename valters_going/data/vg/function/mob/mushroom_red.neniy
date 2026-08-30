@@ -8,29 +8,29 @@ sm zombie[
 ] ~ ~ ~
 
 sm block_display[block=mushroom_stem, tag=mushroom_red, tag=stem, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=stem, sort=nearest, limit=1] run data modify @s transformation.translation set [-0.2, 0.0, -0.2]
-ex as @e[tag=mushroom_red, tag=stem, sort=nearest, limit=1] run data modify @s transformation.scale set [0.4, 1.6, 0.4]
+ex as @e[tag=mushroom_red, tag=stem, sort=nearest, limit=1] run data modify @s translation set [-0.2, 0.0, -0.2]
+ex as @e[tag=mushroom_red, tag=stem, sort=nearest, limit=1] run data modify @s scale set [0.4, 1.6, 0.4]
 
 sm block_display[block=red_mushroom_block, tag=mushroom_red, tag=hat, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=hat, sort=nearest, limit=1] run data modify @s transformation.translation set [-0.6, 1.6, -0.6]
-ex as @e[tag=mushroom_red, tag=hat, sort=nearest, limit=1] run data modify @s transformation.scale set [1.2, 0.4, 1.2]
+ex as @e[tag=mushroom_red, tag=hat, sort=nearest, limit=1] run data modify @s translation set [-0.6, 1.6, -0.6]
+ex as @e[tag=mushroom_red, tag=hat, sort=nearest, limit=1] run data modify @s scale set [1.2, 0.4, 1.2]
 
 sm block_display[block=red_mushroom_block, tag=mushroom_red, tag=hat_border1, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=hat_border1, sort=nearest, limit=1] run data modify @s transformation.translation set [0.6, 0.8, -0.6]
-ex as @e[tag=mushroom_red, tag=hat_border1, sort=nearest, limit=1] run data modify @s transformation.scale set [0.4, 0.8, 1.2]
+ex as @e[tag=mushroom_red, tag=hat_border1, sort=nearest, limit=1] run data modify @s translation set [0.6, 0.8, -0.6]
+ex as @e[tag=mushroom_red, tag=hat_border1, sort=nearest, limit=1] run data modify @s scale set [0.4, 0.8, 1.2]
 
 sm block_display[block=red_mushroom_block, tag=mushroom_red, tag=hat_border2, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=hat_border2, sort=nearest, limit=1] run data modify @s transformation.translation set [-1.0, 0.8, -0.6]
-ex as @e[tag=mushroom_red, tag=hat_border2, sort=nearest, limit=1] run data modify @s transformation.scale set [0.4, 0.8, 1.2]
+ex as @e[tag=mushroom_red, tag=hat_border2, sort=nearest, limit=1] run data modify @s translation set [-1.0, 0.8, -0.6]
+ex as @e[tag=mushroom_red, tag=hat_border2, sort=nearest, limit=1] run data modify @s scale set [0.4, 0.8, 1.2]
 
 sm block_display[block=red_mushroom_block, tag=mushroom_red, tag=hat_border3, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=hat_border3, sort=nearest, limit=1] run data modify @s transformation.translation set [-0.6, 0.8, 0.6]
-ex as @e[tag=mushroom_red, tag=hat_border3, sort=nearest, limit=1] run data modify @s transformation.scale set [1.2, 0.8, 0.4]
+ex as @e[tag=mushroom_red, tag=hat_border3, sort=nearest, limit=1] run data modify @s translation set [-0.6, 0.8, 0.6]
+ex as @e[tag=mushroom_red, tag=hat_border3, sort=nearest, limit=1] run data modify @s scale set [1.2, 0.8, 0.4]
 
 sm block_display[block=red_mushroom_block, tag=mushroom_red, tag=hat_border4, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=hat_border4, sort=nearest, limit=1] run data modify @s transformation.translation set [-0.6, 0.8, -1.0]
-ex as @e[tag=mushroom_red, tag=hat_border4, sort=nearest, limit=1] run data modify @s transformation.scale set [1.2, 0.8, 0.4]
+ex as @e[tag=mushroom_red, tag=hat_border4, sort=nearest, limit=1] run data modify @s translation set [-0.6, 0.8, -1.0]
+ex as @e[tag=mushroom_red, tag=hat_border4, sort=nearest, limit=1] run data modify @s scale set [1.2, 0.8, 0.4]
 
 sm text_display[tag=mushroom_red, tag=text, text={text='Живой Гриб', color=red}, tp_time=2] ~ ~ ~
-ex as @e[tag=mushroom_red, tag=text, sort=nearest, limit=1] run data modify @s transformation.translation set [0.0, 2.4, 0.0]
-ex as @e[tag=mushroom_red, tag=text, sort=nearest, limit=1] run data modify @s transformation.scale set [1.5, 1.5, 1.5]
+ex as @e[tag=mushroom_red, tag=text, sort=nearest, limit=1] run data modify @s translation set [0.0, 2.4, 0.0]
+ex as @e[tag=mushroom_red, tag=text, sort=nearest, limit=1] run data modify @s scale set [1.5, 1.5, 1.5]

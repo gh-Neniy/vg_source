@@ -3,4 +3,4 @@ sm falling_block[block=warped_nylium] 67 101 6
 sm falling_block[block=warped_nylium] 67 101 5
 sm falling_block[block=warped_nylium] 68 101 5
 sm falling_block[block=warped_nylium] 68 101 4
-pls block.netherrack.fall @a ~ ~ ~ 1 1
+pls netherrack.fall @a ~ ~ ~ 1 1

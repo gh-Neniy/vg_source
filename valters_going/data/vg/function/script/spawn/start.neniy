@@ -24,4 +24,4 @@ tellraw @a {text='Совершите ритуал по призыву Вальт
 time set night
 
 ptc campfire_cosy_smoke ~ ~0.1 ~ 0.3 0.025 0.3 0.01 5 normal
-pls item.axe.wax_off @a ~ ~0.1 ~ 1 2
+pls axe.wax_off @a ~ ~0.1 ~ 1 2

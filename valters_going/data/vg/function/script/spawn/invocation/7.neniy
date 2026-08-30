@@ -2,4 +2,4 @@ tellraw @a [
   {text='Вальтер: ', color=#A51414}
   {text='Сделка заключена!', color=red}  
 ]
-ex at @e[tag=valter] run pls entity.piglin_brute.angry @a ~ ~ ~ 1 0.8
+ex at @e[tag=valter] run pls piglin_brute.angry @a ~ ~ ~ 1 0.8

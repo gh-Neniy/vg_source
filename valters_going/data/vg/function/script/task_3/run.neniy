@@ -9,9 +9,9 @@ ex if score #timer data 700 pos -86 105 -26 run fn script/task_3/run/2
 
 ex if score #timer data 701 unless ent @e[tag=enemy] run scb players set #timer_active data 1
 
-ex if score #timer data 702.. store bossbar boss_stray_1 run data get @e[tag=boss_stray_1, limit=1] Health
-ex if score #timer data 702.. store bossbar boss_stray_2 run data get @e[tag=boss_stray_2, limit=1] Health
-ex if score #timer data 702.. store bossbar boss_stray_3 run data get @e[tag=boss_stray_3, limit=1] Health
+ex if score #timer data 702.. store bossbar boss_stray_1 run data get @e[tag=boss_stray_1, limit=1] health
+ex if score #timer data 702.. store bossbar boss_stray_2 run data get @e[tag=boss_stray_2, limit=1] health
+ex if score #timer data 702.. store bossbar boss_stray_3 run data get @e[tag=boss_stray_3, limit=1] health
 
 ex if score #timer data 760 run fn script/task_3/run/3
 ex if score #timer data 800 pos -111 105 -16 run fn script/task_3/run/4

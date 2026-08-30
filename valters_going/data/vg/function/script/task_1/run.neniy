@@ -9,7 +9,7 @@ ex if score #timer data 520 run fn script/task_1/run/3
 ex if score #timer data 580 run fn script/task_1/run/4
 ex if score #timer data 640 run fn script/task_1/run/5
 
-ex if score #timer data 580..641 store bossbar boss_skeleton run data get @e[tag=boss_skeleton, limit=1] Health
+ex if score #timer data 580..641 store bossbar boss_skeleton run data get @e[tag=boss_skeleton, limit=1] health
 
 ex if score #boss_timer data 200 run fn script/task_1/run/6
 ex if score #boss_timer data 400 at @e[tag=boss_skeleton] run fn script/task_1/run/random_mob

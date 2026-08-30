@@ -1,4 +1,4 @@
 setblock ~ ~ ~ oak_button[facing=east] replace
-stopsound @a block.stone_button.click_on
+stopsound @a stone_button.click_on
 ptc block[block=stone] ~-0.4 ~0.5 ~ 0 0.1 0.2 0 5 normal
-pls block.stone.break @a ~ ~ ~ 0.8 0.6
+pls stone.break @a ~ ~ ~ 0.8 0.6

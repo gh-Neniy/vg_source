@@ -1,4 +1,4 @@
-ex as @a[team=player] at @s run pls entity.wandering_trader.ambient @s ~ ~ ~ 1 0.8
+ex as @a[team=player] at @s run pls wandering_trader.ambient @s ~ ~ ~ 1 0.8
 tellraw @a [
   {text='Вы: ', color=#03C765}
   {text='Это похоже на арену, но где тут моё счастье?', color=dark_green}

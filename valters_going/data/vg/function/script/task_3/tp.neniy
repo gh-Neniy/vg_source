@@ -1,4 +1,4 @@
 tp @s -68 90 -16 90 14
-pls ambient.soul_sand_valley.mood @a -68 90 -16 1 2
+pls soul_sand_valley.mood @a -68 90 -16 1 2
 effect give @s blindness 2 100
 setblock ~ ~ ~ acacia_button[facing=south] replace

@@ -1,4 +1,4 @@
-pls entity.lightning_bolt.thunder @a 9 103 -6 10 0.4
+pls lightning_bolt.thunder @a 9 103 -6 10 0.4
 effect give @a[team=player] blindness 3 0
 effect give @a[team=player] nausea 3 0
 ptc campfire_signal_smoke 9 104 -6 1 1 1 0.003 500 normal

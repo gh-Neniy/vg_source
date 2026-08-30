@@ -1,2 +1,2 @@
-pls block.candle.extinguish @a ~ ~ ~ 10 1
+pls candle.extinguish @a ~ ~ ~ 10 1
 kill @s

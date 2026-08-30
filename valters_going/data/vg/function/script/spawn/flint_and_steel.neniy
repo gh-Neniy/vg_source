@@ -1,4 +1,4 @@
 sm item_display[about=flint_and_steel[shine], rotation=[-100, 90], tag=flint_and_steel] ~ ~ ~
-ex as @e[type=item_display, tag=flint_and_steel, limit=1, sort=nearest] run data modify @s transformation.scale set [0.6, 0.6, 0.6]
+ex as @e[type=item_display, tag=flint_and_steel, limit=1, sort=nearest] run data modify @s scale set [0.6, 0.6, 0.6]
 
 sm interaction[height=0.05, width=0.6, tag=flint_and_steel] ~ ~ ~

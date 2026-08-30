@@ -1,2 +1,2 @@
-fn script/return_to_arena
-setblock ~ ~ ~ dark_oak_button[facing=south] replace
+// fn script/return_to_arena
+// setblock ~ ~ ~ dark_oak_button[facing=south] replace

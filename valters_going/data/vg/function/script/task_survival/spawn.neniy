@@ -1,14 +1,14 @@
-setblock ~ ~ ~ cracked_stone_bricks replace
-setblock ~ ~1 ~ stone_bricks replace
-setblock ~ ~2 ~ cracked_stone_bricks replace
+// setblock ~ ~ ~ cracked_stone_bricks replace
+// setblock ~ ~1 ~ stone_bricks replace
+// setblock ~ ~2 ~ cracked_stone_bricks replace
 
-setblock ~ ~1 ~1 polished_blackstone_button[facing=south] replace
-ptc soul ~ ~2 ~ 1 1 1 0.1 500 normal
-pls block.soul_sand.place @a ~ ~2 ~ 10 0
+// setblock ~ ~1 ~1 polished_blackstone_button[facing=south] replace
+// ptc soul ~ ~2 ~ 1 1 1 0.1 500 normal
+// pls soul_sand.place @a ~ ~2 ~ 10 0
 
-setblock ~ ~2 ~1 spruce_wall_sign[facing=south, sign=[
-  {}
-  {text='Выживание', color=red}
-  {}
-  {text='Начать'}
-]] replace
+// setblock ~ ~2 ~1 spruce_wall_sign[facing=south, sign=[
+//   {}
+//   {text='Выживание', color=red}
+//   {}
+//   {text='Начать'}
+// ]] replace

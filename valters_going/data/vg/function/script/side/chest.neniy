@@ -1,4 +1,4 @@
-pls block.bell.use @a ~ ~ ~ 1 0
+pls bell.use @a ~ ~ ~ 1 0
 
 ptc dust_color_transition[
   from_color=[1.0, 0.0, 0.5],

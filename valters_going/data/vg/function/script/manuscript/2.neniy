@@ -1,5 +1,5 @@
 clear @s book[tag=manuscript2] 2
-pls entity.wither.spawn @a ~ ~ ~ 0.15 2
+pls wither.spawn @a ~ ~ ~ 0.15 2
 ptc enchant ~ ~1 ~ 0.5 0.5 0.5 0.1 200 normal
 
 fn item/manuscript3

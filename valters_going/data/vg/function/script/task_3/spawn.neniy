@@ -1,11 +1,11 @@
-fill ~ ~ ~ ~ ~2 ~ oxidized_copper replace
-setblock ~ ~1 ~1 acacia_button[facing=south] replace
-ptc glow ~ ~2 ~ 1 1 1 0.05 400 normal
-pls entity.glow_squid.squirt @a ~ ~2 ~ 10 1.4
+// fill ~ ~ ~ ~ ~2 ~ oxidized_copper replace
+// setblock ~ ~1 ~1 acacia_button[facing=south] replace
+// ptc glow ~ ~2 ~ 1 1 1 0.05 400 normal
+// pls glow_squid.squirt @a ~ ~2 ~ 10 1.4
 
-setblock ~ ~2 ~1 acacia_wall_sign[facing=south, sign=[
-  {text='Задание'}
-  {text='Очищение арены', color=aqua}
-  {}
-  {text='Начать'}
-]] replace
+// setblock ~ ~2 ~1 acacia_wall_sign[facing=south, sign=[
+//   {text='Задание'}
+//   {text='Очищение арены', color=aqua}
+//   {}
+//   {text='Начать'}
+// ]] replace

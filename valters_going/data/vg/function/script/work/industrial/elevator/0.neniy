@@ -1,5 +1,5 @@
-stopsound @a entity.minecart.riding
-pls entity.generic.small_fall @a ~ ~ ~ 3 0
+stopsound @a minecart.riding
+pls generic.small_fall @a ~ ~ ~ 3 0
 
 fill -51 42 52 -47 42 52 barrier keep
 fill -51 42 48 -47 42 48 barrier keep

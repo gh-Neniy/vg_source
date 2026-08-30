@@ -1,7 +1,7 @@
 scb players add @s data 1
 
 ptc block[block=dirt] ~ ~1 ~ 0.25 0.7 0.25 1 15 normal
-pls block.gravel.break @a ~ ~ ~ 1 0.5
+pls gravel.break @a ~ ~ ~ 1 0.5
 tp @s ~ ~0.067 ~
 
 ex if score @s data 30 run fn script/mob/init

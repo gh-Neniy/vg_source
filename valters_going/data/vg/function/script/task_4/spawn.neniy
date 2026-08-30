@@ -1,11 +1,11 @@
-fill ~ ~ ~ ~ ~2 ~ oak_log[axis=y] replace
-setblock ~ ~1 ~1 dark_oak_button[facing=south] replace
-ptc smoke ~ ~2 ~ 1 1 1 0.1 500 normal
-pls entity.ravager.roar @a ~ ~2 ~ 1 1.2
+// fill ~ ~ ~ ~ ~2 ~ oak_log[axis=y] replace
+// setblock ~ ~1 ~1 dark_oak_button[facing=south] replace
+// ptc smoke ~ ~2 ~ 1 1 1 0.1 500 normal
+// pls ravager.roar @a ~ ~2 ~ 1 1.2
 
-setblock ~ ~2 ~1 dark_oak_wall_sign[facing=south, sign=[
-  {text='Нападение'}
-  {text='Бандитов', color=dark_gray}
-  {}
-  {text='Начать'}
-]] replace
+// setblock ~ ~2 ~1 dark_oak_wall_sign[facing=south, sign=[
+//   {text='Нападение'}
+//   {text='Бандитов', color=dark_gray}
+//   {}
+//   {text='Начать'}
+// ]] replace

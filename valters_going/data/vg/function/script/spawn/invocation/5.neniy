@@ -2,4 +2,4 @@ tellraw @a [
   {text='Вальтер: ', color=#A51414}
   {text='А, это ты, Смертный! У меня есть особое предложение: я могу даровать тебе счастье, которое ты так долго ищешь.', color=red}
 ]
-ex at @e[tag=valter] run pls entity.piglin_brute.ambient @a ~ ~ ~ 1 1.2
+ex at @e[tag=valter] run pls piglin_brute.ambient @a ~ ~ ~ 1 1.2

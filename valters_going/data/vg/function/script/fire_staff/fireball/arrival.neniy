@@ -2,6 +2,6 @@ kill @s
 ptc flame ~ ~ ~ 0.1 0.1 0.1 0.2 100 force
 ptc flame ~ ~ ~ 0.7 0.7 0.7 0 300 force
 ptc campfire_cosy_smoke ~ ~ ~ 0.8 0.8 0.8 0 150 force
-pls entity.firework_rocket.blast @a ~ ~ ~ 3 0
+pls firework_rocket.blast @a ~ ~ ~ 3 0
 
 ex as @e[tag=enemy, distance=..5] run damage @s 24

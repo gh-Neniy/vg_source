@@ -1,4 +1,4 @@
 tp @s -59 80 -16 90 14
-pls ambient.basalt_deltas.mood @a -59 80 -16 1 0
+pls basalt_deltas.mood @a -59 80 -16 1 0
 effect give @s blindness 2 100
 setblock ~ ~ ~ spruce_button[facing=south] replace

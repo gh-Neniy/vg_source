@@ -1,3 +1,3 @@
-ex store score #count data run data get @s Item.count
+ex store score #count data run data get @s count
 scb players remove #count data 1
-ex store ent @s Item.count int 1 run scb players get #count data
+ex store ent @s count int 1 run scb players get #count data

@@ -1,2 +1,2 @@
 ex as @e[tag=valter] at @s run tp @s ~ ~ ~ ~30 ~-17
-pls entity.piglin_brute.angry @a 44 101 -18 3 0.8
+pls piglin_brute.angry @a 44 101 -18 3 0.8

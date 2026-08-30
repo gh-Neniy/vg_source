@@ -1,9 +1,9 @@
-ex as @e[tag=area,limit=1] store ent @s Pos[0] int 1 run scb players get #start_x select.data
-ex as @e[tag=area,limit=1] store ent @s Pos[1] int 1 run scb players get #start_y select.data
-ex as @e[tag=area,limit=1] store ent @s Pos[2] int 1 run scb players get #start_z select.data
+ex as @e[tag=area,limit=1] store ent @s pos[0] int 1 run scb players get #start_x select.data
+ex as @e[tag=area,limit=1] store ent @s pos[1] int 1 run scb players get #start_y select.data
+ex as @e[tag=area,limit=1] store ent @s pos[2] int 1 run scb players get #start_z select.data
 
 ex as @e[tag=area,limit=1] at @s run tp @s ~-0.005 ~-0.005 ~-0.005
 
-ex as @e[tag=area,limit=1] store ent @s transformation.scale[0] float 0.001 run scb players get #scale_x select.data
-ex as @e[tag=area,limit=1] store ent @s transformation.scale[1] float 0.001 run scb players get #scale_y select.data
-ex as @e[tag=area,limit=1] store ent @s transformation.scale[2] float 0.001 run scb players get #scale_z select.data
+ex as @e[tag=area,limit=1] store ent @s scale[0] float 0.001 run scb players get #scale_x select.data
+ex as @e[tag=area,limit=1] store ent @s scale[1] float 0.001 run scb players get #scale_y select.data
+ex as @e[tag=area,limit=1] store ent @s scale[2] float 0.001 run scb players get #scale_z select.data

@@ -1,6 +1,6 @@
 fill -122 104 84 -117 104 91 air replace cobbled_deepslate_slab
 ptc block[block=cobbled_deepslate] -120 105 87 2 0.3 2 0.1 500 normal
-pls block.deepslate.break @a -120 104 87 3 0.6
+pls deepslate.break @a -120 104 87 3 0.6
 
 sm falling_block[block=cobbled_deepslate_slab] -117 104.5 84
 sm falling_block[block=cobbled_deepslate_slab] -117 104.5 85

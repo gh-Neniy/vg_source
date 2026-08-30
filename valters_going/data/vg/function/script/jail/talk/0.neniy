@@ -3,4 +3,4 @@ tellraw @a {
   text='Страж тюрьмы: А ты слышал, что на днях к нам привели пленника который прошёл 2 испытания повелителя нашего всея ада Вальтера?',
   color=red
 }
-pls entity.wither_skeleton.step @a -140 89 -91 3 0
+pls wither_skeleton.step @a -140 89 -91 3 0

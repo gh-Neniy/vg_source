@@ -1,3 +1,3 @@
 ex at @s as @p[tag=admin] at @s anchored eyes run fn script/ray/spawn
-stopsound @a entity.snowball.throw
+stopsound @a snowball.throw
 kill @s

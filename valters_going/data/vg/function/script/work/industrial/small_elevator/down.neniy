@@ -1,3 +1,3 @@
 ex as @e[tag=small_elevator, type=!shulker] at @s run tp @s ~ ~-0.1 ~
-ex as @e[tag=small_elevator, tag=railing] at @s unless block ~ ~1.2 ~ iron_chain run setblock ~ ~1.2 ~ iron_chain[axis=y] replace
-ex at @e[tag=small_elevator, tag=center] run pls entity.minecart.riding @a ~ ~ ~ 0.03 0
+ex as @e[tag=small_elevator, tag=railing] at @s unless block ~ ~1.2 ~ chain run setblock ~ ~1.2 ~ chain[axis=y] replace
+ex at @e[tag=small_elevator, tag=center] run pls minecart.riding @a ~ ~ ~ 0.03 0

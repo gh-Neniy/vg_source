@@ -8,8 +8,8 @@ ex if score #attack_speed data 1 as @a[team=player] run attribute @s attack_spee
 ex if score #attack_speed data 2 as @a[team=player] run attribute @s attack_speed 4.8
 ex if score #attack_speed data 3 as @a[team=player] run attribute @s attack_speed 5.2
 
-ex if score #health data 1 as @a[team=player] run attribute @s health 24
-ex if score #health data 2 as @a[team=player] run attribute @s health 28
-ex if score #health data 3 as @a[team=player] run attribute @s health 32
-ex if score #health data 4 as @a[team=player] run attribute @s health 36
-ex if score #health data 5 as @a[team=player] run attribute @s health 40
+ex if score #max_health data 1 as @a[team=player] run attribute @s max_health 24
+ex if score #max_health data 2 as @a[team=player] run attribute @s max_health 28
+ex if score #max_health data 3 as @a[team=player] run attribute @s max_health 32
+ex if score #max_health data 4 as @a[team=player] run attribute @s max_health 36
+ex if score #max_health data 5 as @a[team=player] run attribute @s max_health 40

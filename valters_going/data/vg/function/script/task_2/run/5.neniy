@@ -1,7 +1,7 @@
 fn script/stop_subcutscene
 title @a title {}
 title @a subtitle {text='Огненный босс', color=red}
-pls ambient.cave @a -99 107 15 10 0.7
+pls cave @a -99 107 15 10 0.7
 
 ex pos -99 105 16 run fn mob/boss/magma_cube
 

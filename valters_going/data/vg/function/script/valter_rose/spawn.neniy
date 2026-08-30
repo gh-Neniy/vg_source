@@ -1,4 +1,4 @@
 sm block_display[block=potted_wither_rose, tag=valter_rose, tp_time=5, rotation=[90, 0]] ~ ~ ~
 sm interaction[tag=valter_rose, height=0.8, width=0.4] ~ ~ ~
 
-ex as @e[type=block_display, tag=valter_rose, limit=1, sort=nearest] run data modify @s transformation.translation set [-0.5, 0.0, -0.5]
+ex as @e[type=block_display, tag=valter_rose, limit=1, sort=nearest] run data modify @s translation set [-0.5, 0.0, -0.5]

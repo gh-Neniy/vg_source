@@ -1,4 +1,4 @@
 tp @s ~ ~ ~ ~ ~
 tag @s add shop_cooldown
 ptc smoke ~ ~0.5 ~ 0.3 0.3 0.3 0.1 50 normal
-pls item.crossbow.loading_end @a ~ ~ ~ 1 0.7
+pls crossbow.loading_end @a ~ ~ ~ 1 0.7

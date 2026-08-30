@@ -1,5 +1,5 @@
 ex as @e[type=villager, tag=miner] at @s run tp @s ~ ~ ~ 90 5
-data modify @e[type=villager, tag=miner, limit=1] CustomNameVisible set 0
-data modify @e[type=villager, tag=miner, limit=1] Silent set 1
+data modify @e[type=villager, tag=miner, limit=1] name_visible set 0
+data modify @e[type=villager, tag=miner, limit=1] silent set 1
 
 kill @e[tag=work_info]

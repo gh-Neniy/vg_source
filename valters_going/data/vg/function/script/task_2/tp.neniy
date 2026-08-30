@@ -1,4 +1,4 @@
 tp @s -59 100 -16 90 14
-pls block.bell.resonate @a -59 101 -16 3 1.6
+pls bell.resonate @a -59 101 -16 3 1.6
 effect give @s blindness 2 100
 setblock ~ ~ ~ spruce_button[facing=south] replace

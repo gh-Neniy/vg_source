@@ -10,6 +10,6 @@ sm piglin_brute[
   tag=valter
 ] 9 103 -6
 
-pls entity.wither.spawn @a 9 103 -6 1 1
+pls wither.spawn @a 9 103 -6 1 1
 ptc explosion 9 103 -6 1 1 1 1 100 normal
 ptc cloud 9 103 -6 1 1 1 1 100 normal

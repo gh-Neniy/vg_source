@@ -1,12 +1,12 @@
-fill -123 104 18 -75 104 -53 sand replace dirt_path
-fill -123 104 18 -75 104 -53 sandstone replace gravel
-fill -123 110 -5 -75 104 -53 sandstone replace stone_bricks
-clone 0 78 -46 6 83 -52 -116 105 -43 masked
-clone 10 78 -64 18 81 -68 -119 105 -33 masked
-clone 9 78 -50 20 81 -61 -91 105 -36 masked
-clone 3 78 -60 5 80 -65 -106 105 -46 masked
-clone 1 78 -67 5 80 -71 -98 105 -39 masked
-clone 9 78 -50 20 81 -61 -111 105 -22 masked
-clone 10 78 -64 18 81 -68 -93 105 -22 masked
-clone 3 78 -60 5 80 -65 -90 105 -16 masked
-clone 0 78 -46 6 83 -52 -91 105 -48 masked
+// fill -123 104 18 -75 104 -53 sand replace dirt_path
+// fill -123 104 18 -75 104 -53 sandstone replace gravel
+// fill -123 110 -5 -75 104 -53 sandstone replace stone_bricks
+// clone 0 78 -46 6 83 -52 -116 105 -43 masked
+// clone 10 78 -64 18 81 -68 -119 105 -33 masked
+// clone 9 78 -50 20 81 -61 -91 105 -36 masked
+// clone 3 78 -60 5 80 -65 -106 105 -46 masked
+// clone 1 78 -67 5 80 -71 -98 105 -39 masked
+// clone 9 78 -50 20 81 -61 -111 105 -22 masked
+// clone 10 78 -64 18 81 -68 -93 105 -22 masked
+// clone 3 78 -60 5 80 -65 -90 105 -16 masked
+// clone 0 78 -46 6 83 -52 -91 105 -48 masked

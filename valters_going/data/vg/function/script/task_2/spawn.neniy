@@ -1,11 +1,11 @@
-fill ~ ~ ~ ~ ~2 ~ netherrack replace
-setblock ~ ~1 ~1 spruce_button[facing=south] replace
-ptc lava ~ ~2 ~ 1 1 1 0.05 400 normal
-pls entity.blaze.shoot @a ~ ~2 ~ 10 1
+// fill ~ ~ ~ ~ ~2 ~ netherrack replace
+// setblock ~ ~1 ~1 spruce_button[facing=south] replace
+// ptc lava ~ ~2 ~ 1 1 1 0.05 400 normal
+// pls blaze.shoot @a ~ ~2 ~ 10 1
 
-setblock ~ ~2 ~1 spruce_wall_sign[facing=south, sign=[
-  {text='Задание'}
-  {text='Огненный босс', color=red}
-  {}
-  {text='Начать'}
-]] replace
+// setblock ~ ~2 ~1 spruce_wall_sign[facing=south, sign=[
+//   {text='Задание'}
+//   {text='Огненный босс', color=red}
+//   {}
+//   {text='Начать'}
+// ]] replace

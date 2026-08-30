@@ -1,8 +1,8 @@
 ex align xyz run fn script/area/selected1_spawn
 
-ex store score #pos1_x select.data run data get @e[tag=selected1,limit=1] Pos[0]
-ex store score #pos1_y select.data run data get @e[tag=selected1,limit=1] Pos[1]
-ex store score #pos1_z select.data run data get @e[tag=selected1,limit=1] Pos[2]
+ex store score #pos1_x select.data run data get @e[tag=selected1,limit=1] pos[0]
+ex store score #pos1_y select.data run data get @e[tag=selected1,limit=1] pos[1]
+ex store score #pos1_z select.data run data get @e[tag=selected1,limit=1] pos[2]
 
 ex store storage select.storage x1 int 1 run scb players get #pos1_x select.data
 ex store storage select.storage y1 int 1 run scb players get #pos1_y select.data
@@ -11,4 +11,4 @@ ex store storage select.storage z1 int 1 run scb players get #pos1_z select.data
 ex as @a[tag=admin, sort=nearest] run fn script/block_pos select.storage
 
 ex as @e[tag=selected1, limit=1] at @s run tp @s ~-0.005 ~-0.005 ~-0.005
-data modify @e[tag=selected1, limit=1] transformation.scale set [1.01, 1.01, 1.01]
+data modify @e[tag=selected1, limit=1] scale set [1.01, 1.01, 1.01]

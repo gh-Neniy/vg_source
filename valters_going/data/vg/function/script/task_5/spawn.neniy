@@ -1,11 +1,11 @@
-fill ~ ~ ~ ~ ~2 ~ chiseled_sandstone replace
-setblock ~ ~1 ~1 birch_button[facing=south] replace
-ptc falling_dust[block=sand] ~ ~2 ~ 1 1 1 0.1 500 normal
-pls block.sand.place @a ~ ~2 ~ 10 0.8
+// fill ~ ~ ~ ~ ~2 ~ chiseled_sandstone replace
+// setblock ~ ~1 ~1 birch_button[facing=south] replace
+// ptc falling_dust[block=sand] ~ ~2 ~ 1 1 1 0.1 500 normal
+// pls sand.place @a ~ ~2 ~ 10 0.8
 
-setblock ~ ~2 ~1 birch_wall_sign[facing=south, sign=[
-  {text='Пустынное', color=yellow}
-  {text='Нашествие', color=yellow}
-  {}
-  {text='Начать'}
-]] replace
+// setblock ~ ~2 ~1 birch_wall_sign[facing=south, sign=[
+//   {text='Пустынное', color=yellow}
+//   {text='Нашествие', color=yellow}
+//   {}
+//   {text='Начать'}
+// ]] replace

@@ -1,6 +1,6 @@
 fn script/start_timer
 clear @a[team=player] flint_and_steel
-stopsound @a ambient.crimson_forest.loop
+stopsound @a crimson_forest.loop
 
 tag @a[team=player] add cutscene
 sm block_display[tag=cutscene, tp_time=3] 15 107.5 -2

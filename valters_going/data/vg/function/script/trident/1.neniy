@@ -1,4 +1,4 @@
-pls block.respawn_anchor.deplete @a ~ ~ ~ 3 2
+pls respawn_anchor.deplete @a ~ ~ ~ 3 2
 ptc large_smoke ~ ~ ~ 2 2 2 0 100 force
 ptc flame ~ ~ ~ 0.2 0.2 0.2 0.15 40 force
 ex as @e[tag=enemy, distance=..3.5, sort=nearest, limit=3] at @s run ptc lava ~ ~1 ~ 0.2 0.2 0.2 0 15 force

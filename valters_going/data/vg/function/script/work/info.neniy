@@ -35,4 +35,4 @@ ex if score #work data 3 run sm text_display[
     ], billboard=center
 ] ~ ~ ~
 
-ex as @e[type=text_display, tag=work_info] run data modify @s transformation.scale set [0.7, 0.7, 0.7]
+ex as @e[type=text_display, tag=work_info] run data modify @s scale set [0.7, 0.7, 0.7]

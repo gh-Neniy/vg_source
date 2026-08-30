@@ -1,2 +1,2 @@
-pls block.note_block.xylophone @a ~ ~ ~ 10 2
+pls note_block.xylophone @a ~ ~ ~ 10 2
 kill @s

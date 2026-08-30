@@ -1,4 +1,4 @@
 fn script/side/spawn_gates
 
 clone 31 97 -8 31 101 -4 31 103 -8 replace
-pls ambient.crimson_forest.loop @a 31 103 -6 3 2
+pls crimson_forest.loop @a 31 103 -6 3 2

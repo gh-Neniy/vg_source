@@ -1,2 +1,2 @@
-scb players set #task_5_run data 1
-setblock ~ ~ ~ birch_button[facing=north] replace
+// scb players set #task_5_run data 1
+// setblock ~ ~ ~ birch_button[facing=north] replace

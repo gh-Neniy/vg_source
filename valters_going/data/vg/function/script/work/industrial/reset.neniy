@@ -2,13 +2,13 @@ kill @e[tag=wheel]
 kill @e[tag=elevator]
 kill @e[tag=small_elevator]
 
-fill -51 42 52 -47 76 52 air replace iron_chain
-fill -51 42 48 -47 76 48 air replace iron_chain
+fill -51 42 52 -47 76 52 air replace chain
+fill -51 42 48 -47 76 48 air replace chain
 
-fill -70 42 23 -70 76 23 iron_chain keep
-fill -70 42 21 -70 76 21 iron_chain keep
-fill -68 42 23 -68 76 23 iron_chain keep
-fill -68 42 21 -68 76 21 iron_chain keep
+fill -70 42 23 -70 76 23 chain keep
+fill -70 42 21 -70 76 21 chain keep
+fill -68 42 23 -68 76 23 chain keep
+fill -68 42 21 -68 76 21 chain keep
 
 scb players set #work_run_timer_active data 0
 scb players set #work_run_timer data 0

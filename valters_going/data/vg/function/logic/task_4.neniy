@@ -1,3 +1,3 @@
-ex pos -89 106 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/tp
-ex pos -59 91 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/return
-ex pos -59 91 -14 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/start_button
+// ex pos -89 106 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/tp
+// ex pos -59 91 -18 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/return
+// ex pos -59 91 -14 if block ~ ~ ~ dark_oak_button[powered] as @p[team=player] run fn script/task_4/start_button

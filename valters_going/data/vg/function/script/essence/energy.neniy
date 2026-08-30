@@ -1,4 +1,4 @@
 kill @s
 
-pls entity.evoker.prepare_summon @a ~ ~ ~ 0.3 2
+pls evoker.prepare_summon @a ~ ~ ~ 0.3 2
 tag @a[team=player, distance=..1, tag=!energy] add energy
