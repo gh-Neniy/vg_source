@@ -1,4 +1,4 @@
-ex if ent @s[data=[item=wooden_hoe[tag=combat_skeleton_weapon]]] run fn script/trade/sell/1_coin
-ex if ent @s[data=[item=leather_helmet[tag=combat_skeleton_helmet]]] run fn script/trade/sell/1_coin
-ex if ent @s[data=[item=leather_chestplate[tag=combat_skeleton_chestplate]]] run fn script/trade/sell/1_coin
-ex if ent @s[data=[item=gold_ingot[tag=boss_skeleton_trophy]]] run fn script/trade/sell/4_coins
+ex if ent @s[type=item, data=[item=wooden_hoe[tag=combat_skeleton_weapon]]] run fn script/trade/sell/1_coin
+ex if ent @s[type=item, data=[item=leather_helmet[tag=combat_skeleton_helmet]]] run fn script/trade/sell/1_coin
+ex if ent @s[type=item, data=[item=leather_chestplate[tag=combat_skeleton_chestplate]]] run fn script/trade/sell/1_coin
+ex if ent @s[type=item, data=[item=gold_ingot[tag=boss_skeleton_trophy]]] run fn script/trade/sell/4_coins

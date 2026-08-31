@@ -9,3 +9,14 @@
 //   {}
 //   {text='Начать'}
 // ]] replace
+
+// sm text_display[tag=task_1, tag=name, text={text='Огненный босс', color=red}, billboard=center] ~ ~2.5 ~
+// sm text_display[tag=task_1, text={text='Старт', color=gray}, billboard=center] ~ ~2.2 ~
+// sm item_display[item=bone[shine], tag=task_1, tag=spin, tp_time=2] ~ ~1 ~
+
+// ex as @e[type=item_display, tag=task_1, limit=1, sort=nearest] run data modify @s scale set [1.5, 1.5, 1.5]
+// ex as @e[type=text_display, tag=task_1, tag=name, limit=1, sort=nearest] run data modify @s scale set [1.5, 1.5, 1.5]
+
+// ptc happy_villager ~ ~2 ~ 1.2 1.2 1.2 0.05 400 normal
+// pls beacon.activate @a ~ ~2 ~ 10 1
+

@@ -1,7 +1,13 @@
-clone -8 81 -32 -1 92 -39 -119 105 -40 masked
-clone -21 81 -37 -17 90 -41 -107 105 -45 masked
-clone -21 81 -37 -17 90 -41 -87 105 -22 masked
-clone -12 88 -51 -16 82 -47 -92 105 -38 masked
-clone -21 81 -37 -17 90 -41 -114 105 -19 masked
-clone -12 88 -51 -16 82 -47 -106 105 -25 masked
-clone -8 81 -32 -1 92 -39 -99 105 -27 masked
+fill -122 104 -52 -76 104 14 netherrack replace dirt_path
+fill -122 104 -52 -76 104 14 soul_soil replace gravel
+
+clone -56 99 -61 -49 110 -54 -117 105 -42 masked // altar
+clone -56 99 -73 -52 108 -69 -107 105 -45 masked // tower
+clone -56 99 -73 -52 108 -69 -87 105 -22 masked // tower
+clone -56 99 -67 -52 105 -63 -92 105 -38 masked // tree
+clone -56 99 -73 -52 108 -69 -110 105 -15 masked // tower
+clone -56 99 -67 -52 105 -63 -114 105 -24 masked // tree
+clone -56 99 -61 -49 110 -54 -86 105 -32 masked // altar
+clone -56 99 -52 -50 103 -46  -97 105 -48 masked // volcano
+clone -56 99 -52 -50 103 -46 -94 105 -17 masked // volcano
+clone -56 99 -44 -50 108 -38 -101 105 -32 masked // boss stand
