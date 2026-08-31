@@ -5,6 +5,7 @@ scb obj add artifact dummy
 scb obj add essence dummy
 scb obj add ore dummy
 scb obj add timer dummy
+scb obj add fire_staff_timer dummy
 
 // initialization
 ex uninited #timer_active data run scb players set #timer_active data 0

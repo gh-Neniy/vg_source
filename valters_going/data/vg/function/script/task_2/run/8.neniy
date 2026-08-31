@@ -1,3 +1,4 @@
 fn script/task_2/stop
-scb players set #work_update data 1
-scb players set #progress data 5
+
+ex unless score #work_update data 2 run scb players set #work_update data 1
+ex if score #progress data 5 run scb players set #progress data 6

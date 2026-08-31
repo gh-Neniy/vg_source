@@ -1,0 +1,4 @@
+setblock ~ ~ ~ air destroy
+
+pls armor_stand.break @a ~ ~ ~ 1 0
+ptc lava ~0 ~0.5 ~0 0.5 0.5 0.5 0.1 10 normal

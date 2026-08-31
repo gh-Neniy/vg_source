@@ -1,22 +1,10 @@
-// fill ~ ~ ~ ~ ~2 ~ netherrack replace
-// setblock ~ ~1 ~1 spruce_button[facing=south] replace
-// ptc lava ~ ~2 ~ 1 1 1 0.05 400 normal
-// pls blaze.shoot @a ~ ~2 ~ 10 1
+sm text_display[tag=task_2, tag=name, text={text='Огненный босс', color=red}, billboard=center] ~ ~2.5 ~
+sm text_display[tag=task_2, text={text='Старт', color=gray}, billboard=center] ~ ~2.2 ~
+sm item_display[item=fire_charge[shine], tag=task_2, tag=spin, tp_time=2] ~ ~1 ~
 
-// setblock ~ ~2 ~1 spruce_wall_sign[facing=south, sign=[
-//   {text='Задание'}
-//   {text='Огненный босс', color=red}
-//   {}
-//   {text='Начать'}
-// ]] replace
+ex as @e[type=item_display, tag=task_2, limit=1, sort=nearest] run data modify @s scale set [1.5, 1.5, 1.5]
+ex as @e[type=text_display, tag=task_2, tag=name, limit=1, sort=nearest] run data modify @s scale set [1.5, 1.5, 1.5]
 
-// sm text_display[tag=task_1, tag=name, text={text='Огненный босс', color=red}, billboard=center] ~ ~2.5 ~
-// sm text_display[tag=task_1, text={text='Старт', color=gray}, billboard=center] ~ ~2.2 ~
-// sm item_display[item=bone[shine], tag=task_1, tag=spin, tp_time=2] ~ ~1 ~
-
-// ex as @e[type=item_display, tag=task_1, limit=1, sort=nearest] run data modify @s scale set [1.5, 1.5, 1.5]
-// ex as @e[type=text_display, tag=task_1, tag=name, limit=1, sort=nearest] run data modify @s scale set [1.5, 1.5, 1.5]
-
-// ptc happy_villager ~ ~2 ~ 1.2 1.2 1.2 0.05 400 normal
-// pls beacon.activate @a ~ ~2 ~ 10 1
+ptc lava ~ ~1 ~ 0.5 0.7 0.5 0.05 200 normal
+pls blaze.shoot @a ~ ~1 ~ 10 1
 

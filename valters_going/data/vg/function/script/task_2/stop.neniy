@@ -1,6 +1,5 @@
 fn script/task_2/remove_decor
 fill -94 105 4 -94 106 4 air replace
-fill -101 105 15 -97 109 15 iron_bars keep // gates
 setblock -94 106 12 air replace
 gamerule natural_regeneration true
 bossbar remove boss_magma_cube
@@ -9,3 +8,4 @@ fn script/stop_timer
 fn script/stop_boss_timer
 
 ex as @e[tag=enemy] run fn script/delete_mob
+fn script/essence/clear

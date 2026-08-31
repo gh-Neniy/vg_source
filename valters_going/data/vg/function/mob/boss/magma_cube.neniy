@@ -11,5 +11,8 @@ sm magma_cube [
   left_hand_chance=1.0,
 
   tag=enemy,
-  tag=boss_magma_cube
+  tag=boss_magma_cube,
+
+  no_ai,
+  invulnerable,
 ] ~ ~ ~

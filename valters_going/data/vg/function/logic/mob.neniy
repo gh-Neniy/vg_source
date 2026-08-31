@@ -1,7 +1,11 @@
 ex as @e[tag=enemy, tag=new] if score @s data ..29 at @s run fn script/side/rising
+ex as @e[type=marker, tag=phantom] if score @s data ..29 at @s run fn script/side/phantom_occurence
+ex as @e[type=marker, tag=fire_phantom] if score @s data ..29 at @s run fn script/side/fire_phantom_occurence
 
 ex as @e[type=zombie, tag=mushroom] at @s run fn logic/mob/mushroom
 ex as @e[type=zombie, tag=mushroom_red] at @s run fn logic/mob/mushroom_red
 
 ex as @e[tag=mushroom, type=!zombie] at @s unless ent @e[type=zombie, tag=mushroom, distance=..2] run kill @s
 ex as @e[tag=mushroom_red, type=!zombie] at @s unless ent @e[type=zombie, tag=mushroom_red, distance=..2] run kill @s
+
+ex as @e[type=phantom, tag=fire_phantom] at @s pos ~ ~0.3 ~ run ptc flame ~ ~ ~ 0 0 0 0 1 normal

@@ -1,0 +1,17 @@
+kill @e[type=marker, tag=fire_phantom, sort=nearest, limit=1]
+
+ptc flash ~ ~0.2 ~ 0 0 0 1 1 force
+pls phantom.ambient @a ~ ~ ~ 2 1.3
+
+sm phantom [
+  name={text='Огненный Фантом', color=#FF7700},
+  health=8.0,
+  loot_table=vg:phantom,
+  name_visible,
+  no_despawn,
+  size=2,
+  tag=enemy,
+  tag=fire_phantom
+] ~ ~ ~
+
+attribute @e[type=phantom, tag=fire_phantom, sort=nearest, limit=1] attack_damage 1

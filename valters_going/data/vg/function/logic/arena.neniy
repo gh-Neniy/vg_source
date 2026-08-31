@@ -13,9 +13,9 @@ ex as @a pos -57 105 4 unless ent @s[distance=..2] pos -76 86 -28 unless ent @s[
 ex pos -101 105 16 as @a[team=player, dx=4, dy=1, dz=0] at @s run tp @s ~ ~ ~-1
 
 // for starts on the arena (partially respawn on different stages)
-ex if score #logic_task_1 data 1 run fn logic/task_1
-ex if score #logic_task_2 data 1 run fn logic/task_2
-ex if score #logic_task_3 data 1 run fn logic/task_3
-ex if score #logic_task_4 data 1 run fn logic/task_4
-ex if score #logic_task_5 data 1 run fn logic/task_5
-ex if score #logic_task_survival data 1 run fn logic/task_survival
+ex if score #task_spawn data 1..5 run fn logic/task_1
+ex if score #task_spawn data 2..5 run fn logic/task_2
+ex if score #task_spawn data 3..5 run fn logic/task_3
+ex if score #task_spawn data 4..5 run fn logic/task_4
+ex if score #task_spawn data 5 run fn logic/task_5
+// ex if score #task_spawn data 2..5 run fn logic/task_survival

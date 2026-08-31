@@ -1,31 +1,48 @@
 ex if score #timer data 0 run fn script/task_2/run/0
 ex if score #timer data 60 run fn script/task_2/run/1
 
-ex if score #timer data 100 pos -109 116 -26 run fn mob/phantom
-ex if score #timer data 150 pos -100 116 -29 run fn mob/phantom
-ex if score #timer data 200 pos -80 116 -26 run fn mob/phantom
-ex if score #timer data 250 pos -99 114 -30 run fn mob/phantom
-ex if score #timer data 300 pos -100 116 -24 run fn mob/phantom
-ex if score #timer data 350 pos -79 116 -26 run fn mob/phantom
-ex if score #timer data 400 pos -109 116 -26 run fn mob/phantom
-ex if score #timer data 450 pos -89 119 -24 run fn mob/phantom
-ex if score #timer data 500 pos -99 116 -30 run fn mob/phantom
-ex if score #timer data 550 pos -109 116 -26 run fn mob/phantom
-ex if score #timer data 600 pos -79 114 -26 run fn mob/phantom
-ex if score #timer data 650 pos -79 116 -26 run fn mob/phantom
-ex if score #timer data 700 pos -109 116 -26 run fn mob/phantom
+// phantoms
+ex if score #timer data 100 run fn script/task_2/run/random_pos
+ex if score #timer data 150 run fn script/task_2/run/random_pos
+ex if score #timer data 200 run fn script/task_2/run/random_pos
+ex if score #timer data 250 run fn script/task_2/run/random_pos
+ex if score #timer data 300 run fn script/task_2/run/random_pos
+ex if score #timer data 350 run fn script/task_2/run/random_pos
+ex if score #timer data 400 run fn script/task_2/run/random_pos
+ex if score #timer data 450 run fn script/task_2/run/random_pos
+ex if score #timer data 500 run fn script/task_2/run/random_pos
+ex if score #timer data 550 run fn script/task_2/run/random_pos
+ex if score #timer data 600 run fn script/task_2/run/random_pos
+ex if score #timer data 650 run fn script/task_2/run/random_pos
+ex if score #timer data 700 run fn script/task_2/run/random_pos
 
 ex if score #timer data 700 run fn script/task_2/run/2
 ex if score #timer data 701 unless ent @e[tag=enemy] run scb players set #boss_timer_active data 1
 
+// boss spawn
 ex if score #boss_timer data 50 run fn script/task_2/run/3
-ex if score #boss_timer data 100 run fn script/task_2/run/4
-ex if score #boss_timer data 150 run fn script/task_2/run/5
 
-ex if score #boss_timer data 151..301 store bossbar boss_magma_cube run data get @e[tag=boss_magma_cube, limit=1] health
-ex if score #boss_timer data 301 run fn script/task_2/servant
+ex if score #boss_timer data 90 pos -100 113 -28 run fn script/task_2/run/block_break
+ex if score #boss_timer data 95 pos -99 112 -27 run fn script/task_2/run/block_break
+ex if score #boss_timer data 100 pos -97 114 -27 run fn script/task_2/run/block_break
 
-ex if score #timer data 701 if score #boss_timer data 151..301 unless ent @e[tag=boss_magma_cube] run fn script/task_2/run/6
+ex if score #boss_timer data 150 run tp @e[type=block_display, tag=cutscene] -92 109 -24 130 -20
+
+ex if score #boss_timer data 190 pos -96 110 -28 run fn script/task_2/run/block_break
+ex if score #boss_timer data 200 pos -97 111 -27 run fn script/task_2/run/block_break
+ex if score #boss_timer data 203 pos -96 112 -31 run fn script/task_2/run/block_break
+ex if score #boss_timer data 205 pos -96 114 -28 run fn script/task_2/run/block_break
+ex if score #boss_timer data 208 pos -96 111 -30 run fn script/task_2/run/block_break
+ex if score #boss_timer data 210 pos -96 113 -30 run fn script/task_2/run/block_break
+
+ex if score #boss_timer data 235 run fn script/task_2/run/4
+ex if score #boss_timer data 285 run fn script/task_2/run/5
+
+ex if score #boss_timer data 286..440 store bossbar boss_magma_cube run data get @e[tag=boss_magma_cube, limit=1] health
+ex if score #boss_timer data 440 run fn script/task_2/run/servant
+
+// final
+ex if score #timer data 701 if score #boss_timer data 286..440 unless ent @e[tag=boss_magma_cube] run fn script/task_2/run/6
 ex if score #timer data 702 unless ent @e[tag=enemy] run fn script/task_2/run/7
 ex if score #timer data 750 run fn script/task_2/run/8
 

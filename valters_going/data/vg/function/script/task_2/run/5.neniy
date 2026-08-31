@@ -1,11 +1,4 @@
 fn script/stop_subcutscene
-title @a title {}
-title @a subtitle {text='Огненный босс', color=red}
-pls cave @a -99 107 15 10 0.7
 
-ex pos -99 105 16 run fn mob/boss/magma_cube
-
-bossbar add boss_magma_cube {text='Огненный босс', color=yellow}
-bossbar set boss_magma_cube players @a
-bossbar set boss_magma_cube color red
-bossbar set boss_magma_cube max 130
+data modify @e[tag=boss_magma_cube, limit=1] no_ai set 0
+data modify @e[tag=boss_magma_cube, limit=1] invulnerable set 0

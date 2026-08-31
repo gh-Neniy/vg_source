@@ -1,9 +1,3 @@
-sm phantom [
-  name={text='Фантом', color=yellow},
-  health=5.0,
-  loot_table=vg:phantom,
-  name_visible,
-  no_despawn,
-  attack_damage=0.5
-  tag=enemy
-] ~ ~ ~
+sm marker[tag=phantom] ~ ~ ~
+
+scb players set @e[type=marker, tag=phantom, distance=..1] data 0

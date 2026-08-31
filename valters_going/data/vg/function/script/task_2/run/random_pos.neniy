@@ -1,0 +1,7 @@
+ex store score #random data run random 0..4
+
+ex if score #random data 0 pos -91 116 -20 run fn script/task_2/run/random_phantom
+ex if score #random data 1 pos -110 118 -20 run fn script/task_2/run/random_phantom
+ex if score #random data 2 pos -111 118 -42 run fn script/task_2/run/random_phantom
+ex if score #random data 3 pos -92 115 -43 run fn script/task_2/run/random_phantom
+ex if score #random data 4 pos -85 119 -35 run fn script/task_2/run/random_phantom

@@ -1,1 +1,1 @@
-fill -108 105 -40 -108 107 -39 air replace
+kill @e[tag=task_2]

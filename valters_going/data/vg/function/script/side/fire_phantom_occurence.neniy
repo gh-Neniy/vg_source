@@ -1,0 +1,5 @@
+scb players add @s data 1
+
+ptc flame ~ ~0.2 ~ 0 0 0 0.03 2 force
+
+ex if score @s data 30 run fn mob/fire_phantom_impl

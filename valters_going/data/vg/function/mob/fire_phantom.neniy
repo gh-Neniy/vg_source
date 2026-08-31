@@ -1,0 +1,3 @@
+sm marker[tag=fire_phantom] ~ ~ ~
+
+scb players set @e[type=marker, tag=fire_phantom, distance=..1] data 0
