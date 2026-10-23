@@ -6,6 +6,7 @@ bossbar remove boss_magma_cube
 scb players set #task_2_run data 2
 fn script/stop_timer
 fn script/stop_boss_timer
+fn script/spawn_task
 
 ex as @e[tag=enemy] run fn script/delete_mob
 fn script/essence/clear
