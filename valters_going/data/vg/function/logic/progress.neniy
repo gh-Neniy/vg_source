@@ -10,4 +10,6 @@ ex if score #progress data 4 run fn logic/progress/4 // after shop unlock (task 
 
 ex if score #progress data 5.. run fn logic/trade
 ex if score #progress data 5.. run fn logic/work
+
 ex if score #progress data 5 run fn logic/progress/5 // after task 1
+ex if score #progress data 6 run fn logic/progress/6 // after task 2
