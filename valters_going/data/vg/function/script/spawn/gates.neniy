@@ -1,23 +1,4 @@
-fill 31 103 -8 31 107 -4 air replace
-fill 31 103 -3 31 107 -3 barrier replace
-fill 31 103 -9 31 107 -9 barrier replace
-setblock 31 107 -4 nether_brick_stairs[facing=south, top] replace
-setblock 31 107 -8 nether_brick_stairs[facing=north, top] replace
+ex  if score #timer data 1..50 run fn script/spawn/gates/tp_collision
 
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 103 -9
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 104 -9
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 105 -9
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 106 -9
-sm block_display[tag=spawn_gates, tag=wall, block=nether_brick_stairs[facing=south, bottom]] 31 107 -9
-
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 103 -3
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 104 -3
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 105 -3
-sm block_display[tag=spawn_gates, tag=wall, block=nether_bricks] 31 106 -3
-sm block_display[tag=spawn_gates, tag=wall, block=nether_brick_stairs[facing=north, bottom]] 31 107 -3
-
-ex as @e[type=block_display, tag=spawn_gates, tag=wall] run data modify @s translation set [-0.5, 0.0, -0.5]
-
-ex pos 31 103 -6 run fn script/side/spawn_gates
-
-pls crimson_forest.loop @a 31 103 -6 3 2
+ex if score #timer data 0 run fn script/spawn/gates/0
+ex if score #timer data 50 run fn script/spawn/gates/1

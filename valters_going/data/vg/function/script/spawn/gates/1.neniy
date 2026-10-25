@@ -1,0 +1,2 @@
+fn script/stop_timer
+scb players set #spawn_gates data 2

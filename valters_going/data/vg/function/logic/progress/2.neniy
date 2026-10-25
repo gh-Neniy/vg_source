@@ -1,4 +1,5 @@
-ex pos 31 103 -6 if ent @a[team=player, distance=..4] if block ~ ~ ~ netherite_block run fn script/spawn/gates
+ex unless score #spawn_gates data 2 pos 32 100 -8 if ent @a[team=player, dx=2, dy=3, dz=4] run scb players set #spawn_gates data 1
+ex if score #spawn_gates data 1 run fn script/spawn/gates
 
 ex pos 12 103 -5 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
 ex pos 11 103 -4 if block ~ ~ ~ candle[lit] run fn script/spawn/candle
