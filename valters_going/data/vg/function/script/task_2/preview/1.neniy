@@ -1,15 +1,4 @@
-scb players set #task_2_preview data 2
-scb players set #task_spawn data 2
+ex pos -108 105 -40 run fn script/task_2/spawn
 
-tellraw @a {text='Вам открыто новое задание',color=green}
-tellraw @a [
-  {text='Завершите задание \"',color=dark_red}
-  {text='Огненный Босс', color=yellow}
-  {text='\"', color=dark_red}
-]
-tellraw @a [
-  {text='Режим ',color=green}
-  {text='Выживания', color=red}
-  {text=' теперь доступен', color=green}
-]
-fn script/stop_cutscene
+ptc lava -108 106 -40 0.5 0.7 0.5 0.05 200 normal
+pls blaze.shoot @a -108 106 -40 10 1

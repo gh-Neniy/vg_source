@@ -1,11 +1,4 @@
-fn script/stop_cutscene
+ex pos -85 105 -28 run fn script/task_1/spawn
 
-scb players set #task_1_preview data 2
-scb players set #task_spawn data 1
-
-tellraw @a {text='Вам открыто новое задание',color=green}
-tellraw @a [
-  {text='Завершите задание \"',color=dark_red}
-  {text='Нападение Скелетов', color=white}
-  {text='\"', color=dark_red}
-]
+ptc happy_villager -85 107 -28 1.2 1.2 1.2 0.05 400 normal
+pls beacon.activate @a -85 107 -28 10 1

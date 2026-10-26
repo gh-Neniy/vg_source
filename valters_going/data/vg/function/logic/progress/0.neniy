@@ -1,2 +1,3 @@
 ex pos 81 73 -25 if block ~ ~ ~ stone_button[powered] run fn script/beginning/oak_button
 ex pos 81 73 -25 if block ~ ~ ~ oak_button[powered] run scb players set #beginning_preview data 1
+ex pos 81 73 -25 if block ~ ~ ~ oak_button[powered] run setblock ~ ~ ~ air replace

@@ -1,7 +1,7 @@
 tag @a[team=player] remove cutscene
 gm adventure @a[team=player]
 kill @e[tag=cutscene]
-tp @a[team=player] 61 102 -6
+tp @a[team=player] 61 102 -6 90 10
 
 fn script/stop_timer
 ex pos 47 101.051 -21 run fn script/spawn/flint_and_steel
