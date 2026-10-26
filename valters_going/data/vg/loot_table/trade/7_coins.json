@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 7,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "vg:silver_coin"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

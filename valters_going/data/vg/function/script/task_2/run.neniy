@@ -38,7 +38,7 @@ ex if score #boss_timer data 210 pos -96 113 -30 run fn script/task_2/run/block_
 ex if score #boss_timer data 235 run fn script/task_2/run/4
 ex if score #boss_timer data 285 run fn script/task_2/run/5
 
-ex if score #boss_timer data 286..440 store bossbar boss_magma_cube run data get @e[tag=boss_magma_cube, limit=1] health
+ex if score #boss_timer data 235..440 store bossbar boss_magma_cube run data get @e[tag=boss_magma_cube, limit=1] health
 ex if score #boss_timer data 440 run fn script/task_2/run/servant
 
 // final

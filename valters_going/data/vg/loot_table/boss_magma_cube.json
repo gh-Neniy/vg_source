@@ -3,7 +3,7 @@
     {
       "rolls": {
         "min": 0,
-        "max": 20 
+        "max": 20
       },
       "entries": [
         {
@@ -13,6 +13,50 @@
             {
               "function": "minecraft:reference",
               "name": "vg:silver_coin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "fire_charge",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Трофей Огненного Босса",
+                "color": "red",
+                "italic": false,
+                "bold": false,
+                "font": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Можно продать за 7 серебряных копеек",
+                  "color": "gray",
+                  "italic": false,
+                  "bold": false,
+                  "font": "minecraft:uniform"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "enchantment_glint_override": true
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{tag: boss_magma_cube_trophy}"
             }
           ]
         }

@@ -12,6 +12,7 @@ kill @e[tag=flint_and_steel]
 
 scb players set #progress data 2
 scb players set #candle data 0
+ex as @a[team=player] uninited @s timer run scb players set @s timer 0
 
 tellraw @a [
     {text='Добро пожаловать на карту Valter\'s Going!\n', color=gray},

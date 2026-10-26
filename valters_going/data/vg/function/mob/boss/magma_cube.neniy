@@ -7,9 +7,6 @@ sm magma_cube [
   stability=10.0,
   size=5,
 
-  left_hand=fire_charge[name={text='Трофей Огненного Босса', color=gold}, shine],
-  left_hand_chance=1.0,
-
   tag=enemy,
   tag=boss_magma_cube,
 
