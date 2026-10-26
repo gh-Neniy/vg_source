@@ -50,11 +50,9 @@ sm block_display[tag=spawn_gates, tag=right_pivot] ~ ~ ~-3
 // collisions
 
 let collision = [
-    invisible,
     tag=spawn_gates
     passenger=shulker[
-        no_ai, silent, invulnerable, //effect=invisibility,
-        scale=0.25, tag=spawn_gates
+        no_ai, silent, invulnerable, effect=invisibility, scale=0.25, tag=spawn_gates
     ],
 ]
 
