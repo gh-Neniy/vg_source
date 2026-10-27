@@ -1,0 +1,2 @@
+sm block_display[block=potted_wither_rose, tag=valter_rose, tp_time=5, translation=[-0.5, 0.0, -0.5]] ~ ~ ~
+sm interaction[tag=valter_rose, height=0.8, width=0.4] ~ ~ ~

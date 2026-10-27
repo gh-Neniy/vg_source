@@ -21,3 +21,5 @@ kill @e[tag=valter]
 kill @e[tag=cutscene]
 kill @e[tag=spawn_gates]
 fn script/stop_timer
+
+ex pos -89 106 15 run fn script/chest/spawn

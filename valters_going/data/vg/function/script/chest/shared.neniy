@@ -1,2 +1,2 @@
-sm block_display[block=netherite_block, tag=chest, tag=decor, tp_time=5] ~ ~ ~
+sm block_display[block=netherite_block, tag=chest, tag=decor, tp_time=5, translation=[-0.3, 0.3, -0.3], scale=[0.6, 0.6, 0.6]] ~ ~ ~
 sm interaction[tag=chest, height=1.02, width=1.02] ~ ~ ~

@@ -7,3 +7,6 @@ fn script/stop_timer
 ex pos 47 101.051 -21 run fn script/spawn/flint_and_steel
 scb players set #beginning_preview data 2
 scb players set #progress data 1
+
+ex pos 72 97 2 run fn script/chest/spawn
+ex pos 46 101 -18 run fn script/valter_rose/spawn
