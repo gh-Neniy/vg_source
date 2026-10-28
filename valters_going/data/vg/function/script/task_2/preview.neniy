@@ -1,4 +1,6 @@
 ex if score #timer data 0 run scb players set #timer_active data 1
 ex if score #timer data 40 run fn script/task_2/preview/0
 ex if score #timer data 90 run fn script/task_2/preview/1
-ex if score #timer data 140 run fn script/task_2/preview/2
+ex if score #timer data 140 run tp @e[type=block_display, tag=cutscene] -86 109.5 -38 135 30
+ex if score #timer data 190 run fn script/task_2/preview/2
+ex if score #timer data 240 run fn script/task_2/preview/3

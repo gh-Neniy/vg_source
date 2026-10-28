@@ -18,4 +18,4 @@ ex if score #task_spawn data 2..5 run fn logic/task_2
 ex if score #task_spawn data 3..5 run fn logic/task_3
 ex if score #task_spawn data 4..5 run fn logic/task_4
 ex if score #task_spawn data 5 run fn logic/task_5
-// ex if score #task_spawn data 2..5 run fn logic/task_survival
+ex if score #task_spawn data 2..5 run fn logic/task_survival

@@ -3,4 +3,4 @@ ex if score #task_spawn data 2..5 run fn script/task_2/remove_task
 // ex if score #task_spawn data 3..5 run fn script/task_3/remove_task
 // ex if score #task_spawn data 4..5 run fn script/task_4/remove_task
 // ex if score #task_spawn data 5 run fn script/task_5/remove_task
-// ex if score #task_spawn data 2..5 run fn script/task_survival/remove_task
+ex if score #task_spawn data 2..5 run fn script/task_survival/remove_task

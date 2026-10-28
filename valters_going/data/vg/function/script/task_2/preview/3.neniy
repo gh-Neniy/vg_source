@@ -1,0 +1,15 @@
+scb players set #task_2_preview data 2
+scb players set #task_spawn data 2
+
+tellraw @a [
+  {text='Режим ',color=green}
+  {text='Выживания', color=red}
+  {text=' теперь доступен\n', color=green}
+]
+tellraw @a {text='Вам открыто новое задание',color=green}
+tellraw @a [
+  {text='Завершите задание \"',color=dark_red}
+  {text='Огненный Босс', color=yellow}
+  {text='\"', color=dark_red}
+]
+fn script/stop_cutscene
