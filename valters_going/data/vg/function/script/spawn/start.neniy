@@ -5,7 +5,7 @@ team add player
 team join player @a[tag=!admin]
 team modify player friendly_fire false
 team modify player collision never
-gm adventure @a[team=player]
+ex as @a[team=player] run gm adventure @s
 ex as @a[team=player] run fn script/spawn/set_id
 ex as @p[team=player] run fn item/flint_and_steel
 kill @e[tag=flint_and_steel]
@@ -13,6 +13,8 @@ kill @e[tag=flint_and_steel]
 scb players set #progress data 2
 scb players set #candle data 0
 ex as @a[team=player] uninited @s timer run scb players set @s timer 0
+
+attribute @a[team=player] burning_time 0.1
 
 tellraw @a [
     {text='Добро пожаловать на карту Valter\'s Going!\n', color=gray},

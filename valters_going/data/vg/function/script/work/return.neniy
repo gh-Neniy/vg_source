@@ -1,2 +1,2 @@
 ex if score @s timer 0 run fn script/work/return/0
-ex if score @s timer 40 run fn script/work/return/1
+ex if score @s timer 15 run fn script/work/return/1

@@ -1,2 +1,2 @@
 fn script/work/deepslate/recovery
-tp @s -96 100 86
+tp @s -96 100 86 20 10

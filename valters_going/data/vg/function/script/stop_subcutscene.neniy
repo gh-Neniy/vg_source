@@ -1,5 +1,5 @@
 tag @a[team=player] remove cutscene
-gm adventure @a[team=player]
+ex as @a[team=player] run gm adventure @s
 fn script/stop_return
 
 kill @e[tag=cutscene]

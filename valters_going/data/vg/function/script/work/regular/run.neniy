@@ -1,4 +1,6 @@
-ex unless score #regular_work_stone_fall data 2 pos -46 99 59
+ex unless score #regular_work_stone_fall data 2 pos -46.0 99 59.0
     if ent @a[team=player, dx=7, dy=2, dz=0] run scb players set #regular_work_stone_fall data 1
+
+ex pos -45 95 66 as @a[team=player, dx=6, dy=0, dz=5] at @s run fn script/work/regular/burn 
 
 ex pos -38 103 145 as @a[team=player, distance=..1] run tag @s add work_return

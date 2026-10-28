@@ -3,6 +3,6 @@ give @s iron_pickaxe [
   shine
   name={text='Блестящая кирка', color=gray}
   lore= [[{text='Может добывать ', color=white}, {text='золотую руду', color=gold}]]
-  can_break=gold_ore
+  can_break=[gold_ore, deepslate_gold_ore]
   unbreakable
 ]

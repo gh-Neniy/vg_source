@@ -12,7 +12,11 @@
           "functions": [
             {
               "function": "set_name",
-              "name": { "text": "Кусочек железной руды", "color": "gray", "italic": false}
+              "name": {
+                "text": "Кусочек железной руды",
+                "color": "gray",
+                "italic": false
+              }
             },
             {
               "function": "set_components",
@@ -37,7 +41,7 @@
           "functions": [
             {
               "function": "set_custom_data",
-              "tag": "{tag: iron}"
+              "tag": "{tag: deepslate_iron}"
             }
           ]
         }

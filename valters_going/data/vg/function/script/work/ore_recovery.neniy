@@ -3,4 +3,9 @@ ex at @e[type=marker, tag=iron] run setblock ~ ~ ~ iron_ore keep
 ex at @e[type=marker, tag=copper] run setblock ~ ~ ~ copper_ore keep
 ex at @e[type=marker, tag=gold] run setblock ~ ~ ~ gold_ore keep
 
+ex at @e[type=marker, tag=deepslate_coal] run setblock ~ ~ ~ deepslate_coal_ore keep
+ex at @e[type=marker, tag=deepslate_iron] run setblock ~ ~ ~ deepslate_iron_ore keep
+ex at @e[type=marker, tag=deepslate_copper] run setblock ~ ~ ~ deepslate_copper_ore keep
+ex at @e[type=marker, tag=deepslate_gold] run setblock ~ ~ ~ deepslate_gold_ore keep
+
 kill @e[type=marker, tag=work]

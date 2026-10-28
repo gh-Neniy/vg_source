@@ -10,6 +10,8 @@ effect clear @a[tag=!night_vision] night_vision
 
 kill @e[type=experience_orb]
 
+ex as @a[tag=timer_active] run scb players add @s timer 1
+
 ex as @e[tag=spin] at @s run tp @s ~ ~ ~ ~-5 ~
 
 ex as @e[tag=boss_magma_cube] unless ent @s[data=[size=5]] run fn script/delete_mob

@@ -12,7 +12,11 @@
           "functions": [
             {
               "function": "set_name",
-              "name": { "text": "Самородное золото", "color": "gold", "italic": false}
+              "name": {
+                "text": "Самородное золото",
+                "color": "gold",
+                "italic": false
+              }
             },
             {
               "function": "set_components",
@@ -37,7 +41,7 @@
           "functions": [
             {
               "function": "set_custom_data",
-              "tag": "{tag: gold}"
+              "tag": "{tag: deepslate_gold}"
             }
           ]
         }

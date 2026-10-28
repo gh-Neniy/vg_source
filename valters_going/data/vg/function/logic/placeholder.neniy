@@ -8,6 +8,11 @@ ex as @e[type=item, data=[item=stone_button[tag=iron]]] at @s run fn script/side
 ex as @e[type=item, data=[item=stone_button[tag=copper]]] at @s run fn script/side/copper
 ex as @e[type=item, data=[item=stone_button[tag=gold]]] at @s run fn script/side/gold
 
+ex as @e[type=item, data=[item=stone_button[tag=deepslate_coal]]] at @s run fn script/side/deepslate_coal
+ex as @e[type=item, data=[item=stone_button[tag=deepslate_iron]]] at @s run fn script/side/deepslate_iron
+ex as @e[type=item, data=[item=stone_button[tag=deepslate_copper]]] at @s run fn script/side/deepslate_copper
+ex as @e[type=item, data=[item=stone_button[tag=deepslate_gold]]] at @s run fn script/side/deepslate_gold
+
 ex as @e[type=item, data=[item=stone_button[tag=rotting_zombie]]] at @s run fn script/side/rotting_zombie
 ex as @e[type=item, data=[item=stone_button[tag=skeleton]]] at @s run fn script/side/skeleton
 ex as @e[type=item, data=[item=stone_button[tag=phantom]]] at @s run fn script/side/phantom

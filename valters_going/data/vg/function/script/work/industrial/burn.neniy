@@ -1,0 +1,4 @@
+fn script/side/burned
+
+effect give @s slow_falling 1 0
+tp @s -54 41 50 90 10

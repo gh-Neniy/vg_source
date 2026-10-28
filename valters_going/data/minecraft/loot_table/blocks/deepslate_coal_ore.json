@@ -12,7 +12,11 @@
           "functions": [
             {
               "function": "set_name",
-              "name": { "text": "Каменный уголь", "color": "gray", "italic": false}
+              "name": {
+                "text": "Каменный уголь",
+                "color": "gray",
+                "italic": false
+              }
             },
             {
               "function": "set_components",
@@ -37,7 +41,7 @@
           "functions": [
             {
               "function": "set_custom_data",
-              "tag": "{tag: coal}"
+              "tag": "{tag: deepslate_coal}"
             }
           ]
         }

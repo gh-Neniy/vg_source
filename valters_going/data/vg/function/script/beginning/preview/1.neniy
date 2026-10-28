@@ -1,5 +1,5 @@
 tag @a[team=player] remove cutscene
-gm adventure @a[team=player]
+ex as @a[team=player] run gm adventure @s
 kill @e[tag=cutscene]
 tp @a[team=player] 61 102 -6 90 10
 

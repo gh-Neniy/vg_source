@@ -2,6 +2,9 @@ tag @s add sell_ore
 tag @s remove work_return
 tag @s remove work
 
+clear @s wooden_pickaxe
+tp @s -76 105 17 180 10
+
 ex unless ent @a[team=player, tag=work] run fn script/work/ore_recovery
 ex unless ent @a[team=player, tag=work] if score #work data 2 run fn script/work/industrial/reset
 
